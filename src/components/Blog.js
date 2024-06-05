@@ -37,13 +37,12 @@ export default function Blog() {
       </Helmet>
       <div className="home-container">
         <div
-          className="background-image1"
-          style={{ backgroundImage: `url(${"assets/img/bg-header.webp"})` }}
+          className="allHeaderBg"
         >
-          <div className="color-overlay1 d-flex align-items-center justify-content-center">
+          <div className="allHeader-overlay d-flex align-items-center justify-content-center">
             <div>
               <h1
-                className="head text-center text-white animate__animated animate__zoomIn"
+                className="head text-center text-white animate__animated animate__zoomIn allHeaderP"
               >
                 Blog Section
               </h1>
@@ -55,7 +54,6 @@ export default function Blog() {
         <div className="col-md-3">
           <div
             className="background-img3"
-
           >
             <div className="color-overlay3 pb-3 pt-2 outlet">
               {posts &&
@@ -85,7 +83,7 @@ export default function Blog() {
                   <Link style={{ textDecoration: "none" }} to={`/blog/${post.slug}`}>
                     <div className="card h-100">
                       <div className="card-body">
-                        <h5 className="card-title" style={{ fontWeight: "normal" }}>
+                        <h5 className="card-title">
                           {post.title.length > 40 ? post.title.slice(0, 40) + "..." : post.title}
                         </h5>
                       </div>

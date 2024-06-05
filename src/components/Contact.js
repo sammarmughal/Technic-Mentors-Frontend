@@ -140,9 +140,9 @@ export default function Contact() {
         style={{ backgroundColor: "#f6f9fe" }}
       >
         <div className="container" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
-          <div className="section-title">
+          <div className="section-title text-center">
             <h1>
-              <span>Reach Out To Us</span>
+            Reach Out<span> To Us</span>
             </h1>
             <p>
               Have any query? Our support team is always there to respond you.

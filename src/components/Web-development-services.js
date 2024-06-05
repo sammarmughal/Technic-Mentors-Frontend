@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Helmet } from 'react-helmet';
+import webDevelopment from "../images/web-development.avif"
 
 export default function Webdevelopmentservices() {
   useEffect(() => {
@@ -51,13 +52,12 @@ export default function Webdevelopmentservices() {
         <meta name="description" content="Web development services encompass two essential steps: web design and web development. Web design focuses on the aesthetics and visual appeal of your website.." />
       </Helmet>
       <div
-          className="background-image1"
-          style={{ backgroundImage: `url(${"assets/img/bg-header.webp"})` }}
+          className="allHeaderBg"
         >
-          <div className="color-overlay1 d-flex align-items-center justify-content-center">
+          <div className="allHeader-overlay d-flex align-items-center justify-content-center">
             <div>
               <h1
-                className="head text-center text-white animate__animated animate__zoomIn"
+                className="head text-center text-white animate__animated animate__zoomIn allHeaderP"
                 // style={{ fontSize: 60 }}
               >
                  Web Development Services
@@ -69,7 +69,7 @@ export default function Webdevelopmentservices() {
 
       <section id="services-section">
         <div className="container">
-          <div className="row" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
+          <div className="row justify-content-between align-items-center" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
             <div className="col-lg-6 col-sm-12">
               <div className="section-title text-start" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
                 <h2> Our Services</h2>
@@ -84,7 +84,7 @@ export default function Webdevelopmentservices() {
             </div>
             <div className="col-lg-6 col-sm-12">
               <img
-                src="assets\img\web-development-services.gif"
+                src={webDevelopment}
                 className="img-fluid"
                 max-width="100%"
                 height="auto"
@@ -103,19 +103,19 @@ export default function Webdevelopmentservices() {
         </div>
   <div className="col-md-6 mt-1">
     <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" className='text-center service-line' >
-      <div className="services-list" style={{listStyle: "none", textAlign: "left",color:"#106eea"}}> <h4>Securing Domain</h4> </div>
+      <div className="services-list" style={{listStyle: "none", textAlign: "left",color:"#684df4"}}> <h4>Securing Domain</h4> </div>
       <p style={{textAlign:"justify"}}>We safeguard your online identity with rock-solid domain security measures, ensuring your web presence remains impervious to digital threats of domain security measures.</p>
 
-      <div className="services-list" style={{listStyle: "none", textAlign: "left",color:"#106eea"}}> <h4>SEO Focused Content</h4> </div>
+      <div className="services-list" style={{listStyle: "none", textAlign: "left",color:"#684df4"}}> <h4>SEO Focused Content</h4> </div>
       <p style={{textAlign:"justify"}}>Elevate your online visibility with our SEO-optimized content that not only informs but also captivates, driving organic traffic to your website.</p>
     </div>
   </div>
   <div className="col-md-6 mt-1">
     <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" className='text-center service-line' >
-      <div className="services-list" style={{listStyle: "none", textAlign: "left",color:"#106eea"}}> <h4>Competitor Aanalysis</h4> </div>
+      <div className="services-list" style={{listStyle: "none", textAlign: "left",color:"#684df4"}}> <h4>Competitor Aanalysis</h4> </div>
       <p style={{textAlign:"justify"}}>Our expert analysis dissects your competitors' online strategies, giving you a competitive edge in the digital arena.We dissect the strategies of your competitors, examining their strengths, weaknesses.</p>
 
-      <div className="services-list" style={{listStyle: "none", textAlign: "left",color:"#106eea"}}> <h4>Responsive Designs</h4> </div>
+      <div className="services-list" style={{listStyle: "none", textAlign: "left",color:"#684df4"}}> <h4>Responsive Designs</h4> </div>
       <p style={{textAlign:"justify"}}>We craft pixel-perfect, responsive designs that adapt seamlessly across all devices, delivering an impeccable user experience for your audience.
 </p>
     </div>

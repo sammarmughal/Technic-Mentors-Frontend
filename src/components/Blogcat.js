@@ -60,12 +60,12 @@ export default function Blogcat() {
       </Helmet>
       <div className="home-container">
         <div
-          className="background-image3"
+          className="allHeaderBg"
         >
-          <div className="color-overlay1 d-flex align-items-center justify-content-center">
+          <div className="allHeader-overlay d-flex align-items-center justify-content-center">
             <div>
               <h1
-                className="head text-center text-white animate__animated animate__zoomIn"
+                className="head text-center text-white animate__animated animate__zoomIn allHeaderP"
               >
                 {posts.title}
               </h1>

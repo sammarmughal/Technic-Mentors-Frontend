@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Helmet } from "react-helmet";
-
+import digitalMarketing from "../images/digital-marketing.avif"
 export default function Digitalmarketingservices() {
   useEffect(() => {
     AOS.init();
@@ -57,13 +57,12 @@ export default function Digitalmarketingservices() {
       </Helmet>
 
       <div
-        className="background-image1"
-        style={{ backgroundImage: `url(${"assets/img/bg-header.webp"})` }}
+        className="allHeaderBg"
       >
-        <div className="color-overlay1 d-flex align-items-center justify-content-center">
+        <div className="allHeader-overlay d-flex align-items-center justify-content-center">
           <div>
             <h1
-              className="head text-center text-white animate__animated animate__zoomIn"
+              className="head text-center text-white animate__animated animate__zoomIn allHeaderP"
             >
               Digital Marketing Services
             </h1>
@@ -74,7 +73,7 @@ export default function Digitalmarketingservices() {
       <section id="services-section">
         <div className="container">
           <div
-            className="row"
+            className="row align-items-center"
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-easing="ease-in-out"
@@ -112,7 +111,7 @@ export default function Digitalmarketingservices() {
             </div>
             <div className="col-lg-6 col-sm-12">
               <img
-                src="assets\img\digital-marketing.gif"
+                src={digitalMarketing}
                 className="img-fluid"
                 max-width="100%"
                 height="auto"
@@ -148,7 +147,7 @@ export default function Digitalmarketingservices() {
                 style={{
                   listStyle: "none",
                   textAlign: "left",
-                  color: "#106eea",
+                  color: "#684df4",
                 }}
               >
                 {" "}
@@ -165,7 +164,7 @@ export default function Digitalmarketingservices() {
                 style={{
                   listStyle: "none",
                   textAlign: "left",
-                  color: "#106eea",
+                  color: "#684df4",
                 }}
               >
                 {" "}
@@ -181,7 +180,7 @@ export default function Digitalmarketingservices() {
                 style={{
                   listStyle: "none",
                   textAlign: "left",
-                  color: "#106eea",
+                  color: "#684df4",
                 }}
               >
                 {" "}
@@ -197,7 +196,7 @@ export default function Digitalmarketingservices() {
                 style={{
                   listStyle: "none",
                   textAlign: "left",
-                  color: "#106eea",
+                  color: "#684df4",
                 }}
               >
                 {" "}
@@ -223,7 +222,7 @@ export default function Digitalmarketingservices() {
                 style={{
                   listStyle: "none",
                   textAlign: "left",
-                  color: "#106eea",
+                  color: "#684df4",
                 }}
               >
                 {" "}
@@ -239,7 +238,7 @@ export default function Digitalmarketingservices() {
                 style={{
                   listStyle: "none",
                   textAlign: "left",
-                  color: "#106eea",
+                  color: "#684df4",
                 }}
               >
                 {" "}
@@ -255,7 +254,7 @@ export default function Digitalmarketingservices() {
                 style={{
                   listStyle: "none",
                   textAlign: "left",
-                  color: "#106eea",
+                  color: "#684df4",
                 }}
               >
                 {" "}
@@ -280,7 +279,7 @@ export default function Digitalmarketingservices() {
                 style={{
                   listStyle: "none",
                   textAlign: "left",
-                  color: "#106eea",
+                  color: "#684df4",
                 }}
               >
                 {" "}

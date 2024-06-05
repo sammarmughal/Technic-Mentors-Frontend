@@ -2,7 +2,8 @@ import React, { useEffect, useState } from "react";
 import MyContext from "./MyContext";
 
 const MyProvider = ({ children }) => {
-    const [posts, setPosts] = useState([]);
+  const [posts, setPosts] = useState([]);
+  const [allMessages, setAllMessages] = useState([])
   const [category, setCategory] = useState(null);
   const [filterPosts, setFilterPosts] = useState([]);
   const [uniqueCategory, setUniqueCategory] = useState(new Set());
@@ -21,9 +22,20 @@ const MyProvider = ({ children }) => {
         }
       });
   };
+  const ticketMessages = async () => {
+    const res = await fetch("https://technic-mentors-backend.vercel.app/api/auth/messages", {
+      method: "GET",
+      headers: {
+        "Content-Type": "application/json"
+      }
+    })
+    const data = await res.json()
+    setAllMessages(data)
+  }
 
   useEffect(() => {
     Getallposts();
+    ticketMessages();
   }, []);
 
   useEffect(() => {
@@ -34,12 +46,12 @@ const MyProvider = ({ children }) => {
       setFilterPosts(filterpost);
     }
   }, [category, posts]);
-    
-    return (
-        <MyContext.Provider value={{ filterPosts, posts, uniqueCategory, setCategory }}>
-            {children}
-        </MyContext.Provider>
-    )
+
+  return (
+    <MyContext.Provider value={{ filterPosts, posts, uniqueCategory, setCategory, allMessages, ticketMessages }}>
+      {children}
+    </MyContext.Provider>
+  )
 }
 
 export default MyProvider;

@@ -3,23 +3,23 @@ import { useLocation } from 'react-router-dom'
 
 export default function Topbar() {
   const location = useLocation()
-  if (location.pathname === "/admin/addblog" || location.pathname === "/admin/board" || location.pathname === "/admin/allposts" || location.pathname === "/admin/allcategory" || location.pathname === "/admin/addcategory") {
+  if (location.pathname === "/adminPanel/addblog" || location.pathname === "/adminPanel/board" || location.pathname === "/adminPanel/allposts" || location.pathname === "/adminPanel/allcategory" || location.pathname === "/adminPanel/addcategory" || location.pathname === "/adminPanel/alltickets") {
     return null;
   }
   return (
     <div>
       <div
         className="container-fluid ps-4 pe-0 d-none d-lg-block"
-        style={{ backgroundColor: "#106eea" }}
+        style={{ backgroundColor: "#684df4" }}
       >
         <div className="row gx-0 d-flex align-items-center">
           <div className="col-md-8 d-flex text-lg-start mb-2 mb-lg-0">
             <p className="m-0 mx-1 text-white">
               <i className="fa fa-envelope-open me-1"></i>
               info@technicmentors.com
-            </p>
+            </p>&nbsp;&nbsp;&nbsp;
             <p className="m-0 text-white">
-              <i className="fa fa-phone "></i> <a style={{ textDecoration: "none", color: "white" }} href='tel:+923 111 122 144'> +923 111 122 144</a>
+              <i className="fa-brands fa-whatsapp"></i><a style={{ textDecoration: "none", color: "white" }} href='tel:+923 111 122 144'> +923 111 122 144</a>
             </p>
 
           </div>

@@ -40,9 +40,20 @@ import WebsitePortfolio from "./components/WebsitePortfolio";
 import Allposts from "./components/Allposts";
 import Addcategory from "./components/Addcategory";
 import Allcategory from "./components/Allcategory";
-import Login from "./components/Login";
 import Board from "./components/Board";
 import MyProvider from "./ContextApi/MyProvider";
+import DetailFAQ from "./components/DetailFAQ";
+import Livechat from "./components/Livechat";
+import Industries from "./components/Industries";
+import AdminLogin from "./components/AdminLogin";
+import Help from "./components/Help";
+import UserProfile from "./components/UserProfile";
+import GeneratedTickets from "./components/GeneratedTickets";
+import TicketGenerate from "./components/TicketGenerate";
+import SolvedTickets from "./components/SolvedTickets";
+import PendingTicket from "./components/PendingTicket";
+import AllTickets from "./components/AllTickets";
+import UserLogin from "./components/UserLogin";
 function App() {
   return (
     <div className="App">
@@ -51,12 +62,25 @@ function App() {
           <Topbar />
           <Navbar />
           <Scrolltop />
+          <Livechat />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/products" element={<Products />} />
             <Route path="/Website-portfolio" element={<WebsitePortfolio />} />
+            <Route path="/faq-page" element={<DetailFAQ />} />
+            <Route path="/industries" element={<Industries />} />
+            <Route path="/adminLogin" element={<AdminLogin />} />
+            <Route path="/help" element={<Help />} />
+            <Route path="/userLogin" element={<UserLogin/>} />
 
+            <Route path="/user-profile" element={<UserProfile />} >
+              <Route index element={<Navigate to="ticket-generate" />} />
+              <Route path="ticket-generate" element={<TicketGenerate />} />
+              <Route path="generated-tickets" element={<GeneratedTickets />} />
+              <Route path="open-status-tickets" element={<SolvedTickets />} />
+              <Route path="close-status-tickets" element={<PendingTicket />} />
+            </Route>
             <Route
               path="/software-development-services"
               element={<Softwaredevelopmentservices />}
@@ -76,7 +100,7 @@ function App() {
             <Route path="/seo-services" element={<SEOservices />} />
             <Route path="/point-of-sale" element={<Pointofsale />} />
             <Route path="/signup" element={<Signup />} />
-            <Route path="/login" element={<Login />} />
+
             <Route
               path="/education-management-system"
               element={<Educationmanagementsystem />}
@@ -99,13 +123,14 @@ function App() {
             <Route path="/blog" element={<Blog />} />
             <Route path="/blog/:postSlug" element={<Blogcat />} />
             <Route />
-            <Route path="/admin" element={<Admin />}>
+            <Route path="/adminPanel" element={<Admin />}>
               <Route index element={<Navigate to="addblog" />} />
               <Route path="addblog" element={<Blogcategory />} />
               <Route path="allposts" element={<Allposts />} />
               <Route path="addcategory" element={<Addcategory />} />
               <Route path="allcategory" element={<Allcategory />} />
               <Route path="board" element={<Board />} />
+              <Route path="alltickets" element={<AllTickets />} />
             </Route>
 
             <Route path="/services" element={<Services />} />

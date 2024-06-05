@@ -5,13 +5,12 @@ export default function WebsitePortfolio() {
     <div>
       <div className="home-container">
         <div
-          className="background-image1"
-          style={{ backgroundImage: `url(${"assets/img/bg-header.webp"})` }}
+          className="allHeaderBg"
         >
-          <div className="color-overlay1 d-flex align-items-center justify-content-center">
+          <div className="allHeader-overlay d-flex align-items-center justify-content-center">
             <div>
               <h1
-                className="head text-center text-white animate__animated animate__zoomIn"
+                className="head text-center text-white animate__animated animate__zoomIn allHeaderP"
               >
                 Website Portfolio
               </h1>
@@ -279,19 +278,23 @@ export default function WebsitePortfolio() {
                   <h2 className="mt-2" style={{ backgroundColor: "white" }} >CAPOBIZ</h2>
                 </div>
               </div>
-
               <div className="col-md-3 mb-3 ">
-                <a href="https://futuretechhomes.pk/" target="_blank" rel="noreferrer">
+                <a
+                  href="https://sheikhlawcompany.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img
-                    src="assets\img\portfolio\Future Tech Homes Adan Technic Mentors.webp"
+                    src="assets\img\portfolio\Sheikh Law Company Adan Technic Mentors.webp"
                     className="img-fluid portfolio-images"
                     alt=""
                   />
                 </a>
                 <div className="section-title text-center">
-                  <h2 className="mt-2" style={{ backgroundColor: "white" }} >FUTURE TECH HOMES</h2>
+                  <h2 className="mt-2" style={{ backgroundColor: "white" }} >SHEIKH LAW COMPANY</h2>
                 </div>
               </div>
+
             </div>
 
             <div className="row mt-4">
@@ -367,23 +370,7 @@ export default function WebsitePortfolio() {
             </div>
 
             <div className="row mt-4">
-              
-              <div className="col-md-3 mb-3 ">
-                <a
-                  href="https://sheikhlawcompany.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img
-                    src="assets\img\portfolio\Sheikh Law Company Adan Technic Mentors.webp"
-                    className="img-fluid portfolio-images"
-                    alt=""
-                  />
-                </a>
-                <div className="section-title text-center">
-                  <h2 className="mt-2" style={{ backgroundColor: "white" }} >SHEIKH LAW COMPANY</h2>
-                </div>
-              </div>
+
               <div className="col-md-3 mb-3 ">
                 <a href="https://urdustem.com/" target="_blank" rel="noreferrer">
                   <img
@@ -420,6 +407,51 @@ export default function WebsitePortfolio() {
                   <h2 className="mt-2" style={{ backgroundColor: "white" }} >Abdullah Kneaders</h2>
                 </div>
               </div>
+              <div className="col-md-3 mb-3 ">
+                <a
+                  href="https://pees.pk/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src="assets\img\portfolio\Pees Technic Mentors.png"
+                    className="img-fluid portfolio-images"
+                    alt=""
+                  />
+                </a>
+                <div className="section-title text-center">
+                  <h2 className="mt-2" style={{ backgroundColor: "white" }} >PHOTONICS ENGINEERING</h2>
+                </div>
+              </div>
+            </div>
+
+            <div className="row mt-4">
+
+              <div className="col-md-3 mb-3 ">
+                <a href="https://hometohomepainting.com/" target="_blank" rel="noreferrer">
+                  <img
+                    src="assets\img\portfolio\Home Painting Technic Mentors.png"
+                    className="img-fluid portfolio-images"
+                    alt=""
+                  />
+                </a>
+                <div className="section-title text-center">
+                  <h2 className="mt-2" style={{ backgroundColor: "white" }} >HOME PAINTING</h2>
+                </div>
+              </div>
+              <div className="col-md-3 mb-3 ">
+                <a href="https://review.imlpk.com/" target="_blank" rel="noreferrer">
+                  <img
+                    src="assets\img\portfolio\Inter Market Technic Mentors.png"
+                    className="img-fluid portfolio-images"
+                    alt=""
+                  />
+                </a>
+                <div className="section-title text-center">
+                  <h2 className="mt-2" style={{ backgroundColor: "white" }} >INTER MARKET</h2>
+                </div>
+              </div>
+              
             </div>
 
           </div>

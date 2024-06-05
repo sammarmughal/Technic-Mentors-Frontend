@@ -53,13 +53,12 @@ export default function Enterpriseresourceplanning() {
         <meta name="description" content="We offer a full range of value-added ERP accounting software and Customer Relationship Management services for customers with new and existing solution deplo.." />
       </Helmet>
       <div
-        className="background-image1"
-        style={{ backgroundImage: `url(${"assets/img/bg-header.webp"})` }}
+        className="allHeaderBg"
       >
-        <div className="color-overlay1 d-flex align-items-center justify-content-center">
+        <div className="allHeader-overlay d-flex align-items-center justify-content-center">
           <div>
             <h1
-              className="head text-center text-white animate__animated animate__zoomIn"
+              className="head text-center text-white animate__animated animate__zoomIn allHeaderP"
               // style={{ fontSize: 60 }}
             >
               Enterprise Resource Planning
@@ -69,7 +68,7 @@ export default function Enterpriseresourceplanning() {
       </div>
 
       <div className="container mt-5">
-        <div className="section-title">
+        <div className="section-title text-center">
           <h2>Manage Every Aspect Of Your Business</h2>
           <h1>
             Enterprise <span>Resouce Planning System</span>

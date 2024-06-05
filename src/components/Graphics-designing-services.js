@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Helmet } from 'react-helmet';
-
+import graphicDesign from "../images/Graphic-Design.avif"
 export default function Graphicsdesigningservices() {
   useEffect(() => {
     AOS.init();
@@ -52,13 +52,12 @@ export default function Graphicsdesigningservices() {
         <meta name="description" content="Graphics designing services involve the skilled creation of visual content aimed at effectively conveying messages. Designers employ typography and graphics.." />
       </Helmet>
        <div
-          className="background-image1"
-          style={{ backgroundImage: `url(${"assets/img/bg-header.webp"})` }}
+          className="allHeaderBg"
         >
-          <div className="color-overlay1 d-flex align-items-center justify-content-center">
+          <div className="allHeader-overlay d-flex align-items-center justify-content-center">
             <div>
               <h1
-                className="head text-center text-white animate__animated animate__zoomIn"
+                className="head text-center text-white animate__animated animate__zoomIn allHeaderP"
                 // style={{ fontSize: 60 }}
               >
                  Graphics Designing Services
@@ -85,7 +84,7 @@ export default function Graphicsdesigningservices() {
             <div className="col-md-6">
               <div className='gif-design' style={{maxWidth :"100%" , height : "auto" }}>
               <img
-                src="assets\img\graphics-designing-services.gif"
+                src={graphicDesign}
                 className="img-fluid"
                 alt="it-services"
               />
@@ -103,27 +102,27 @@ export default function Graphicsdesigningservices() {
         </div>
   <div className="col-md-6 mt-1">
     <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" className='text-center' >
-      <li className="services-list" style={{listStyle: "none", textAlign: "left",color:"#106eea"}}> <h4> Business Logos And Branding Services</h4></li>
+      <li className="services-list" style={{listStyle: "none", textAlign: "left",color:"#684df4"}}> <h4> Business Logos And Branding Services</h4></li>
       <p style={{textAlign:"justify"}}>We craft memorable logos and branding materials that resonate with your target audience, leaving a lasting impression on your customers.</p>
-      <li className="services-list" style={{listStyle: "none", textAlign: "left",color:"#106eea"}}> <h4> Print & Packages Design Services</h4></li>
+      <li className="services-list" style={{listStyle: "none", textAlign: "left",color:"#684df4"}}> <h4> Print & Packages Design Services</h4></li>
       <p style={{textAlign:"justify"}}> Our print and packaging designs are a perfect blend of creativity and functionality, creativity and functionality, ensuring your products stand out on the shelf.</p>
-      <li className="services-list" style={{listStyle: "none", textAlign: "left",color:"#106eea"}}> <h4> Web Graphics Services</h4></li>
+      <li className="services-list" style={{listStyle: "none", textAlign: "left",color:"#684df4"}}> <h4> Web Graphics Services</h4></li>
       <p style={{textAlign:"justify"}}>Our web graphics enhance your online presence, ensuring your website is user-friendly, visually appealing, user-friendly, and <a href="https://urdustem.com/brand-storytelling-crafting-authentic-narratives-for-business-success/" target='blank' rel='noopener' style={{textDecoration:"none"}}> in harmony with your brand</a>.</p>
-      <li className="services-list" style={{listStyle: "none", textAlign: "left",color:"#106eea"}}> <h4> Visual Identity Packaging Services</h4></li>
+      <li className="services-list" style={{listStyle: "none", textAlign: "left",color:"#684df4"}}> <h4> Visual Identity Packaging Services</h4></li>
       <p style={{textAlign:"justify"}}>We design visual identities that communicate your brand's unique story and values, creating a consistent and compelling brand image.</p>
-      <li className="services-list" style={{listStyle: "none", textAlign: "left",color:"#106eea"}}> <h4> Business Cards And Flyers Services</h4></li>
+      <li className="services-list" style={{listStyle: "none", textAlign: "left",color:"#684df4"}}> <h4> Business Cards And Flyers Services</h4></li>
       <p style={{textAlign:"justify"}}>We create professional and eye-catching business cards and flyers that make a strong impression, leaving potential clients eager to learn more about your business.</p>
     </div>
   </div>
   <div className="col-md-6 mt-1">
     <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" className='text-center' >
-      <li className="services-list" style={{listStyle: "none", textAlign: "left",color:"#106eea"}}> <h4> Brochures And Catalogs Services</h4></li>
+      <li className="services-list" style={{listStyle: "none", textAlign: "left",color:"#684df4"}}> <h4> Brochures And Catalogs Services</h4></li>
       <p style={{textAlign:"justify"}}>Our brochures and catalogs are thoughtfully designed to engage and inform your audience, driving interest and sales.</p>
-      <li className="services-list" style={{listStyle: "none", textAlign: "left",color:"#106eea"}}> <h4> Marketing Material Graphics</h4></li>
+      <li className="services-list" style={{listStyle: "none", textAlign: "left",color:"#684df4"}}> <h4> Marketing Material Graphics</h4></li>
       <p style={{textAlign:"justify"}}>We design persuasive marketing materials that convey your message effectively and visually, ensuring your marketing campaigns make a lasting impact.</p>
-      <li className="services-list" style={{listStyle: "none", textAlign: "left",color:"#106eea"}}> <h4> Multimedia Presentation</h4></li>
+      <li className="services-list" style={{listStyle: "none", textAlign: "left",color:"#684df4"}}> <h4> Multimedia Presentation</h4></li>
       <p style={{textAlign:"justify"}}>Our multimedia presentations leverage captivating visuals and dynamic content to engage and inform your audience, whether for sales pitches or educational purposes.</p>
-      <li className="services-list" style={{listStyle: "none", textAlign: "left",color:"#106eea"}}> <h4> Signage And Point Of Sale Material</h4></li>
+      <li className="services-list" style={{listStyle: "none", textAlign: "left",color:"#684df4"}}> <h4> Signage And Point Of Sale Material</h4></li>
       <p style={{textAlign:"justify"}}>Our signage and point-of-sale materials enhance your physical presence, drawing customers in and encouraging them to make purchases.</p>
     </div>
   </div>

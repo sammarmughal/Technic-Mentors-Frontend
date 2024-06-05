@@ -1,6 +1,6 @@
 
 import React, { useEffect } from 'react';
-import 'swiper/css'; 
+import 'swiper/css';
 import Swiper from 'swiper';
 
 const TestimonialCarousel = () => {
@@ -27,28 +27,31 @@ const TestimonialCarousel = () => {
 
   return (
     <section id="testimonials" className="testimonials">
-      <div className="container" data-aos="zoom-in">
-        <div className="testimonials-slider swiper" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
+      <div className="container">
+        <div className="testimonials-slider swiper" >
           <div className="swiper-wrapper">
-            {/* Testimonial slides go here */}
             <div className="swiper-slide">
-            <div className="testimonial-item">
+              <div className="testimonial-item">
                 <img src="assets\img\client-img3.jpg" className="testimonial-img"
+                  width="100"
+                  height="100"
                   alt="technic" />
                 <h3>Uju Fidel</h3>
                 <h4>Manager Crox Media, London</h4>
                 <p>
-                <i className="bx bxs-quote-alt-left quote-icon-left"></i>
-                   “Their expertise in software development is truly exceptional. 
-                   They exceeded our expectations and delivered outstanding results. 
-                   A reliable partner for all your software needs.”
-                   <i className="bx bxs-quote-alt-right quote-icon-right"></i>
+                  <i className="bx bxs-quote-alt-left quote-icon-left"></i>
+                  “Their expertise in software development is truly exceptional.
+                  They exceeded our expectations and delivered outstanding results.
+                  A reliable partner for all your software needs.”
+                  <i className="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
               </div>
             </div>
             <div className="swiper-slide">
-            <div className="testimonial-item">
+              <div className="testimonial-item">
                 <img src="assets\img\client-img2.jpeg" className="testimonial-img"
+                  width="100"
+                  height="100"
                   alt="technic" />
                 <h3>Arish Virk</h3>
                 <h4>CEO Baroha Farms, Islamabad</h4>
@@ -63,23 +66,25 @@ const TestimonialCarousel = () => {
               </div>
             </div>
             <div className="swiper-slide">
-            <div className="testimonial-item">
+              <div className="testimonial-item">
                 <img src="assets\img\client-img1.jpeg" className="testimonial-img"
+                  width="100"
+                  height="100"
                   alt="technic" />
                 <h3>Muhammad Khan</h3>
                 <h4>CEO Mobilfiksern, Oslo</h4>
                 <p>
-                <i className="bx bxs-quote-alt-left quote-icon-left"></i>
-                   The team at Technic Mentors offers excellent and on-schedule services.
-                   When I first discussed what I needed, they were quick to respond with perfect solution.
-                   Excellent domain knowledge and professionalism. Would love to work with them again.
-                   Highly Recommended!!
-                   <i className="bx bxs-quote-alt-right quote-icon-right"></i>
+                  <i className="bx bxs-quote-alt-left quote-icon-left"></i>
+                  The team at Technic Mentors offers excellent and on-schedule services.
+                  When I first discussed what I needed, they were quick to respond with perfect solution.
+                  Excellent domain knowledge and professionalism. Would love to work with them again.
+                  Highly Recommended!!
+                  <i className="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
               </div>
             </div>
 
-            {/* Repeat this structure for each testimonial slide */}
+
           </div>
           <div className="swiper-pagination"></div>
         </div>

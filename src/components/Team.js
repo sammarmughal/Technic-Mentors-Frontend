@@ -52,12 +52,11 @@ export default function Team() {
         <meta name="description" content="Technic mentors team displayed in this page" />
       </Helmet>
       <div
-        className="background-image1"
-        style={{ backgroundImage: `url(${"assets/img/bg-header.webp"})` }}
+        className="allHeaderBg"
       >
-        <div className="color-overlay1 d-flex align-items-center justify-content-center">
+        <div className="allHeader-overlay d-flex align-items-center justify-content-center">
           <div>
-            <h1 className="head text-center text-white animate__animated animate__zoomIn">
+            <h1 className="head text-center text-white animate__animated animate__zoomIn allHeaderP">
               Our Team
             </h1>
           </div>
@@ -66,7 +65,7 @@ export default function Team() {
 
       <section id="team" className="team section-bg dev-team">
         <div className="container" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
-          <div className="section-title">
+          <div className="section-title text-center">
             <h2>Our Team Of Mentors</h2>
             <h3>
               Our Skilled <span>Mentors</span>
@@ -115,6 +114,39 @@ export default function Team() {
               <div className="member">
                 <div className="member-img">
                   <img
+                    src="assets\img\team\Moazzama Technic Mentors.webp"
+                    className="img-fluid team-member"
+                    alt=""
+                  />
+                  <div className="social">
+                    <a href="#/">
+                      <i className="bi bi-twitter"></i>
+                    </a>
+                    <a href="#/">
+                      <i className="bi bi-facebook"></i>
+                    </a>
+                    <a href="#/">
+                      <i className="bi bi-instagram"></i>
+                    </a>
+                    <a href="#/">
+                      <i className="bi bi-linkedin"></i>
+                    </a>
+                  </div>
+                </div>
+                <div className="member-info">
+                  <h4>Moazzama Bukhari</h4>
+                  <span>Business Success Manager</span>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-lg-3 col-md-6 d-flex align-items-stretch"
+              data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out"
+              data-aos-delay="200"
+            >
+              <div className="member">
+                <div className="member-img">
+                  <img
                     src="assets\img\team\Waseem Technic Mentors.webp"
                     className="img-fluid executive"
 
@@ -137,7 +169,7 @@ export default function Team() {
                 </div>
                 <div className="member-info">
                   <h4>Waseem Munir</h4>
-                  <span>Graphic Designer</span>
+                  <span>Head Of Graphics Designing</span>
                 </div>
               </div>
             </div>
@@ -170,12 +202,14 @@ export default function Team() {
                 </div>
                 <div className="member-info">
                   <h4>Danish Mirza</h4>
-                  <span>Full Stack Laravel Developer</span>
+                  <span>Head Of Development Department</span>
                 </div>
               </div>
             </div>
+          </div>
 
-            <div
+          <div className="row">
+          <div
               className="col-lg-3 col-md-6 d-flex align-items-stretch"
               data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out"
               data-aos-delay="200"
@@ -208,9 +242,6 @@ export default function Team() {
                 </div>
               </div>
             </div>
-          </div>
-
-          <div className="row">
             <div
               className="col-lg-3 col-md-6 d-flex align-items-stretch"
               data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out"
@@ -312,7 +343,10 @@ export default function Team() {
               </div>
             </div>
 
-            <div
+          </div>
+
+          <div className="row">
+          <div
               className="col-lg-3 col-md-6 d-flex align-items-stretch"
               data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out"
               data-aos-delay="200"
@@ -345,10 +379,6 @@ export default function Team() {
                 </div>
               </div>
             </div>
-
-          </div>
-
-          <div className="row">
             <div
               className="col-lg-3 col-md-6 d-flex align-items-stretch"
               data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out"
@@ -416,7 +446,7 @@ export default function Team() {
                 </div>
               </div>
             </div>
-            <div
+            {/* <div
               className="col-lg-3 col-md-6 d-flex align-items-stretch"
               data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out"
               data-aos-delay="200"
@@ -446,6 +476,39 @@ export default function Team() {
                 <div className="member-info">
                   <h4>Wajiha Zainab</h4>
                   <span>Software Quality Assurance Analylst</span>
+                </div>
+              </div>
+            </div> */}
+            <div
+              className="col-lg-3 col-md-6 d-flex align-items-stretch"
+              data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out"
+              data-aos-delay="200"
+            >
+              <div className="member">
+                <div className="member-img">
+                  <img
+                    src="assets\img\team\Maria Faisal Technic Mentors.webp"
+                    className="img-fluid team-member"
+                    alt=""
+                  />
+                  <div className="social">
+                    <a href="#/">
+                      <i className="bi bi-twitter"></i>
+                    </a>
+                    <a href="#/">
+                      <i className="bi bi-facebook"></i>
+                    </a>
+                    <a href="#/">
+                      <i className="bi bi-instagram"></i>
+                    </a>
+                    <a href="#/">
+                      <i className="bi bi-linkedin"></i>
+                    </a>
+                  </div>
+                </div>
+                <div className="member-info">
+                  <h4>Maria Faisal</h4>
+                  <span>QA Engineer</span>
                 </div>
               </div>
             </div>
@@ -547,7 +610,7 @@ export default function Team() {
                 </div>
                 <div className="member-info">
                   <h4>Ata Ur Rehman</h4>
-                  <span><a href="https://react.dev/" target="blank" rel="noopener" style={{ textDecoration: "none", color: "#777777" }}> React.Js</a> | Node.Js Developer</span>
+                  <span> React.Js | Node.Js Developer</span>
                 </div>
               </div>
             </div>
@@ -586,42 +649,10 @@ export default function Team() {
               </div>
             </div>
 
-            <div
-              className="col-lg-3 col-md-6 d-flex align-items-stretch"
-              data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out"
-              data-aos-delay="200"
-            >
-              <div className="member">
-                <div className="member-img">
-                  <img
-                    src="assets\img\team\Maria Faisal Technic Mentors.webp"
-                    className="img-fluid team-member"
-                    alt=""
-                  />
-                  <div className="social">
-                    <a href="#/">
-                      <i className="bi bi-twitter"></i>
-                    </a>
-                    <a href="#/">
-                      <i className="bi bi-facebook"></i>
-                    </a>
-                    <a href="#/">
-                      <i className="bi bi-instagram"></i>
-                    </a>
-                    <a href="#/">
-                      <i className="bi bi-linkedin"></i>
-                    </a>
-                  </div>
-                </div>
-                <div className="member-info">
-                  <h4>Maria Faisal</h4>
-                  <span>QA Engineer</span>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </section>
+      
     </div>
   );
 }

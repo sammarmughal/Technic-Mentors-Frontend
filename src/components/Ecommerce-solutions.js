@@ -53,13 +53,12 @@ export default function Educationmanagementsystem() {
         <meta name="description" content="Our Ecommerce Solutions are designed to help your business thrive in the competitive online landscape. We offer a user-friendly platform with seamless.." />
       </Helmet>
       <div
-        className="background-image1"
-        style={{ backgroundImage: `url(${"assets/img/bg-header.webp"})` }}
+        className="allHeaderBg"
       >
-        <div className="color-overlay1 d-flex align-items-center justify-content-center">
+        <div className="allHeader-overlay d-flex align-items-center justify-content-center">
           <div>
             <h1
-              className="head text-center text-white animate__animated animate__zoomIn"
+              className="head text-center text-white animate__animated animate__zoomIn allHeaderP"
             // style={{ fontSize: 60 }}
             >
               Ecommerce Solutions
@@ -70,7 +69,7 @@ export default function Educationmanagementsystem() {
 
 
       <div className="container mt-5">
-        <div className="section-title">
+        <div className="section-title text-center">
           <h2>Online Selling Made Easy</h2>
           <h1>
             Explore Our <span>Ecommerce Solutions</span>

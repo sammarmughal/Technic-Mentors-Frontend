@@ -4,11 +4,13 @@ import Testimonials from "./Testimonials";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Helmet } from 'react-helmet';
+import FAQ from "./FAQ";
 
 export default function About() {
   useEffect(() => {
     AOS.init();
   }, []);
+
   return (
     <div>
       <Helmet>
@@ -54,23 +56,21 @@ export default function About() {
         <meta name="description" content="Technic mentors is the best IT consulting company to look at when searching for extraordinary software and technology solutions. We provide value-added and.." />
       </Helmet>
       <div
-        className="background-image1"
-        style={{ backgroundImage: `url(${"assets/img/bg-header.webp"})` }}
+        className="allHeaderBg"
       >
-        <div className="color-overlay1 d-flex align-items-center justify-content-center">
+        <div className="allHeader-overlay d-flex align-items-center justify-content-center">
           <div>
             <h1
-              className="head text-center text-white animate__animated animate__zoomIn"
+              className="head text-center text-white animate__animated animate__zoomIn allHeaderP"
             >
               About Company
             </h1>
           </div>
         </div>
       </div>
-
       <section id="about" className="about section-bg">
         <div className="container" data-aos="fade-up" data-aos-duration="2000">
-          <div className="section-title">
+          <div className="section-title text-center">
             <h2>About Us</h2>
             <h3>
               Choose The Best <span>IT Services Company</span>
@@ -159,45 +159,45 @@ export default function About() {
         </div>
       </section>
 
-      <section id="counts" className="counts">
+      <section id="counts" className="counts mb-2 mt-2">
         <div className="container" data-aos="fade-up" data-aos-duration="2000">
           <div className="row">
             <div className="col-lg-3 col-md-6">
               <div className="count-box">
                 <i className="bi bi-emoji-smile"></i>
-                <CountUp end={2013} duration={2} />
-                <p className="m-top-8">Year Of Establishment</p>
+                <h1>2016</h1>
+                <h6 className="m-top-8">Year Of Establishment</h6>
               </div>
             </div>
 
             <div className="col-lg-3 col-md-6 mt-5 mt-md-0">
               <div className="count-box">
                 <i className="bi bi-journal-richtext"></i>
-                <CountUp end={150} duration={2} />
-                <p className="m-top-8">Clients Worldwide</p>
+                <h1>550+</h1>
+                <h6 className="m-top-8">Clients Worldwide</h6>
               </div>
             </div>
 
             <div className="col-lg-3 col-md-6 mt-5 mt-lg-0">
               <div className="count-box">
                 <i className="bi bi-headset"></i>
-                <CountUp end={8} duration={5} />
-                <p className="m-top-8">Countries With Active Client</p>
+                <h1>20+</h1>
+                <h6 className="m-top-8">Active Clients</h6>
               </div>
             </div>
 
             <div className="col-lg-3 col-md-6 mt-5 mt-lg-0">
               <div className="count-box">
                 <i className="bi bi-people"></i>
-                <CountUp end={500} duration={2} />
-                <p className="m-top-8">Projects</p>
+                <h1>500+</h1>
+                <h6 className="m-top-8">Projects</h6>
               </div>
             </div>
           </div>
         </div>
       </section>
-
       <Testimonials />
+      <FAQ />
     </div>
   );
 }

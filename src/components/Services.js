@@ -10,21 +10,20 @@ export default function Services() {
   }, []);
   return (
     <div>
-    <div
-          className="background-image1"
-          style={{ backgroundImage: `url(${"assets/img/bg-header.webp"})` }}
-        >
-          <div className="color-overlay1 d-flex align-items-center justify-content-center">
-            <div>
-              <h1
-                className="head text-center text-white animate__animated animate__zoomIn"
-                // style={{ fontSize: 60 }}
-              >
-                 Top Notch IT Services
-              </h1>
-            </div>
+      <div
+        className="allHeaderBg"
+      >
+        <div className="allHeader-overlay d-flex align-items-center justify-content-center">
+          <div>
+            <h1
+              className="head text-center text-white animate__animated animate__zoomIn allHeaderP"
+            // style={{ fontSize: 60 }}
+            >
+              Top Notch IT Services
+            </h1>
           </div>
         </div>
+      </div>
 
       <section id="services-section">
         <div className="container">
@@ -69,8 +68,190 @@ export default function Services() {
           </div>
         </div>
       </section>
+      {/* Start Services Section */}
 
-      <section id="services" className="services">
+      <div id="services" className="services services-bg" >
+        <div className="services-overlay">
+          <div
+            className="container">
+            <div className="section-title">
+              <div className="d-flex justify-content-center">
+                <h2 className="text-center">Services</h2>
+              </div>
+              <h1 className="text-center"> We Provide Exclusive Service <br /> For Your Business</h1>
+            </div>
+
+            <div className="row">
+              <div
+                className="col-lg-4 col-md-6 d-flex align-items-stretch">
+                <div className="card icon-box py-3">
+                  <div className="card-body p-4">
+                    <div className="shape-icon">
+                      <i className="bi bi-globe icon"></i>
+                      <span className="circle"></span>
+                    </div>
+                    <div className="service-card_number">01</div>
+                    <h4 className="mt-4">
+                      <span> Web Design & Development</span></h4>
+                    <p className="mt-4">
+                      Elevate your online presence with captivating web designs and
+                      seamless development expertise.
+                    </p>
+                    <div className=" mt-4">
+                      <Link to="/web-development-services">
+                        {" "}
+                        <button type="button" className="btn px-3 py-2">
+                          Read More <i className="fas fa-arrow-right rightServiceArrow"></i>
+                        </button>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+                <div className="icon-box card py-3">
+                  <div className="card-body p-4">
+                    <div className="shape-icon">
+                      <i className="bi bi-window-sidebar icon"></i>
+                      <span className="circle"></span>
+                    </div>
+                    <div className="service-card_number">02</div>
+                    <h4 className="mt-4">
+                      <span>Software Development</span>
+                    </h4>
+                    <p className="mt-4">
+                      From concept to code, we craft tailored software solutions
+                      that drive efficiency and innovation.
+                    </p>
+                    <div className=" mt-4">
+                      <Link to="/software-development-services">
+                        {" "}
+                        <button type="button" className="btn px-3 py-2">
+                          Read More <i className="fas fa-arrow-right rightServiceArrow"></i>
+                        </button>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+                <div className="icon-box card py-3">
+                  <div className="card-body p-4">
+                    <div className="shape-icon">
+                      <i className="bi bi-phone-flip icon"></i>
+                      <span className="circle"></span>
+                    </div>
+                    <div className="service-card_number">03</div>
+                    <h4 className="mt-4">
+                      <span> Mobile Apps Development</span></h4>
+                    <p className="mt-4">
+                      Innovative mobile development for seamless experiences,
+                      enhancing engagement and digital footprint.
+                    </p>
+                    <div className=" mt-4">
+                      <Link to="/mobile-app-development-services">
+                        {" "}
+                        <button type="button" className="btn px-3 py-2">
+                          Read More <i className="fas fa-arrow-right rightServiceArrow"></i>
+                        </button>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+                <div className="icon-box card py-3">
+                  <div className="card-body p-4">
+                    <div className="shape-icon">
+                      <i className="bi bi-megaphone icon"></i>
+                      <span className="circle"></span>
+                    </div>
+                    <div className="service-card_number">04</div>
+                    <h4 className="mt-4">
+                      <span>Digital Marketing</span>
+                    </h4>
+                    <p className="mt-4">
+                      Strategic digital marketing amplifying your brand, driving
+                      growth, and captivating your target audience.
+                    </p>
+                    <div className=" mt-4">
+                      <Link to="/digital-marketing-services">
+                        <button type="button" className="btn px-3 py-2">
+                          Read More <i className="fas fa-arrow-right rightServiceArrow"></i>
+                        </button>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+                <div className="icon-box card py-3">
+                  <div className="card-body p-4">
+                    <div className="shape-icon">
+                      <i className="bi bi-search-heart icon"></i>
+                      <span className="circle"></span>
+                    </div>
+                    <div className="service-card_number">05</div>
+                    <h4 className="mt-4">
+                      <span> SEO Services</span></h4>
+                    <p className="mt-4">
+                      Optimize visibility and drive traffic with our result-oriented
+                      SEO strategies and expert implementation.
+                    </p>
+                    <div className=" mt-4">
+                      <Link to="/seo-services">
+                        {" "}
+                        <button type="button" className="btn px-3 py-2">
+                          Read More <i className="fas fa-arrow-right rightServiceArrow"></i>
+                        </button>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+                <div className="icon-box card py-3">
+                  <div className="icon-box card-body p-4">
+                    <div className="shape-icon">
+                      <i className="bi bi-palette icon"></i>
+                      <span className="circle"></span>
+                    </div>
+                    <div className="service-card_number">06</div>
+                    <h4 className="mt-4">
+                      <span>Graphics Designing</span>
+                    </h4>
+                    <p className="mt-4">
+                      Impactful graphics translating ideas into stunning designs,
+                      leaving lasting impressions for your visual needs.
+                    </p>
+                    <div className=" mt-4">
+                      <Link to="/graphics-designing-services">
+                        <button type="button" className="btn px-3 py-2">
+                          Read More <i className="fas fa-arrow-right rightServiceArrow"></i>
+                        </button>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* End Services Section */}
+
+      {/* <section id="services" className="services">
         <div className="container" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
           <div className="section-title">
             <h2>Services</h2>
@@ -218,7 +399,7 @@ export default function Services() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       <Calltoaction />
     </div>
   );

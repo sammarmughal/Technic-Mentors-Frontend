@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Helmet } from 'react-helmet';
-
+import appDevelopment from "../images/mobile-app-development.avif"
 export default function Mobileappdevelopmentservices() {
   useEffect(() => {
     AOS.init();
@@ -52,13 +52,12 @@ export default function Mobileappdevelopmentservices() {
         <meta name="description" content="Mobile app development services play a pivotal role in elevating businesses, offering a range of benefits. In today’s digital landscape, mobile applications.." />
       </Helmet>
       <div
-        className="background-image1"
-        style={{ backgroundImage: `url(${"assets/img/bg-header.webp"})` }}
+        className="allHeaderBg"
       >
-        <div className="color-overlay1 d-flex align-items-center justify-content-center">
+        <div className="allHeader-overlay d-flex align-items-center justify-content-center">
           <div>
             <h1
-              className="head text-center text-white animate__animated animate__zoomIn"
+              className="head text-center text-white animate__animated animate__zoomIn allHeaderP"
             >
               Mobile App Development Services
             </h1>
@@ -68,7 +67,7 @@ export default function Mobileappdevelopmentservices() {
 
       <section id="services-section">
         <div className="container">
-          <div className="row" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
+          <div className="row align-items-center justify-content-between" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
             <div className="col-lg-6 col-sm-12">
               <div className="section-title text-start" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
                 <h2> Explore Our</h2>
@@ -81,9 +80,9 @@ export default function Mobileappdevelopmentservices() {
               <p style={{ textAlign: "justify" }}>At Technic Mentors, we specialize in delivering exceptional mobile app development services globally. Our dedicated team comprises experienced mobile app developers in Pakistan who excel in crafting intuitive user experiences tailored to meet the unique business requirements of each client. With our comprehensive suite of services, we ensure top-notch quality and seamless execution, all conveniently available under one roof.
               </p>
             </div>
-            <div className="col-lg-6 col-sm-12">
+            <div className="col-lg-4 col-sm-12">
               <img
-                src="assets\img\mobile-app-development-services.gif"
+                src={appDevelopment}
                 className="img-fluid"
                 max-width="100%"
                 height="auto"
@@ -102,21 +101,21 @@ export default function Mobileappdevelopmentservices() {
           </div>
           <div className="col-md-6 mt-1">
             <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" className='text-center' >
-              <li className="services-list" style={{ listStyle: "none", textAlign: "left", color: "#106eea" }}> <h4> Flutter</h4></li>
+              <li className="services-list" style={{ listStyle: "none", textAlign: "left", color: "#684df4" }}> <h4> Flutter</h4></li>
               <p style={{ textAlign: "justify" }}>We harness the power of Google's Flutter framework to create cross-platform mobile apps that deliver a seamless and consistent user experience across Android and iOS devices.</p>
-              <li className="services-list" style={{ listStyle: "none", textAlign: "left", color: "#106eea" }}> <h4> SwiftUI</h4></li>
+              <li className="services-list" style={{ listStyle: "none", textAlign: "left", color: "#684df4" }}> <h4> SwiftUI</h4></li>
               <p style={{ textAlign: "justify" }}>With SwiftUI, we craft beautifully designed and highly intuitive iOS applications that stand out in terms of aesthetics and usability.SwiftUI is a modern and declarative framework for building user interfaces.</p>
-              <li className="services-list" style={{ listStyle: "none", textAlign: "left", color: "#106eea" }}> <h4> Kotlin Multiplatform</h4></li>
+              <li className="services-list" style={{ listStyle: "none", textAlign: "left", color: "#684df4" }}> <h4> Kotlin Multiplatform</h4></li>
               <p style={{ textAlign: "justify" }}>Our expertise in Kotlin Multiplatform allows us to develop mobile apps that can seamlessly run on both Android and iOS, reducing development time and costs.</p>
             </div>
           </div>
           <div className="col-md-6 mt-1">
             <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" className='text-center' >
-              <li className="services-list" style={{ listStyle: "none", textAlign: "left", color: "#106eea" }}> <h4> React Native</h4></li>
+              <li className="services-list" style={{ listStyle: "none", textAlign: "left", color: "#684df4" }}> <h4> React Native</h4></li>
               <p style={{ textAlign: "justify" }}> We use React Native to build efficient and cost-effective mobile applications that perform natively, combining the best of both worlds for a responsive user experience.</p>
-              <li className="services-list" style={{ listStyle: "none", textAlign: "left", color: "#106eea" }}> <h4> Xamarin</h4></li>
+              <li className="services-list" style={{ listStyle: "none", textAlign: "left", color: "#684df4" }}> <h4> Xamarin</h4></li>
               <p style={{ textAlign: "justify" }}>Xamarin enables us to develop cross-platform apps that maintain a native look and feel, providing a consistent user experience on both Android and iOS platforms.</p>
-              <li className="services-list" style={{ listStyle: "none", textAlign: "left", color: "#106eea" }}> <h4> ARCore (Android) & ARKit (iOS)</h4></li>
+              <li className="services-list" style={{ listStyle: "none", textAlign: "left", color: "#684df4" }}> <h4> ARCore (Android) & ARKit (iOS)</h4></li>
               <p style={{ textAlign: "justify" }}>We integrate cutting-edge AR technologies like ARCore and ARKit into your mobile apps, delivering immersive and interactive experiences that engage and captivate your users.
               </p>
             </div>

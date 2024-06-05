@@ -53,13 +53,12 @@ export default function Educationmanagementsystem() {
         <meta name="description" content="CapoBrain is an education management system that simplifies administrative tasks and facilitates communication between teachers, staff, and parents. Its intu.." />
       </Helmet>
      <div
-          className="background-image1"
-          style={{ backgroundImage: `url(${"assets/img/bg-header.webp"})` }}
+          className="allHeaderBg"
         >
-          <div className="color-overlay1 d-flex align-items-center justify-content-center">
+          <div className="allHeader-overlay d-flex align-items-center justify-content-center">
             <div>
               <h1
-                className="head text-center text-white animate__animated animate__zoomIn"
+                className="head text-center text-white animate__animated animate__zoomIn allHeaderP"
                 // style={{ fontSize: 60 }}
               >
                  Education Management System
@@ -70,7 +69,7 @@ export default function Educationmanagementsystem() {
 
 
         <div className="container mt-5">
-              <div className="section-title">
+              <div className="section-title text-center">
                 <h2>Manage Your School Efficiently</h2>
                 <h1>
                   Education <span>Management System</span>

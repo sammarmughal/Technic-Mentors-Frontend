@@ -19,8 +19,6 @@ export default function Navbar() {
     };
   }, [isNavbarCollapsed]);
 
-  const navbar = [{ path: "/", text: "Home" }];
-
   const isLinkActive = (linkPath) => {
     return linkPath === location.pathname ||
       (linkPath === "/manual" && location.pathname.startsWith("/manual"))
@@ -41,11 +39,16 @@ export default function Navbar() {
   const location = useLocation();
 
   if (
-    location.pathname === "/admin/addblog" ||
-    location.pathname === "/admin/allposts" ||
-    location.pathname === "/admin/allcategory" ||
-    location.pathname === "/admin/addcategory" ||
-    location.pathname === "/admin/board"
+    location.pathname === "/adminPanel/addblog" ||
+    location.pathname === "/adminPanel/allposts" ||
+    location.pathname === "/adminPanel/allcategory" ||
+    location.pathname === "/adminPanel/addcategory" ||
+    location.pathname === "/adminPanel/alltickets" ||
+    location.pathname === "/user-profile/ticket-generate" ||
+    location.pathname === "/user-profile/generated-tickets" ||
+    location.pathname === "/user-profile/close-status-tickets" ||
+    location.pathname === "/user-profile/open-status-tickets" ||
+    location.pathname === "/adminPanel/board"
   ) {
     return null;
   }
@@ -62,6 +65,7 @@ export default function Navbar() {
           <Link className="navbar-brand" to="/">
             <img
               src={navLogo}
+              onClick={closeNavbarOnItemClick}
               style={{ maxWidth: "14rem", marginLeft: "5%" }}
               alt="school management software"
             />
@@ -77,28 +81,25 @@ export default function Navbar() {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div
-            className={`collapse navbar-collapse ${
-              isNavbarCollapsed ? "" : "show"
-            }`}
+            className={`collapse navbar-collapse ${isNavbarCollapsed ? "" : "show"
+              }`}
             id="navbarSupportedContent"
           >
             <ul
               className="navbar-nav ms-auto"
               style={{ maxWidth: "120%", marginRight: "3%" }}
             >
-              {navbar.map((link) => (
-                <li className="nav-item" key={link.path}>
-                  <Link
-                    className={`nav-link text-dark ${isLinkActive(link.path)}`}
-                    aria-current="page"
-                    to={link.path}
-                    style={{ fontSize: "1.1rem" }}
-                    onClick={closeNavbarOnItemClick}
-                  >
-                    {link.text}
-                  </Link>
-                </li>
-              ))}
+              <li className="nav-item">
+                <Link
+                  className={`nav-link text-dark ${isLinkActive("/")}`}
+                  aria-current="page"
+                  to="/"
+                  style={{ fontSize: "1.1rem" }}
+                  onClick={closeNavbarOnItemClick}
+                >
+                  Home
+                </Link>
+              </li>
               <li className="nav-item">
                 <div className="dropdown">
                   <Link
@@ -125,11 +126,18 @@ export default function Navbar() {
                       Our Team
                     </Link>
                     <Link
-                      to="our-portfolio"
+                      to="/our-portfolio"
                       className="dropdown-item text-dark sub-item"
                       onClick={closeNavbarOnItemClick}
                     >
                       Our Portfolio
+                    </Link>
+                    <Link
+                      to="/faq-page"
+                      className="dropdown-item text-dark sub-item"
+                      onClick={closeNavbarOnItemClick}
+                    >
+                      FAQ's
                     </Link>
                   </div>
                 </div>
@@ -190,6 +198,7 @@ export default function Navbar() {
                   </div>
                 </div>
               </li>
+
               <li className="nav-item">
                 <div className="dropdown">
                   <Link
@@ -234,15 +243,27 @@ export default function Navbar() {
               </li>
               <li className="nav-item">
                 <Link
-                  className={`nav-link text-dark`}
+                  className="nav-link text-dark"
                   aria-current="page"
-                  to="/blog"
+                  to="/industries"
                   style={{ fontSize: "1.1rem" }}
                   onClick={closeNavbarOnItemClick}
                 >
-                  Blog
+                  Industries
                 </Link>
               </li>
+
+              <li className="dropdown nav-item">
+                <div className="dropdown-toggle nav-link text-dark" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" style={{ fontSize: "1.1rem" }}>
+                  Help Center
+                </div>
+                <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><Link className="dropdown-item" to="/help" onClick={closeNavbarOnItemClick}>Knowledgebase</Link></li>
+                  <li><Link className="dropdown-item" to="/blog" onClick={closeNavbarOnItemClick}>Blog</Link></li>
+                  <li><Link className="dropdown-item" to="/userLogin" onClick={closeNavbarOnItemClick}> Generate Ticket</Link></li>
+                </ul>
+              </li>
+
               <li className="nav-item">
                 <Link
                   className={`nav-link text-dark`}
@@ -253,6 +274,7 @@ export default function Navbar() {
                 >
                   Contact
                 </Link>
+                
               </li>
             </ul>
           </div>

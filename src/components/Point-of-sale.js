@@ -53,13 +53,12 @@ export default function Pointofsale() {
         <meta name="description" content="the efficiency and effectiveness of your Point of Sale (POS) system can make all the difference. Our cutting-edge POS solution is engineered to empower busi.." />
       </Helmet>
       <div
-        className="background-image1"
-        style={{ backgroundImage: `url(${"assets/img/bg-header.webp"})` }}
+        className="allHeaderBg"
       >
-        <div className="color-overlay1 d-flex align-items-center justify-content-center">
+        <div className="allHeader-overlay d-flex align-items-center justify-content-center">
           <div>
             <h1
-              className="head text-center text-white animate__animated animate__zoomIn"
+              className="head text-center text-white animate__animated animate__zoomIn allHeaderP"
             // style={{ fontSize: 60 }}
             >
               Point Of Sale
@@ -69,7 +68,7 @@ export default function Pointofsale() {
       </div>
 
       <div className="container mt-5">
-        <div className="section-title">
+        <div className="section-title text-center">
           <h2>EMPOWERING SEAMLESS BUSINESS TRANSACTIONS</h2>
           <h1>
             Elevate Transactions With Our <span>Point Of Sale Software</span>

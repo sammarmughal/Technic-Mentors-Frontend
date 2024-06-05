@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Helmet } from 'react-helmet';
-
+import seoServices from "../images/seo-services.avif"
 export default function SEOservices() {
   useEffect(() => {
     AOS.init();
@@ -52,13 +52,12 @@ export default function SEOservices() {
         <meta name="description" content="SEO services involve optimizing your website to improve its ranking on search engine result pages when users search for products or services related to your.." />
       </Helmet>
     <div
-          className="background-image1"
-          style={{ backgroundImage: `url(${"assets/img/bg-header.webp"})` }}
+          className="allHeaderBg"
         >
-          <div className="color-overlay1 d-flex align-items-center justify-content-center">
+          <div className="allHeader-overlay d-flex align-items-center justify-content-center">
             <div>
               <h1
-                className="head text-center text-white animate__animated animate__zoomIn"
+                className="head text-center text-white animate__animated animate__zoomIn allHeaderP"
               >
                  SEO Services
               </h1>
@@ -68,7 +67,7 @@ export default function SEOservices() {
 
       <section id="services-section">
         <div className="container">
-          <div className="row" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
+          <div className="row align-items-center" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
             <div className="col-lg-6 col-sm-12">
               <div className="section-title text-start" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
                 <h2> The Visible, The Successful </h2>
@@ -83,7 +82,7 @@ export default function SEOservices() {
             </div>
             <div className="col-lg-6 col-sm-12">
               <img
-                src="assets\img\seo-services.gif"
+                src={seoServices}
                 className="img-fluid"
                 max-width="100%"
                 height="auto"
@@ -102,25 +101,25 @@ export default function SEOservices() {
         </div>
   <div className="col-md-6 mt-1">
     <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" className='text-center' >
-      <li className="services-list" style={{listStyle: "none", textAlign: "left",color:"#106eea"}}> <h4> Analyze Your Existing Website</h4></li>
+      <li className="services-list" style={{listStyle: "none", textAlign: "left",color:"#684df4"}}> <h4> Analyze Your Existing Website</h4></li>
       <p style={{textAlign:"justify"}}>We dive deep into your website's structure and performance, pinpointing areas for improvement to ensure it's search engine optimized and user-friendly.</p>
-      <li className="services-list" style={{listStyle: "none", textAlign: "left",color:"#106eea"}}> <h4> Understand Your Competitor</h4></li>
+      <li className="services-list" style={{listStyle: "none", textAlign: "left",color:"#684df4"}}> <h4> Understand Your Competitor</h4></li>
       <p style={{textAlign:"justify"}}>By studying your competitors, we gain insights into their strategies, strengths, and weaknesses, helping us develop a winning SEO plan that sets you apart.</p>
-      <li className="services-list" style={{listStyle: "none", textAlign: "left",color:"#106eea"}}> <h4> Identifying Search Trends And Keyword Mix</h4></li>
+      <li className="services-list" style={{listStyle: "none", textAlign: "left",color:"#684df4"}}> <h4> Identifying Search Trends And Keyword Mix</h4></li>
       <p style={{textAlign:"justify"}}>Our experts stay ahead of the game, identifying current search trends and optimizing content with the ideal mix of keywords to drive organic traffic.</p>
-      <li className="services-list" style={{listStyle: "none", textAlign: "left",color:"#106eea"}}> <h4> Build A Strategy</h4></li>
+      <li className="services-list" style={{listStyle: "none", textAlign: "left",color:"#684df4"}}> <h4> Build A Strategy</h4></li>
       <p style={{textAlign:"justify"}}>We develop a customized SEO strategy, tailored to your unique goals and industry, to enhance your online presence and drive sustainable growth.</p>
     </div>
   </div>
   <div className="col-md-6 mt-1">
     <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" className='text-center' >
-      <li className="services-list" style={{listStyle: "none", textAlign: "left",color:"#106eea"}}> <h4> Analysis</h4></li>
+      <li className="services-list" style={{listStyle: "none", textAlign: "left",color:"#684df4"}}> <h4> Analysis</h4></li>
       <p style={{textAlign:"justify"}}>We continuously monitor and analyze your SEO performance, making data-driven adjustments to ensure your website maintains a strong search engine ranking.</p>
-      <li className="services-list" style={{listStyle: "none", textAlign: "left",color:"#106eea"}}> <h4> Social Media Utilization</h4></li>
+      <li className="services-list" style={{listStyle: "none", textAlign: "left",color:"#684df4"}}> <h4> Social Media Utilization</h4></li>
       <p style={{textAlign:"justify"}}>Leveraging the power of social media, we integrate your SEO efforts with a social strategy, enhancing your online visibility and reach to a broader audience.</p>
-      <li className="services-list" style={{listStyle: "none", textAlign: "left",color:"#106eea"}}> <h4> Link Building</h4></li>
+      <li className="services-list" style={{listStyle: "none", textAlign: "left",color:"#684df4"}}> <h4> Link Building</h4></li>
       <p style={{textAlign:"justify"}}>Our link-building strategies improve your website's authority and credibility by securing high-quality backlinks from reputable sources.</p>
-      <li className="services-list" style={{listStyle: "none", textAlign: "left",color:"#106eea"}}> <h4> Content Restructuring</h4></li>
+      <li className="services-list" style={{listStyle: "none", textAlign: "left",color:"#684df4"}}> <h4> Content Restructuring</h4></li>
       <p style={{textAlign:"justify"}}>We revamp and optimize your website's content, ensuring it's not only engaging but also search engine friendly, improving your site's overall SEO performance.</p>
     </div>
   </div>

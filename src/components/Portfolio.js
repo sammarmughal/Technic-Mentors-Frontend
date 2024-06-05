@@ -56,13 +56,12 @@ export default function Portfolio() {
         <meta name="description" content="Our portfolio showcases a spectrum of software services, from web and mobile app development to custom solutions, AI, blockchain, and cloud technologies.." />
       </Helmet>
       <div
-        className="background-image1"
-        style={{ backgroundImage: `url(${"assets/img/bg-header.webp"})` }}
+        className="allHeaderBg"
       >
-        <div className="color-overlay1 d-flex align-items-center justify-content-center">
+        <div className="allHeader-overlay d-flex align-items-center justify-content-center">
           <div>
             <h1
-              className="head text-center text-white animate__animated animate__zoomIn"
+              className="head text-center text-white animate__animated animate__zoomIn allHeaderP"
             >
               Our Portfolio
             </h1>
@@ -149,7 +148,7 @@ export default function Portfolio() {
             <div className="col-md-4 port-column mt-4">
               <div className="portfolio-cards">
                 <div className="card-body">
-                  <div className="icon-box fa-2x ">
+                  <div className="fa-2x ">
                     <i
                       className="fa-regular fa-lightbulb mb-4"
                       style={{ color: "#106ec6" }}
@@ -165,7 +164,7 @@ export default function Portfolio() {
             <div className="col-md-4 port-column mt-4">
               <div className="portfolio-cards">
                 <div className="card-body">
-                  <div className="icon-box fa-2x">
+                  <div className="fa-2x">
                     <i
                       className="fa-regular fa-handshake mb-4"
                       style={{ color: "#106ec6" }}
@@ -181,7 +180,7 @@ export default function Portfolio() {
             <div className="col-md-4 port-column mt-4">
               <div className="portfolio-cards ">
                 <div className="card-body">
-                  <div className="icon-box fa-2x">
+                  <div className="fa-2x">
                     <i
                       className="fa-solid fa-fingerprint mb-4"
                       style={{ color: "#106ec6" }}
@@ -196,7 +195,6 @@ export default function Portfolio() {
           </div>
         </div>
       </section>
-
 
       <section
         className="clients-portfolio-section "
@@ -494,7 +492,7 @@ export default function Portfolio() {
         </div>
         <div className="d-flex justify-content-center">
           <Link to="/Website-portfolio">
-            <button className="btn btn-outline-primary">Explore More</button>
+            <button className="btn btnFill px-4 py-2">Explore More <i className="fas fa-arrow-right"></i></button>
           </Link>
         </div>
       </section>
