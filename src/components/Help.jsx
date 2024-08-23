@@ -21,7 +21,7 @@ export default function Help() {
         <meta property="og:url" content="https://capobrain.com/blog" />
         <meta property="og:type" content="website" />
 
-        {/* twitter card  */}
+        {/* twitter card */}
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@BrainCapo" />
         <meta name="twitter:title" content="Blogs" />

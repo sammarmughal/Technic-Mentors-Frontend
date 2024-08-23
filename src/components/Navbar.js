@@ -85,7 +85,7 @@ export default function Navbar() {
               }`}
             id="navbarSupportedContent"
           >
-            <ul
+            <jjjj
               className="navbar-nav ms-auto"
               style={{ maxWidth: "120%", marginRight: "3%" }}
             >
@@ -132,13 +132,7 @@ export default function Navbar() {
                     >
                       Our Portfolio
                     </Link>
-                    <Link
-                      to="/faq-page"
-                      className="dropdown-item text-dark sub-item"
-                      onClick={closeNavbarOnItemClick}
-                    >
-                      FAQ's
-                    </Link>
+
                   </div>
                 </div>
               </li>
@@ -260,23 +254,31 @@ export default function Navbar() {
                 <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                   <li><Link className="dropdown-item" to="/help" onClick={closeNavbarOnItemClick}>Knowledgebase</Link></li>
                   <li><Link className="dropdown-item" to="/blog" onClick={closeNavbarOnItemClick}>Blog</Link></li>
+                  <li className="nav-item">
+                    <Link
+                      className="dropdown-item"
+                      to="/faq-page"
+                      onClick={closeNavbarOnItemClick}
+                    >
+                      FAQ's
+                    </Link>
+
+                  </li>
                   <li><Link className="dropdown-item" to="/userLogin" onClick={closeNavbarOnItemClick}> Generate Ticket</Link></li>
+                  <li className="nav-item">
+                    <Link
+                      className="dropdown-item"
+                      aria-current="page"
+                      to="/contact"
+                      style={{ fontSize: "1.1rem" }}
+                      onClick={closeNavbarOnItemClick}
+                    >
+                      Contact
+                    </Link>
+                  </li>
                 </ul>
               </li>
-
-              <li className="nav-item">
-                <Link
-                  className={`nav-link text-dark`}
-                  aria-current="page"
-                  to="/contact"
-                  style={{ fontSize: "1.1rem" }}
-                  onClick={closeNavbarOnItemClick}
-                >
-                  Contact
-                </Link>
-                
-              </li>
-            </ul>
+            </jjjj>
           </div>
         </div>
       </nav>

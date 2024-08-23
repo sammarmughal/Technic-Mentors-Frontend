@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import CountUp from "react-countup";
 import Testimonials from "./Testimonials";
 import AOS from "aos";
 import "aos/dist/aos.css";

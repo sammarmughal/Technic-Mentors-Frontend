@@ -72,7 +72,7 @@ function App() {
             <Route path="/industries" element={<Industries />} />
             <Route path="/adminLogin" element={<AdminLogin />} />
             <Route path="/help" element={<Help />} />
-            <Route path="/userLogin" element={<UserLogin/>} />
+            <Route path="/userLogin" element={<UserLogin />} />
 
             <Route path="/user-profile" element={<UserProfile />} >
               <Route index element={<Navigate to="ticket-generate" />} />

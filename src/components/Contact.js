@@ -120,13 +120,12 @@ export default function Contact() {
         <meta name="description" content="Have any query? Our support team is always there to respond you. Just drop a message here and we will get back to you.P" />
       </Helmet>
       <div
-        className="background-image1"
-        style={{ backgroundImage: `url(${"assets/img/bg-header.webp"})` }}
+        className="allHeaderBg"
       >
-        <div className="color-overlay1 d-flex align-items-center justify-content-center">
+        <div className="allHeader-overlay d-flex align-items-center justify-content-center">
           <div>
             <h1
-              className="head text-center text-white animate__animated animate__zoomIn"
+              className="head text-center text-white animate__animated animate__zoomIn allHeaderP"
             >
               Contact Us
             </h1>
@@ -142,7 +141,7 @@ export default function Contact() {
         <div className="container" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
           <div className="section-title text-center">
             <h1>
-            Reach Out<span> To Us</span>
+              Reach Out<span> To Us</span>
             </h1>
             <p>
               Have any query? Our support team is always there to respond you.

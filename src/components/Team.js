@@ -209,7 +209,7 @@ export default function Team() {
           </div>
 
           <div className="row">
-          <div
+            <div
               className="col-lg-3 col-md-6 d-flex align-items-stretch"
               data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out"
               data-aos-delay="200"
@@ -346,7 +346,7 @@ export default function Team() {
           </div>
 
           <div className="row">
-          <div
+            <div
               className="col-lg-3 col-md-6 d-flex align-items-stretch"
               data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out"
               data-aos-delay="200"
@@ -652,7 +652,7 @@ export default function Team() {
           </div>
         </div>
       </section>
-      
+
     </div>
   );
 }
