@@ -4,7 +4,6 @@ import { useState } from "react";
 import emailjs from "@emailjs/browser";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { Helmet } from 'react-helmet';
 
 export default function Contact() {
   useEffect(() => {
@@ -79,46 +78,6 @@ export default function Contact() {
 
   return (
     <div>
-      <Helmet>
-        {/* open grapgh tag */}
-        <meta property="og:title" content="Contact Us" />
-        <meta property="og:description" content="Have any query? Our support team is always there to respond you. Just drop a message here and we will get back to you.P" />
-        <meta property="og:url" content="https://technicmentors.com/contact" />
-        <meta property="og:type" content="website" />
-
-        {/* twitter card  */}
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:site" content="@TechnicMentors" />
-        <meta name="twitter:title" content="Contact Us" />
-        <meta name="twitter:description" content="Have any query? Our support team is always there to respond you. Just drop a message here and we will get back to you.P" />
-
-        {/* Schema.org structured data */}
-        <script type="application/ld+json">{`
-          {
-            "@context": "https://schema.org",
-            "@type": "WebSite",
-            "url": "https://technicmentors.com/contact" ,
-            "name": "Technic Mentors",
-            "description": "Have any query? Our support team is always there to respond you. Just drop a message here and we will get back to you.P" ,
-            "potentialAction": {
-              "@type": "SearchAction",
-              "target": {
-                "@type": "EntryPoint",
-                "urlTemplate": "https://technicmentors.com/search?q={search_term_string}",
-                "actionPlatform": [
-                  "https://schema.org/DesktopWebPlatform",
-                  "https://schema.org/IOSPlatform",
-                  "https://schema.org/AndroidPlatform"
-                ]
-              },
-              "query-input": "required name=search_term_string"
-            }
-          }
-        `}</script>
-
-        <link rel="canonical" href="https://technicmentors.com/contact" />
-        <meta name="description" content="Have any query? Our support team is always there to respond you. Just drop a message here and we will get back to you.P" />
-      </Helmet>
       <div
         className="allHeaderBg"
       >

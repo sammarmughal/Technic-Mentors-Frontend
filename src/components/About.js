@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import Testimonials from "./Testimonials";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { Helmet } from 'react-helmet';
 import FAQ from "./FAQ";
 
 export default function About() {
@@ -12,48 +11,6 @@ export default function About() {
 
   return (
     <div>
-      <Helmet>
-        {/* open grapgh tag */}
-        {/* gzip-compression */}
-        <meta property="og:title" content="About" />
-        <meta property="og:description" content="Technic mentors is the best IT consulting company to look at when searching for extraordinary software and technology solutions. We provide value-added and.." />
-        <meta property="og:image" content="https://technicmentors.com/assets/img/technologies.webp" />
-        <meta property="og:url" content="https://technicmentors.com/about" />
-        <meta property="og:type" content="website" />
-
-        {/* twitter card  */}
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:site" content="@TechnicMentors" />
-        <meta name="twitter:title" content="About" />
-        <meta name="twitter:description" content="Technic mentors is the best IT consulting company to look at when searching for extraordinary software and technology solutions. We provide value-added and.." />
-        <meta name="twitter:image" content="https://technicmentors.com/assets/img/technologies.webp" />
-
-        {/* Schema.org structured data */}
-        <script type="application/ld+json">{`
-          {
-            "@context": "https://schema.org",
-            "@type": "WebSite",
-            "url": "https://technicmentors.com/about",
-            "name": "Technic Mentors",
-            "description": "Technic mentors is the best IT consulting company to look at when searching for extraordinary software and technology solutions. We provide value-added and.." ,
-            "potentialAction": {
-              "@type": "SearchAction",
-              "target": {
-                "@type": "EntryPoint",
-                "urlTemplate": "https://technicmentors.com/search?q={search_term_string}",
-                "actionPlatform": [
-                  "https://schema.org/DesktopWebPlatform",
-                  "https://schema.org/IOSPlatform",
-                  "https://schema.org/AndroidPlatform"
-                ]
-              },
-              "query-input": "required name=search_term_string"
-            }
-          }
-        `}</script>
-        <link rel="canonical" href="https://technicmentors.com/about" />
-        <meta name="description" content="Technic mentors is the best IT consulting company to look at when searching for extraordinary software and technology solutions. We provide value-added and.." />
-      </Helmet>
       <div
         className="allHeaderBg"
       >

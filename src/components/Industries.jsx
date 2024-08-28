@@ -304,7 +304,7 @@ export default function Industries() {
                                                 <p>We offer a range of services from developing e-learning platforms to creating customized educational apps and content management systems. Our goal is to enhance the educational experience by making learning more interactive, personalized, and impactful. By leveraging cutting-edge technologies, we ensure that educational institutions can provide high-quality education regardless of geographical or logistical challenges.</p>
                                             </div>
                                             <div className="col-md-6">
-                                                <img src={edTech} alt="edTech" className='img-fluid' style={{ borderRadius: "10px" }}/>
+                                                <img src={edTech} alt="edTech" className='img-fluid' style={{ borderRadius: "10px" }} />
                                             </div>
                                         </div>
                                     </div>
@@ -326,7 +326,7 @@ export default function Industries() {
                                                 <p>From mobile banking apps and digital wallets to blockchain-based solutions and automated trading platforms, we cover all aspects of FinTech. Our expertise ensures that your financial products are not only secure and compliant with regulatory standards but also user-friendly and innovative. By leveraging the latest technologies, we help you stay ahead in a competitive market and meet the growing demands of tech-savvy consumers.</p>
                                             </div>
                                             <div className="col-md-6">
-                                                <img src={finTech} alt="edTech" className='img-fluid' style={{ borderRadius: "10px" }}/>
+                                                <img src={finTech} alt="edTech" className='img-fluid' style={{ borderRadius: "10px" }} />
                                             </div>
                                         </div>
                                     </div>
@@ -346,7 +346,7 @@ export default function Industries() {
                                                 <p>Our services include energy management systems, environmental monitoring tools, and sustainability reporting software. We also offer solutions for smart grids, renewable energy management, and waste reduction. By leveraging technology, we enable companies to achieve their sustainability goals while maintaining operational efficiency and profitability.</p>
                                             </div>
                                             <div className="col-md-6">
-                                                <img src={greenTech} alt="greenTech" className='img-fluid' style={{ borderRadius: "10px" }}/>
+                                                <img src={greenTech} alt="greenTech" className='img-fluid' style={{ borderRadius: "10px" }} />
                                             </div>
                                         </div>
                                     </div>
@@ -366,7 +366,7 @@ export default function Industries() {
                                                 <p>Whether it's through advanced point-of-sale systems, customer relationship management (CRM) software, or e-commerce integration, our solutions drive growth and efficiency in the retail sector. We also offer data analytics tools that provide valuable insights into consumer behavior, helping retailers make informed decisions and optimize their strategies. Our goal is to help you stay competitive and thrive in a dynamic market.</p>
                                             </div>
                                             <div className="col-md-6">
-                                                <img src={retail} alt="retail" className='img-fluid' style={{ borderRadius: "10px" }}/>
+                                                <img src={retail} alt="retail" className='img-fluid' style={{ borderRadius: "10px" }} />
                                             </div>
                                         </div>
                                     </div>
@@ -388,7 +388,7 @@ export default function Industries() {
                                                 <p>We offer a wide range of ecommerce solutions including platform development, payment gateway integration, mobile commerce apps, and customized plugins. Our goal is to help your business thrive in the competitive digital marketplace by providing a seamless, secure, and engaging shopping experience. By leveraging the latest technologies, we ensure your ecommerce operations are efficient, scalable, and adaptable to changing market trends.</p>
                                             </div>
                                             <div className="col-md-6">
-                                                <img src={eCommerce} alt="e-commerce" className='img-fluid' style={{ borderRadius: "10px" }}/>
+                                                <img src={eCommerce} alt="e-commerce" className='img-fluid' style={{ borderRadius: "10px" }} />
                                             </div>
                                         </div>
                                     </div>

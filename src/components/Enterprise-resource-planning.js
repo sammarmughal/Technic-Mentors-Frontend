@@ -1,8 +1,6 @@
 import React, { useEffect } from "react";
 import Calltoaction from "./Calltoaction";
 import AOS from "aos";
-import "aos/dist/aos.css";
-import { Helmet } from 'react-helmet';
 
 export default function Enterpriseresourceplanning() {
   useEffect(() => {
@@ -10,48 +8,6 @@ export default function Enterpriseresourceplanning() {
   }, []);
   return (
     <div>
-      <Helmet>
-        {/* open grapgh tag */}
-      <meta property="og:title" content="Enterprise Resource Planning" />
-        <meta property="og:description" content="We offer a full range of value-added ERP accounting software and Customer Relationship Management services for customers with new and existing solution deplo.." />
-        <meta property="og:image" content="https://technicmentors.com/assets/img/erp-accounting-software.webp" />
-        <meta property="og:url" content="https://technicmentors.com/erp-solutions" />
-        <meta property="og:type" content="website" />
-
-        {/* twitter card  */}
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:site" content="@TechnicMentors" />
-        <meta name="twitter:title" content="Enterprise Resource Planning" />
-        <meta name="twitter:description" content="We offer a full range of value-added ERP accounting software and Customer Relationship Management services for customers with new and existing solution deplo.." />
-        <meta name="twitter:image" content="https://technicmentors.com/assets/img/erp-accounting-software.webp" />
-        
-        {/* Schema.org structured data */}
-        <script type="application/ld+json">{`
-          {
-            "@context": "https://schema.org",
-            "@type": "WebSite",
-            "url": "https://technicmentors.com/erp-solutions" ,
-            "name": "Technic Mentors",
-            "description": "We offer a full range of value-added ERP accounting software and Customer Relationship Management services for customers with new and existing solution deplo.." ,
-            "potentialAction": {
-              "@type": "SearchAction",
-              "target": {
-                "@type": "EntryPoint",
-                "urlTemplate": "https://technicmentors.com/search?q={search_term_string}",
-                "actionPlatform": [
-                  "https://schema.org/DesktopWebPlatform",
-                  "https://schema.org/IOSPlatform",
-                  "https://schema.org/AndroidPlatform"
-                ]
-              },
-              "query-input": "required name=search_term_string"
-            }
-          }
-        `}</script>
-
-        <link rel="canonical" href="https://technicmentors.com/erp-solutions" />
-        <meta name="description" content="We offer a full range of value-added ERP accounting software and Customer Relationship Management services for customers with new and existing solution deplo.." />
-      </Helmet>
       <div
         className="allHeaderBg"
       >
@@ -59,7 +15,7 @@ export default function Enterpriseresourceplanning() {
           <div>
             <h1
               className="head text-center text-white animate__animated animate__zoomIn allHeaderP"
-              // style={{ fontSize: 60 }}
+            // style={{ fontSize: 60 }}
             >
               Enterprise Resource Planning
             </h1>
@@ -117,7 +73,7 @@ export default function Enterpriseresourceplanning() {
               enable informed decision-making, aiding in cost control, revenue
               optimization, and risk management. Moreover, an ERP software
               ensures compliance with ever-evolving financial regulations and
-              standards, safeguarding the organization’s <a href="https://urdustem.com/use-of-fraud-detection-software-to-safeguard-organizations-from-financial-losses/" target="blank" rel="noopener" style={{textDecoration:"none"}}> financial integrity</a>.
+              standards, safeguarding the organization’s <a href="https://urdustem.com/use-of-fraud-detection-software-to-safeguard-organizations-from-financial-losses/" target="blank" rel="noopener" style={{ textDecoration: "none" }}> financial integrity</a>.
               Ultimately, for large enterprises, an ERP solution is an
               indispensable tool to enhance operational efficiency, maintain
               financial transparency, and achieve sustainable growth in a
@@ -261,7 +217,7 @@ export default function Enterpriseresourceplanning() {
             </div>
           </div>
         </div>
-        <p className="mt-4" style={{textAlign:"justify"}}>Our ERP Solutions redefine what's possible, offering a tailored approach that aligns with your unique business needs. Experience a harmonized ecosystem where data flows effortlessly, empowering you to make informed decisions in real-time. Elevate your enterprise with a solution designed for scalability, adaptability, and future-proof success. Your journey to operational excellence begins here – where innovation meets practicality, and your business aspirations become reality. Embrace the future of enterprise management with Technic Mentors' ERP Solutions.</p>
+        <p className="mt-4" style={{ textAlign: "justify" }}>Our ERP Solutions redefine what's possible, offering a tailored approach that aligns with your unique business needs. Experience a harmonized ecosystem where data flows effortlessly, empowering you to make informed decisions in real-time. Elevate your enterprise with a solution designed for scalability, adaptability, and future-proof success. Your journey to operational excellence begins here – where innovation meets practicality, and your business aspirations become reality. Embrace the future of enterprise management with Technic Mentors' ERP Solutions.</p>
       </div>
 
       <Calltoaction />

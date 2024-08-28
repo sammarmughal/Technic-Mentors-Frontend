@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react'
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { Helmet } from 'react-helmet';
 import appDevelopment from "../images/mobile-app-development.avif"
 export default function Mobileappdevelopmentservices() {
   useEffect(() => {
@@ -9,48 +8,6 @@ export default function Mobileappdevelopmentservices() {
   }, []);
   return (
     <div>
-      <Helmet>
-        {/* open grapgh tag */}
-        <meta property="og:title" content="About" />
-        <meta property="og:description" content="Mobile app development services play a pivotal role in elevating businesses, offering a range of benefits. In today’s digital landscape, mobile applications.." />
-        <meta property="og:image" content="https://technicmentors.com/assets/img/mobile-app-development-services.gif" />
-        <meta property="og:url" content="https://technicmentors.com/mobile-app-development-services" />
-        <meta property="og:type" content="website" />
-
-        {/* twitter card  */}
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:site" content="@TechnicMentors" />
-        <meta name="twitter:title" content="Mobile App Development Services" />
-        <meta name="twitter:description" content="Mobile app development services play a pivotal role in elevating businesses, offering a range of benefits. In today’s digital landscape, mobile applications.." />
-        <meta name="twitter:image" content="https://technicmentors.com/assets/img/mobile-app-development-services.gif" />
-
-        {/* Schema.org structured data */}
-        <script type="application/ld+json">{`
-          {
-            "@context": "https://schema.org",
-            "@type": "WebSite",
-            "url": "https://technicmentors.com/mobile-app-development-services" ,
-            "name": "Technic Mentors",
-            "description": "Mobile app development services play a pivotal role in elevating businesses, offering a range of benefits. In today’s digital landscape, mobile applications.." ,
-            "potentialAction": {
-              "@type": "SearchAction",
-              "target": {
-                "@type": "EntryPoint",
-                "urlTemplate": "https://technicmentors.com/search?q={search_term_string}",
-                "actionPlatform": [
-                  "https://schema.org/DesktopWebPlatform",
-                  "https://schema.org/IOSPlatform",
-                  "https://schema.org/AndroidPlatform"
-                ]
-              },
-              "query-input": "rqeuired name=search_term_string"
-            }
-          }
-        `}</script>
-
-        <link rel="canonical" href="https://technicmentors.com/mobile-app-development-services" />
-        <meta name="description" content="Mobile app development services play a pivotal role in elevating businesses, offering a range of benefits. In today’s digital landscape, mobile applications.." />
-      </Helmet>
       <div
         className="allHeaderBg"
       >

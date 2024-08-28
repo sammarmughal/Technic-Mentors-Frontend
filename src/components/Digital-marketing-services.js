@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { Helmet } from "react-helmet";
 import digitalMarketing from "../images/digital-marketing.avif"
 export default function Digitalmarketingservices() {
   useEffect(() => {
@@ -9,52 +8,6 @@ export default function Digitalmarketingservices() {
   }, []);
   return (
     <div>
-      <Helmet>
-        {/* open grapgh tag */}
-        <meta property="og:title" content="Digital Marketing Services" />
-        <meta property="og:description" content="promoting brands via internet-based platforms, social media, and various digital communication channels is commonly referred to as digital marketing services." />
-        <meta property="og:image" content="https://technicmentors.com/assets/img/digital-marketing.gif" />
-        <meta property="og:url" content="https://technicmentors.com/digital-marketing-services"
-        />
-        <meta property="og:type" content="website" />
-
-        {/* twitter card  */}
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:site" content="@TechnicMentors" />
-        <meta name="twitter:title" content="Digital Marketing Services" />
-        <meta name="twitter:description" content="promoting brands via internet-based platforms, social media, and various digital communication channels is commonly referred to as digital marketing services." />
-        <meta name="twitter:image" content="https://technicmentors.com/assets/img/digital-marketing.gif" />
-
-{/* Schema.org structured data */}
-<script type="application/ld+json">{`
-          {
-            "@context": "https://schema.org",
-            "@type": "WebSite",
-            "url": "https://technicmentors.com/digital-marketing-services" ,
-            "name": "Technic Mentors",
-            "description": "promoting brands via internet-based platforms, social media, and various digital communication channels is commonly referred to as digital marketing services." ,
-            "potentialAction": {
-              "@type": "SearchAction",
-              "target": {
-                "@type": "EntryPoint",
-                "urlTemplate": "https://technicmentors.com/search?q={search_term_string}",
-                "actionPlatform": [
-                  "https://schema.org/DesktopWebPlatform",
-                  "https://schema.org/IOSPlatform",
-                  "https://schema.org/AndroidPlatform"
-                ]
-              },
-              "query-input": "required name=search_term_string"
-            }
-          }
-        `}</script>
-
-        <link
-          rel="canonical"
-          href="https://technicmentors.com/digital-marketing-services"
-        />
-        <meta name="description" content="promoting brands via internet-based platforms, social media, and various digital communication channels is commonly referred to as digital marketing services." />
-      </Helmet>
 
       <div
         className="allHeaderBg"

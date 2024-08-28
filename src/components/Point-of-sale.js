@@ -2,7 +2,6 @@ import React, { useEffect } from 'react'
 import Calltoaction from './Calltoaction'
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { Helmet } from 'react-helmet';
 
 export default function Pointofsale() {
   useEffect(() => {
@@ -10,48 +9,6 @@ export default function Pointofsale() {
   }, []);
   return (
     <div>
-      <Helmet>
-        {/* open grapgh tag */}
-        <meta property="og:title" content="Point Of Sale" />
-        <meta property="og:description" content="the efficiency and effectiveness of your Point of Sale (POS) system can make all the difference. Our cutting-edge POS solution is engineered to empower busi.." />
-        <meta property="og:image" content="https://technicmentors.com/assets/img/point-of-sale.webp" />
-        <meta property="og:url" content="https://technicmentors.com/point-of-sale" />
-        <meta property="og:type" content="website" />
-
-        {/* twitter card  */}
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:site" content="@TechnicMentors" />
-        <meta name="twitter:title" content="Point Of Sale" />
-        <meta name="twitter:description" content="the efficiency and effectiveness of your Point of Sale (POS) system can make all the difference. Our cutting-edge POS solution is engineered to empower busi.." />
-        <meta name="twitter:image" content="https://technicmentors.com/assets/img/point-of-sale.webp" />
-
-{/* Schema.org structured data */}
-<script type="application/ld+json">{`
-          {
-            "@context": "https://schema.org",
-            "@type": "WebSite",
-            "url": "https://technicmentors.com/point-of-sale" ,
-            "name": "Technic Mentors",
-            "description": "the efficiency and effectiveness of your Point of Sale (POS) system can make all the difference. Our cutting-edge POS solution is engineered to empower busi.." ,
-            "potentialAction": {
-              "@type": "SearchAction",
-              "target": {
-                "@type": "EntryPoint",
-                "urlTemplate": "https://technicmentors.com/search?q={search_term_string}",
-                "actionPlatform": [
-                  "https://schema.org/DesktopWebPlatform",
-                  "https://schema.org/IOSPlatform",
-                  "https://schema.org/AndroidPlatform"
-                ]
-              },
-              "query-input": "required name=search_term_string"
-            }
-          }
-        `}</script>
-
-        <link rel="canonical" href="https://technicmentors.com/point-of-sale" />
-        <meta name="description" content="the efficiency and effectiveness of your Point of Sale (POS) system can make all the difference. Our cutting-edge POS solution is engineered to empower busi.." />
-      </Helmet>
       <div
         className="allHeaderBg"
       >
@@ -161,15 +118,15 @@ export default function Pointofsale() {
           <div className="col-md-7">
             <div className="section-title text-start">
               <h3>
-              Technors POS Elevating Business 
+                Technors POS Elevating Business
                 <span> Efficiency and Customer Satisfaction</span>
               </h3>
             </div>
             <p style={{ textAlign: "justify" }}>
-            Transform the way you do business with Technors POS, our cutting-edge Point of Sale solution designed to elevate your operations. Streamline transactions and enhance customer interactions with the efficiency of Technors POS. From inventory management to seamless payment processing, our system empowers your business to run smoothly, ensuring that you stay ahead in today's dynamic market.
+              Transform the way you do business with Technors POS, our cutting-edge Point of Sale solution designed to elevate your operations. Streamline transactions and enhance customer interactions with the efficiency of Technors POS. From inventory management to seamless payment processing, our system empowers your business to run smoothly, ensuring that you stay ahead in today's dynamic market.
             </p>
             <p style={{ textAlign: "justify" }}>
-            Technors POS is not just a software; it's a catalyst for business success. Experience the benefits of real-time reporting, enabling you to make informed decisions on-the-fly. Eliminate the hassle of manual inventory tracking, reduce errors, and enhance the overall customer experience. With Technors POS, witness a seamless integration that simplifies your business activities, allowing you to focus on what matters most – growing your business and satisfying your customers. Welcome to a new era of Point of Sale efficiency with Technors POS.
+              Technors POS is not just a software; it's a catalyst for business success. Experience the benefits of real-time reporting, enabling you to make informed decisions on-the-fly. Eliminate the hassle of manual inventory tracking, reduce errors, and enhance the overall customer experience. With Technors POS, witness a seamless integration that simplifies your business activities, allowing you to focus on what matters most – growing your business and satisfying your customers. Welcome to a new era of Point of Sale efficiency with Technors POS.
             </p>
           </div>
 

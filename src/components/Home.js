@@ -5,7 +5,6 @@ import About from "./Aboutcomp";
 import { Link } from "react-router-dom";
 import Testimonials from "./Testimonials";
 import Slider from "react-slick";
-import { Helmet } from 'react-helmet';
 import ContactForm from "./ContactFrom";
 import MainHeader from "./MainHeader";
 import aboutImg from "../images/Technic-Mentors-Team.avif"
@@ -53,49 +52,7 @@ export default function Home() {
   }, []);
   return (
     <div style={{ overflowX: "hidden" }}>
-      <Helmet>
-        {/* open grapgh tag */}
-        <meta property="og:title" content="Home" />
-        <meta property="og:description" content="Enhance your business operations and technological capabilities by partnering with the ideal IT services company to provide tailored solutions and support.." />
-        <meta property="og:image" content="https://technicmentors.com/static/media/technicblue.524a6a4b92880f2eb36b.png" />
-        <meta property="og:url" content="https://technicmentors.com" />
-        <meta property="og:type" content="website" />
-
-        {/* twitter card  */}
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:site" content="@TechnicMentors" />
-        <meta name="twitter:title" content="Home" />
-        <meta property="twitter:description" content="Enhance your business operations and technological capabilities by partnering with the ideal IT services company to provide tailored solutions and support.." />
-        <meta name="twitter:image" content="https://technicmentors.com/static/media/technicblue.524a6a4b92880f2eb36b.png" />
-
-        {/* Schema.org structured data */}
-        <script type="application/ld+json">{`
-          {
-            "@context": "https://schema.org",
-            "@type": "WebSite",
-            "url": "https://technicmentors.com",
-            "name": "Technic Mentors",
-            "description": "Enhance your business operations and technological capabilities by partnering with the ideal IT services company to provide tailored solutions and support.",
-            "potentialAction": {
-              "@type": "SearchAction",
-              "target": {
-                "@type": "EntryPoint",
-                "urlTemplate": "https://technicmentors.com/search?q={search_term_string}",
-                "actionPlatform": [
-                  "https://schema.org/DesktopWebPlatform",
-                  "https://schema.org/IOSPlatform",
-                  "https://schema.org/AndroidPlatform"
-                ]
-              },
-              "query-input": "required name=search_term_string"
-            }
-          }
-        `}</script>
-
-        <link rel="canonical" href="https://technicmentors.com" />
-        <meta name="description" content="Enhance your business operations and technological capabilities by partnering with the ideal IT services company to provide tailored solutions and support.." />
-      </Helmet>
-
+  
       <MainHeader />
 
       <About />

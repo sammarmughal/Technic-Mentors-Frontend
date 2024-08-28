@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react'
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { Helmet } from 'react-helmet';
 import softwareDevelop from "../images/software-development.avif"
 export default function Softwaredevelopmentservices() {
   useEffect(() => {
@@ -9,48 +8,6 @@ export default function Softwaredevelopmentservices() {
   }, []);
   return (
     <div>
-      <Helmet>
-        {/* open grapgh tag */}
-      <meta property="og:title" content="Software Development Services" />
-        <meta property="og:description" content="Software development services encompass a series of essential steps involving the developing business solutions. These steps include identifying needs, analy.." />
-        <meta property="og:image" content="https://technicmentors.com/assets/img/software-development-services.gif" />
-        <meta property="og:url" content="https://technicmentors.com/software-development-services" />
-        <meta property="og:type" content="website" />
-
-        {/* twitter card  */}
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:site" content="@TechnicMentors" />
-        <meta name="twitter:title" content="Software Development Services" />
-        <meta name="twitter:description" content="Software development services encompass a series of essential steps involving the developing business solutions. These steps include identifying needs, analy.." />
-        <meta name="twitter:image" content="https://technicmentors.com/assets/img/software-development-services.gif" />
-        
-        {/* Schema.org structured data */}
-        <script type="application/ld+json">{`
-          {
-            "@context": "https://schema.org",
-            "@type": "WebSite",
-            "url": "https://technicmentors.com/software-development-services" ,
-            "name": "Technic Mentors",
-            "description": "Software development services encompass a series of essential steps involving the developing business solutions. These steps include identifying needs, analy.." ,
-            "potentialAction": {
-              "@type": "SearchAction",
-              "target": {
-                "@type": "EntryPoint",
-                "urlTemplate": "https://technicmentors.com/search?q={search_term_string}",
-                "actionPlatform": [
-                  "https://schema.org/DesktopWebPlatform",
-                  "https://schema.org/IOSPlatform",
-                  "https://schema.org/AndroidPlatform"
-                ]
-              },
-              "query-input": "required name=search_term_string"
-            }
-          }
-        `}</script>
-
-        <link rel="canonical" href="https://technicmentors.com/software-development-services" />
-        <meta name="description" content="Software development services encompass a series of essential steps involving the developing business solutions. These steps include identifying needs, analy.." />
-      </Helmet>
       <div
           className="allHeaderBg"
         >

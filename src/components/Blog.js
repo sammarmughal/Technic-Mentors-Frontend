@@ -1,6 +1,5 @@
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
-import { Helmet } from 'react-helmet';
 import MyContext from "../ContextApi/MyContext";
 
 export default function Blog() {
@@ -8,33 +7,7 @@ export default function Blog() {
 
   return (
     <div className="ps-0" style={{ overflowX: "hidden" }}>
-      <Helmet>
-        {/* Schema.org structured data */}
-        <script type="application/ld+json">{`
-          {
-            "@context": "https://schema.org",
-            "@type": "WebSite",
-            "url": "https://technicmentors.com/blog" ,
-            "name": "Technic Mentors",
-            "description": "Software development services encompass a series of essential steps involving the developing business solutions. These steps include identifying needs, analy.." ,
-            "potentialAction": {
-              "@type": "SearchAction",
-              "target": {
-                "@type": "EntryPoint",
-                "urlTemplate": "https://technicmentors.com/search?q={search_term_string}",
-                "actionPlatform": [
-                  "https://schema.org/DesktopWebPlatform",
-                  "https://schema.org/IOSPlatform",
-                  "https://schema.org/AndroidPlatform"
-                ]
-              },
-              "query-input": "required name=search_term_string"
-            }
-          }
-        `}</script>
-
-        <link rel="canonical" href="https://technicmentors.com/blog" />
-      </Helmet>
+   
       <div className="home-container">
         <div
           className="allHeaderBg"

@@ -5,7 +5,6 @@ import "slick-carousel/slick/slick-theme.css";
 import { Link } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { Helmet } from 'react-helmet';
 
 export default function Portfolio() {
   useEffect(() => {
@@ -13,48 +12,6 @@ export default function Portfolio() {
   }, []);
   return (
     <div>
-      <Helmet>
-        {/* open grapgh tag */}
-      <meta property="og:title" content="Our-Portfolio" />
-        <meta property="og:description" content="Our portfolio showcases a spectrum of software services, from web and mobile app development to custom solutions, AI, blockchain, and cloud technologies.." />
-        <meta property="og:image" content="https://technicmentors.com/assets/img/portfolio-img.png" />
-        <meta property="og:url" content="https://technicmentors.com/our-portfolio" />
-        <meta property="og:type" content="website" />
-
-        {/* twitter card  */}
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:site" content="@TechnicMentors" />
-        <meta name="twitter:title" content="Our-Portfolio" />
-        <meta name="twitter:description" content="Our portfolio showcases a spectrum of software services, from web and mobile app development to custom solutions, AI, blockchain, and cloud technologies.." />
-        <meta name="twitter:image" content="https://technicmentors.com/assets/img/portfolio-img.png" />
-        
-        {/* Schema.org structured data */}
-        <script type="application/ld+json">{`
-          {
-            "@context": "https://schema.org",
-            "@type": "WebSite",
-            "url": "https://technicmentors.com/our-portfolio" ,
-            "name": "Technic Mentors",
-            "description": "description" content="Our portfolio showcases a spectrum of software services, from web and mobile app development to custom solutions, AI, blockchain, and cloud technologies.." ,
-            "potentialAction": {
-              "@type": "SearchAction",
-              "target": {
-                "@type": "EntryPoint",
-                "urlTemplate": "https://technicmentors.com/search?q={search_term_string}",
-                "actionPlatform": [
-                  "https://schema.org/DesktopWebPlatform",
-                  "https://schema.org/IOSPlatform",
-                  "https://schema.org/AndroidPlatform"
-                ]
-              },
-              "query-input": "required name=search_term_string"
-            }
-          }
-        `}</script>
-
-        <link rel="canonical" href="https://technicmentors.com/our-portfolio" />
-        <meta name="description" content="Our portfolio showcases a spectrum of software services, from web and mobile app development to custom solutions, AI, blockchain, and cloud technologies.." />
-      </Helmet>
       <div
         className="allHeaderBg"
       >

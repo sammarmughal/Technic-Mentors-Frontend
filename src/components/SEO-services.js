@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react'
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { Helmet } from 'react-helmet';
 import seoServices from "../images/seo-services.avif"
 export default function SEOservices() {
   useEffect(() => {
@@ -9,48 +8,6 @@ export default function SEOservices() {
   }, []);
   return (
     <div>
-      <Helmet>
-        {/* open grapgh tag */}
-      <meta property="og:title" content="SEO Services" />
-        <meta property="og:description" content="SEO services involve optimizing your website to improve its ranking on search engine result pages when users search for products or services related to your.." />
-        <meta property="og:image" content="https://technicmentors.com/assets/img/seo-services.gif" />
-        <meta property="og:url" content="https://technicmentors.com/seo-services" />
-        <meta property="og:type" content="website" />
-
-        {/* twitter card  */}
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:site" content="@TechnicMentors" />
-        <meta name="twitter:title" content="SEO Services" />
-        <meta name="twitter:description" content="SEO services involve optimizing your website to improve its ranking on search engine result pages when users search for products or services related to your.." />
-        <meta name="twitter:image" content="https://technicmentors.com/assets/img/seo-services.gif" />
-        
-        {/* Schema.org structured data */}
-        <script type="application/ld+json">{`
-          {
-            "@context": "https://schema.org",
-            "@type": "WebSite",
-            "url": "https://technicmentors.com/seo-services" ,
-            "name": "Technic Mentors",
-            "description": "SEO services involve optimizing your website to improve its ranking on search engine result pages when users search for products or services related to your.." ,
-            "potentialAction": {
-              "@type": "SearchAction",
-              "target": {
-                "@type": "EntryPoint",
-                "urlTemplate": "https://technicmentors.com/search?q={search_term_string}",
-                "actionPlatform": [
-                  "https://schema.org/DesktopWebPlatform",
-                  "https://schema.org/IOSPlatform",
-                  "https://schema.org/AndroidPlatform"
-                ]
-              },
-              "query-input": "required name=search_term_string"
-            }
-          }
-        `}</script>
-
-        <link rel="canonical" href="https://technicmentors.com/seo-services" />
-        <meta name="description" content="SEO services involve optimizing your website to improve its ranking on search engine result pages when users search for products or services related to your.." />
-      </Helmet>
     <div
           className="allHeaderBg"
         >

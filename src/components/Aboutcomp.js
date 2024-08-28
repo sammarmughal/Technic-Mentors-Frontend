@@ -12,19 +12,11 @@ export default function About() {
     <div>
       <section id="about" className="about aboutSection">
         <div
-          className="container"
-        // data-aos="fade-up"
-        // data-aos-duration="2000"
-        // data-aos-easing="ease-in-out"
-        >
+          className="container">
 
           <div className="row d-flex justify-content-between">
             <div
-              className="col-md-5 mt-3"
-            // data-aos="fade-up"
-            // data-aos-duration="2000"
-            // data-aos-easing="ease-in-out"
-            >
+              className="col-md-5 mt-3">
               <div className="">
                 <img
                   src={aboutImg}
@@ -36,11 +28,7 @@ export default function About() {
               </div>
             </div>
             <div
-              className="col-md-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center"
-            // data-aos="fade-up"
-            // data-aos-duration="2000"
-            // data-aos-easing="ease-in-out"
-            >
+              className="col-md-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center">
               <div className="section-title">
                 <h2>About Us</h2>
                 <h1>

@@ -54,6 +54,7 @@ import SolvedTickets from "./components/SolvedTickets";
 import PendingTicket from "./components/PendingTicket";
 import AllTickets from "./components/AllTickets";
 import UserLogin from "./components/UserLogin";
+import SeoTags from "./components/SeoTags";
 function App() {
   return (
     <div className="App">
@@ -62,6 +63,7 @@ function App() {
           <Topbar />
           <Navbar />
           <Scrolltop />
+          <SeoTags />
           <Livechat />
           <Routes>
             <Route path="/" element={<Home />} />

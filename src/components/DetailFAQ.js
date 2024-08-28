@@ -382,7 +382,7 @@ export default function DetailFAQ() {
                     data-bs-parent=".faq-list"
                   >
                     <p>
-                    Yes, we offer training and workshops tailored to your specific needs. Whether you need to learn how to manage your website or utilize digital marketing tools effectively, our experts are here to help.
+                      Yes, we offer training and workshops tailored to your specific needs. Whether you need to learn how to manage your website or utilize digital marketing tools effectively, our experts are here to help.
                     </p>
                   </div>
                 </li>
@@ -402,7 +402,7 @@ export default function DetailFAQ() {
                     data-bs-parent=".faq-list"
                   >
                     <p>
-                    CapoBrain is a comprehensive school/college management system designed to streamline administrative tasks, enhance communication between stakeholders, and improve overall efficiency. It offers features such as student enrollment, attendance tracking, exam management, fee collection, and parent-teacher communication.
+                      CapoBrain is a comprehensive school/college management system designed to streamline administrative tasks, enhance communication between stakeholders, and improve overall efficiency. It offers features such as student enrollment, attendance tracking, exam management, fee collection, and parent-teacher communication.
                     </p>
                   </div>
                 </li>
@@ -422,7 +422,7 @@ export default function DetailFAQ() {
                     data-bs-parent=".faq-list"
                   >
                     <p>
-                    You can visit the website capobrain.com for detailed information about CapoBrain's features, benefits, and pricing. Additionally, you can contact our team for a personalized demo and consultation.
+                      You can visit the website capobrain.com for detailed information about CapoBrain's features, benefits, and pricing. Additionally, you can contact our team for a personalized demo and consultation.
                     </p>
                   </div>
                 </li>
@@ -442,7 +442,7 @@ export default function DetailFAQ() {
                     data-bs-parent=".faq-list"
                   >
                     <p>
-                    CapoBiz is a robust software solution designed to help businesses manage stock/inventory, sales, purchases, production, manufacturing, and more. It offers tools for inventory tracking, sales reporting, order management, and production planning, among other features.
+                      CapoBiz is a robust software solution designed to help businesses manage stock/inventory, sales, purchases, production, manufacturing, and more. It offers tools for inventory tracking, sales reporting, order management, and production planning, among other features.
                     </p>
                   </div>
                 </li>
@@ -462,7 +462,7 @@ export default function DetailFAQ() {
                     data-bs-parent=".faq-list"
                   >
                     <p>
-                    CapoBiz is designed to cater to a wide range of industries including retail shops, supermarkets, pharmacies, mobile shops, garment stores, shoe shops, fertilizers industry, tiles industry, and more. Its customizable features make it adaptable to the unique needs of various businesses.
+                      CapoBiz is designed to cater to a wide range of industries including retail shops, supermarkets, pharmacies, mobile shops, garment stores, shoe shops, fertilizers industry, tiles industry, and more. Its customizable features make it adaptable to the unique needs of various businesses.
                     </p>
                   </div>
                 </li>
@@ -482,7 +482,7 @@ export default function DetailFAQ() {
                     data-bs-parent=".faq-list"
                   >
                     <p>
-                    CapoBiz offers restaurant management software designed to streamline operations, manage inventory, track sales, handle reservations, and improve customer service. It includes features such as menu management, table booking, kitchen order management, and billing.
+                      CapoBiz offers restaurant management software designed to streamline operations, manage inventory, track sales, handle reservations, and improve customer service. It includes features such as menu management, table booking, kitchen order management, and billing.
                     </p>
                   </div>
                 </li>
@@ -502,7 +502,7 @@ export default function DetailFAQ() {
                     data-bs-parent=".faq-list"
                   >
                     <p>
-                    Yes, CapoBiz provides a comprehensive real estate management software solution to streamline property management tasks such as listings management, tenant tracking, lease management, maintenance scheduling, and financial reporting.
+                      Yes, CapoBiz provides a comprehensive real estate management software solution to streamline property management tasks such as listings management, tenant tracking, lease management, maintenance scheduling, and financial reporting.
                     </p>
                   </div>
                 </li>
@@ -522,7 +522,7 @@ export default function DetailFAQ() {
                     data-bs-parent=".faq-list"
                   >
                     <p>
-                    CapoBiz gym management software helps fitness centers streamline membership management, class scheduling, trainer scheduling, billing, and attendance tracking. It enables gym owners to efficiently run their operations and enhance member satisfaction.
+                      CapoBiz gym management software helps fitness centers streamline membership management, class scheduling, trainer scheduling, billing, and attendance tracking. It enables gym owners to efficiently run their operations and enhance member satisfaction.
                     </p>
                   </div>
                 </li>
@@ -542,7 +542,7 @@ export default function DetailFAQ() {
                     data-bs-parent=".faq-list"
                   >
                     <p>
-                    Absolutely! CapoBiz offers tailor shop management software tailored to the unique needs of tailoring businesses. It includes features for measuring, order management, fabric tracking, invoicing, and customer management..
+                      Absolutely! CapoBiz offers tailor shop management software tailored to the unique needs of tailoring businesses. It includes features for measuring, order management, fabric tracking, invoicing, and customer management..
                     </p>
                   </div>
                 </li>
@@ -562,7 +562,7 @@ export default function DetailFAQ() {
                     data-bs-parent=".faq-list"
                   >
                     <p>
-                    Yes, CapoBiz offers trading software solutions to manage trading operations efficiently. It includes features for order processing, inventory management, sales analysis, purchase management, and reporting.
+                      Yes, CapoBiz offers trading software solutions to manage trading operations efficiently. It includes features for order processing, inventory management, sales analysis, purchase management, and reporting.
                     </p>
                   </div>
                 </li>
@@ -582,7 +582,7 @@ export default function DetailFAQ() {
                     data-bs-parent=".faq-list"
                   >
                     <p>
-                    CapoBiz provides office management software solutions to streamline administrative tasks, enhance productivity, and improve communication within the office environment. It offers features for task management, document sharing, employee scheduling, and more.
+                      CapoBiz provides office management software solutions to streamline administrative tasks, enhance productivity, and improve communication within the office environment. It offers features for task management, document sharing, employee scheduling, and more.
                     </p>
                   </div>
                 </li>
@@ -591,7 +591,7 @@ export default function DetailFAQ() {
           </div>
         </div>
       </section>
-      <CallAction/>
+      <CallAction />
     </div>
   )
 }

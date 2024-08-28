@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { Helmet } from 'react-helmet';
 
 export default function Team() {
   useEffect(() => {
@@ -9,48 +8,6 @@ export default function Team() {
   }, []);
   return (
     <div>
-      <Helmet>
-        {/* open grapgh tag */}
-        <meta property="og:title" content="Team" />
-        <meta property="og:description" content="Technic mentors team displayed in this page" />
-        <meta property="og:image" content="https://technicmentors.com/assets/img/team/nadeem-pic Technic Mentors.webp" />
-        <meta property="og:url" content="https://technicmentors.com/team" />
-        <meta property="og:type" content="website" />
-
-        {/* twitter card  */}
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:site" content="@TechnicMentors" />
-        <meta name="twitter:title" content="Team" />
-        <meta name="twitter:description" content="Technic mentors team displayed in this page" />
-        <meta name="twitter:image" content="https://technicmentors.com/assets/img/team/nadeem-pic Technic Mentors.webp" />
-
-        {/* Schema.org structured data */}
-        <script type="application/ld+json">{`
-          {
-            "@context": "https://schema.org",
-            "@type": "WebSite",
-            "url": "https://technicmentors.com/team",
-            "name": "Technic Mentors",
-            "description": "Technic mentors team displayed in this page" ,
-            "potentialAction": {
-              "@type": "SearchAction",
-              "target": {
-                "@type": "EntryPoint",
-                "urlTemplate": "https://technicmentors.com/search?q={search_term_string}",
-                "actionPlatform": [
-                  "https://schema.org/DesktopWebPlatform",
-                  "https://schema.org/IOSPlatform",
-                  "https://schema.org/AndroidPlatform"
-                ]
-              },
-              "query-input": "required name=search_term_string"
-            }
-          }
-        `}</script>
-
-        <link rel="canonical" href="https://technicmentors.com/team" />
-        <meta name="description" content="Technic mentors team displayed in this page" />
-      </Helmet>
       <div
         className="allHeaderBg"
       >

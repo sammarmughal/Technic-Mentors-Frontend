@@ -2,7 +2,6 @@ import React, { useEffect } from 'react'
 import Calltoaction from './Calltoaction'
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { Helmet } from 'react-helmet';
 
 export default function Educationmanagementsystem() {
   useEffect(() => {
@@ -10,48 +9,6 @@ export default function Educationmanagementsystem() {
   }, []);
   return (
     <div>
-      <Helmet>
-        {/* open grapgh tag */}
-        <meta property="og:title" content="Ecommerce Solutions" />
-        <meta property="og:description" content="Our Ecommerce Solutions are designed to help your business thrive in the competitive online landscape. We offer a user-friendly platform with seamless.." />
-        <meta property="og:image" content="https://technicmentors.com/assets/img/ecommerce-solutions.webp" />
-        <meta property="og:url" content="https://technicmentors.com/ecommerce-solutions" />
-        <meta property="og:type" content="website" />
-
-        {/* twitter card  */}
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:site" content="@TechnicMentors" />
-        <meta name="twitter:title" content="Ecommerce Solutions" />
-        <meta name="twitter:description" content="Our Ecommerce Solutions are designed to help your business thrive in the competitive online landscape. We offer a user-friendly platform with seamless.." />
-        <meta name="twitter:image" content="https://technicmentors.com/assets/img/ecommerce-solutions.webp" />
-
-        {/* Schema.org structured data */}
-        <script type="application/ld+json">{`
-          {
-            "@context": "https://schema.org",
-            "@type": "WebSite",
-            "url": "https://technicmentors.com/ecommerce-solutions" ,
-            "name": "Technic Mentors",
-            "description": "Our Ecommerce Solutions are designed to help your business thrive in the competitive online landscape. We offer a user-friendly platform with seamless.." ,
-            "potentialAction": {
-              "@type": "SearchAction",
-              "target": {
-                "@type": "EntryPoint",
-                "urlTemplate": "https://technicmentors.com/search?q={search_term_string}",
-                "actionPlatform": [
-                  "https://schema.org/DesktopWebPlatform",
-                  "https://schema.org/IOSPlatform",
-                  "https://schema.org/AndroidPlatform"
-                ]
-              },
-              "query-input": "required name=search_term_string"
-            }
-          }
-        `}</script>
-
-        <link rel="canonical" href="https://technicmentors.com/ecommerce-solutions" />
-        <meta name="description" content="Our Ecommerce Solutions are designed to help your business thrive in the competitive online landscape. We offer a user-friendly platform with seamless.." />
-      </Helmet>
       <div
         className="allHeaderBg"
       >
@@ -188,7 +145,7 @@ export default function Educationmanagementsystem() {
           <div className="col-md-7">
             <div className="section-title text-start">
               <h3>
-              Transform Ecommerce 
+                Transform Ecommerce
                 <span> Dynamics With Ecommerce</span>
               </h3>
             </div>
@@ -199,7 +156,7 @@ export default function Educationmanagementsystem() {
               At Technic Mentors, our Ecommerce Solutions redefine digital commerce by combining innovation and functionality. We prioritize mobile responsiveness, ensuring your online store captures the booming mobile market. With advanced analytics and data-driven insights, we empower you to make informed decisions, optimize customer journeys, and boost conversions. Seamlessly manage products, orders, and customer interactions with our intuitive Ecommerce platform. Trust Technic Mentors to be your strategic partner in transforming your online business into a revenue-generating machine.
             </p>
           </div>
-          
+
           <div
             className="col-md-5"
           >
