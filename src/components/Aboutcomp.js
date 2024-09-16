@@ -23,7 +23,7 @@ export default function About() {
                   className="img-fluid"
                   width="500"
                   height="500"
-                  alt="technic"
+                  alt="best-software-house-in-pakistan"
                 />
               </div>
             </div>
@@ -31,12 +31,12 @@ export default function About() {
               className="col-md-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center">
               <div className="section-title">
                 <h2>About Us</h2>
-                <h1>
-                  Choose The Best <span> IT Services</span> Company
-                </h1>
+                <h3>
+                  Innovative <span>IT Solutions</span> For Modern Businesses
+                </h3>
               </div>
               <p className="fst-italic" style={{ textAlign: "justify" }}>
-                Technic mentors is the best <a href="https://urdustem.com/it-consulting-services-unveiled-navigating-success-with-expert-guidance/" target="blank" rel="noopener" style={{ textDecoration: "none" }}> IT consulting company</a> to look at
+                Technic mentors is the top IT services company to look at
                 when searching for extraordinary software and technology
                 solutions. We provide value-added and quality products and
                 services. Our team is specialized and experienced and provides
@@ -49,7 +49,7 @@ export default function About() {
                     <i class="fas fa-award"></i>
                   </div>
                   <div>
-                    <h4>Certified Company</h4>
+                    <p className="pFont">Certified Company</p>
                     <p>Approved And Registered</p>
                   </div>
                 </div>
@@ -58,7 +58,7 @@ export default function About() {
                     <i className="fas fa-users"></i>
                   </div>
                   <div>
-                    <h4>Expert Team</h4>
+                    <p className="pFont">Skilled Group</p>
                     <p>Bunch Of Skilled Individuals</p>
                   </div>
                 </div>
@@ -75,8 +75,8 @@ export default function About() {
                     <i className="fas fa-phone"></i>
                   </div>
                   <div style={{ marginLeft: "3%" }}>
-                    <p>Call Us On:</p>
-                    <h5 style={{ marginTop: "-5px" }}>+923 111 122 144</h5>
+                    <p style={{ margin: "0" }}>Call Us On:</p>
+                    <p style={{ fontWeight: "500", fontSize: "17px" }}>+923 111 122 144</p>
                   </div>
                 </div>
               </div>

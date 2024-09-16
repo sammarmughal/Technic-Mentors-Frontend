@@ -14,12 +14,12 @@ export default function About() {
       <div
         className="allHeaderBg"
       >
-        <div className="allHeader-overlay d-flex align-items-center justify-content-center">
+        <div className="allHeader-overlay">
           <div>
             <h1
               className="head text-center text-white animate__animated animate__zoomIn allHeaderP"
             >
-              About Company
+              Know About Best Software Company
             </h1>
           </div>
         </div>
@@ -58,11 +58,11 @@ export default function About() {
               data-aos="fade-up"
               data-aos-duration="2000"
             >
-              <h1>
+              <p style={{ fontSize: "33px" }}>
                 Committed to Delivering Excellence: Our IT Services Promise
-              </h1>
+              </p>
               <p className="fst-italic" style={{ textAlign: "justify" }}>
-                Technic mentors is the best <a href="https://urdustem.com/it-consulting-services-unveiled-navigating-success-with-expert-guidance/" target="blank" rel="noopener" style={{ textDecoration: "none" }}> IT consulting company</a> to look at
+                Technic mentors is the best <a href="https://urdustem.com/it-consulting-services-unveiled-navigating-success-with-expert-guidance/" target="blank" rel="noopener" style={{ textDecoration: "none" }}> best software company</a> to look at
                 when searching for extraordinary software and technology
                 solutions. We provide value-added and quality products and
                 services. Our team is specialized and experienced and provides
@@ -87,7 +87,7 @@ export default function About() {
               <div className="card mission-vision">
                 <i className="bi bi-bullseye"></i>
                 <div>
-                  <h5>Our Mission</h5>
+                  <h4>Our Mission</h4>
                   <p style={{ textAlign: "justify" }}>
                     Technic Mentors is dedicated to revolutionizing the software
                     landscape through innovative solutions and mentorship. Our
@@ -101,7 +101,7 @@ export default function About() {
               <div className="card mission-vision">
                 <i className="bi bi-binoculars"></i>
                 <div>
-                  <h5>Our Vision</h5>
+                  <h4>Our Vision</h4>
                   <p style={{ textAlign: "justify" }}>
                     Technic Mentors envisions a world where cutting-edge
                     technology converges with expert mentorship, creating an
@@ -121,32 +121,32 @@ export default function About() {
             <div className="col-lg-3 col-md-6">
               <div className="count-box">
                 <i className="bi bi-emoji-smile"></i>
-                <h1>2016</h1>
-                <h6 className="m-top-8">Year Of Establishment</h6>
+                <h2>2016</h2>
+                <p className="m-top-8">Year Of Establishment</p>
               </div>
             </div>
 
             <div className="col-lg-3 col-md-6 mt-5 mt-md-0">
               <div className="count-box">
                 <i className="bi bi-journal-richtext"></i>
-                <h1>550+</h1>
-                <h6 className="m-top-8">Clients Worldwide</h6>
+                <h2>550+</h2>
+                <p className="m-top-8">Clients Worldwide</p>
               </div>
             </div>
 
             <div className="col-lg-3 col-md-6 mt-5 mt-lg-0">
               <div className="count-box">
                 <i className="bi bi-headset"></i>
-                <h1>20+</h1>
-                <h6 className="m-top-8">Active Clients</h6>
+                <h2>20+</h2>
+                <p className="m-top-8">Active Clients</p>
               </div>
             </div>
 
             <div className="col-lg-3 col-md-6 mt-5 mt-lg-0">
               <div className="count-box">
                 <i className="bi bi-people"></i>
-                <h1>500+</h1>
-                <h6 className="m-top-8">Projects</h6>
+                <h2>500+</h2>
+                <p className="m-top-8">Projects</p>
               </div>
             </div>
           </div>

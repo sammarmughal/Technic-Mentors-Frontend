@@ -31,6 +31,7 @@ export default function Topbar() {
                 className="nav-fill btn btn1 btn-sm-square rounded-circle "
               >
                 <i className="fab fa-facebook-f text-white"></i>
+                <span className="d-none">face</span>
               </a>
               <a
                 href="https://twitter.com/TechnicMentors"
@@ -38,6 +39,7 @@ export default function Topbar() {
                 className="nav-fill btn btn1 btn-sm-square rounded-circle "
               >
                 <i className="fab fa-twitter text-white"></i>
+                <span className="d-none">twi </span>
               </a>
               <a
                 href="https://www.youtube.com/c/TechnicMentors"
@@ -45,6 +47,7 @@ export default function Topbar() {
                 className="nav-fill btn btn1 btn-sm-square rounded-circle "
               >
                 <i className="fab fa-youtube text-white"></i>
+                <span className="d-none">you </span>
               </a>
               <a
                 href="https://www.linkedin.com/in/TechnicMentors/"
@@ -52,6 +55,7 @@ export default function Topbar() {
                 className="nav-fill btn btn1 btn-sm-square rounded-circle "
               >
                 <i className="fab fa-linkedin-in text-white"></i>
+                <span className="d-none">linked </span>
               </a>
               <a
                 href="https://www.instagram.com/technicmentorsofficial"
@@ -59,6 +63,7 @@ export default function Topbar() {
                 className="nav-fill btn btn1 btn-sm-square rounded-circle me-0"
               >
                 <i className="fa-brands fa-instagram text-white"></i>
+                <span className="d-none">insta </span>
               </a>
               <a
                 href="https://wa.me/923111122144"
@@ -66,6 +71,7 @@ export default function Topbar() {
                 className="nav-fill btn btn1 btn-sm-square rounded-circle me-0"
               >
                 <i className="fa-brands fa-whatsapp text-white"></i>
+                <span className="d-none">what </span>
               </a>
             </div>
           </div>

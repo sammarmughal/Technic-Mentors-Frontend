@@ -67,8 +67,9 @@ export default function Navbar() {
               src={navLogo}
               onClick={closeNavbarOnItemClick}
               style={{ maxWidth: "14rem", marginLeft: "5%" }}
-              alt="school management software"
+              alt="it-services-company"
             />
+            <span className="d-none">Technic Mentors Software Solutions</span>
           </Link>
           <button
             className="navbar-toggler"

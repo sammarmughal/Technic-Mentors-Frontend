@@ -71,6 +71,19 @@ export default function Signup() {
       className="background-img5"
     >
       <div className="color-overlay5">
+        <div
+          className="allHeaderBg"
+        >
+          <div className="allHeader-overlay d-flex align-items-center justify-content-center">
+            <div>
+              <h1
+                className="head text-center text-white animate__animated animate__zoomIn allHeaderP"
+              >
+                Sign Up
+              </h1>
+            </div>
+          </div>
+        </div>
         <div className="container py-5">
           <div className="row justify-content-center">
             <div className="col-md-4">
@@ -144,9 +157,9 @@ export default function Signup() {
               </form>
             </div>
           </div>
-          <h6 className='text-center formButton'>
+          <p className='text-center formButton'>
             Already Have Account? <Link to="/userLogin">Sign In</Link>
-          </h6>
+          </p>
         </div>
       </div>
     </div>

@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react'
-import Calltoaction from './Calltoaction'
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -15,10 +14,8 @@ export default function Educationmanagementsystem() {
         <div className="allHeader-overlay d-flex align-items-center justify-content-center">
           <div>
             <h1
-              className="head text-center text-white animate__animated animate__zoomIn allHeaderP"
-            // style={{ fontSize: 60 }}
-            >
-              Ecommerce Solutions
+              className="head text-center text-white animate__animated animate__zoomIn allHeaderP">
+              Our Ecommerce Solutions
             </h1>
           </div>
         </div>
@@ -28,9 +25,9 @@ export default function Educationmanagementsystem() {
       <div className="container mt-5">
         <div className="section-title text-center">
           <h2>Online Selling Made Easy</h2>
-          <h1>
+          <h3>
             Explore Our <span>Ecommerce Solutions</span>
-          </h1>
+          </h3>
         </div>
         <p style={{ textAlign: "justify" }}>
           a robust online presence is essential for businesses of all sizes. Our Ecommerce Solutions are designed to help your business thrive in the competitive online landscape. We offer a user-friendly platform with seamless navigation, ensuring that your customers enjoy a smooth shopping experience. What sets our Ecommerce Solutions apart is the focus on customization. We understand that your brand is unique, and we provide you with the tools to reflect your identity in every aspect of your online store, from the color scheme to product presentation.
@@ -47,7 +44,7 @@ export default function Educationmanagementsystem() {
             <div className="card border-0">
               <div className="card-body d-flex">
                 <i className="fa-solid fa-chart-line me-3 edu-icnos"></i>
-                <p className="card-title"><strong>Seamless User Experience</strong></p>
+                <p className="card-title">Seamless User Experience</p>
               </div>
             </div>
           </div>
@@ -56,7 +53,7 @@ export default function Educationmanagementsystem() {
             <div className="card border-0">
               <div className="card-body d-flex">
                 <i className="fa-solid fa-users edu-icons me-3"></i>
-                <p className="card-title"><strong>Mobile Optimized</strong></p>
+                <p className="card-title">Mobile Optimized</p>
               </div>
             </div>
           </div>
@@ -65,7 +62,7 @@ export default function Educationmanagementsystem() {
             <div className="card border-0">
               <div className="card-body d-flex">
                 <i className="fa-solid fa-graduation-cap me-3 edu-icnos"></i>
-                <p className="card-title"><strong>Customization</strong></p>
+                <p className="card-title">Customization</p>
               </div>
             </div>
           </div>
@@ -76,7 +73,7 @@ export default function Educationmanagementsystem() {
             <div className="card border-0">
               <div className="card-body d-flex">
                 <i className="fa-solid fa-warehouse me-3 edu-icnos"></i>
-                <p className="card-title"><strong>Robust Inventory Management</strong></p>
+                <p className="card-title">Robust Inventory Management</p>
               </div>
             </div>
           </div>
@@ -85,7 +82,7 @@ export default function Educationmanagementsystem() {
             <div className="card border-0">
               <div className="card-body d-flex">
                 <i className="fa-solid fa-money-bill me-3 edu-icnos"></i>
-                <p className="card-title"><strong>Payment Security</strong></p>
+                <p className="card-title">Payment Security</p>
               </div>
             </div>
           </div>
@@ -94,7 +91,7 @@ export default function Educationmanagementsystem() {
             <div className="card border-0" >
               <div className="card-body d-flex">
                 <i className="fa-solid fa-id-card me-3 edu-icnos"></i>
-                <p className="card-title"><strong>SEO Friendly</strong></p>
+                <p className="card-title">SEO Friendly</p>
               </div>
             </div>
           </div>
@@ -105,7 +102,7 @@ export default function Educationmanagementsystem() {
             <div className="card border-0">
               <div className="card-body d-flex">
                 <i className="fa-solid fa-square-poll-horizontal me-3  edu-icnos"></i>
-                <p className="card-title"><strong>Analytics And Reporting</strong></p>
+                <p className="card-title">Analytics And Reporting</p>
               </div>
             </div>
           </div>
@@ -114,7 +111,7 @@ export default function Educationmanagementsystem() {
             <div className="card border-0">
               <div className="card-body d-flex">
                 <i className="fa-solid fa-book me-3 edu-icnos"></i>
-                <p className="card-title"><strong>24/7 Support</strong></p>
+                <p className="card-title">24/7 Support</p>
               </div>
             </div>
           </div>
@@ -123,7 +120,7 @@ export default function Educationmanagementsystem() {
             <div className="card border-0">
               <div className="card-body d-flex">
                 <i className="fa-solid fa-book-open-reader me-3 edu-icnos"></i>
-                <p className="card-title"><strong>Scalability</strong></p>
+                <p className="card-title">Scalability</p>
               </div>
             </div>
           </div>
@@ -134,11 +131,12 @@ export default function Educationmanagementsystem() {
             <div className="card border-0">
               <div className="card-body d-flex">
                 <i className="fa-solid fa-money-check-dollar me-3 edu-icnos"></i>
-                <p className="card-title"><strong>Competitive Pricing</strong></p>
+                <p className="card-title">Competitive Pricing</p>
               </div>
             </div>
           </div>
         </div>
+        <p className='mt-3' style={{ textAlign: "justify" }}>At Technic Mentors, we prioritize flexibility and customization in our Ecommerce Solutions, ensuring your online store is as unique as your brand. Our platform supports diverse payment gateways, shipping options, and integration with popular third-party tools, giving you the freedom to create a tailored shopping experience for your customers. As your business grows, our solutions grow with you—whether you're expanding to new markets or launching new products, we provide the tools to manage your online store efficiently. With round-the-clock support and a focus on performance, Technic Mentors ensures your ecommerce success is always within reach.</p>
       </div>
       <div className="container mt-4">
         <div className="row d-flex align-items-center">
@@ -168,7 +166,6 @@ export default function Educationmanagementsystem() {
           </div>
         </div>
       </div>
-      <Calltoaction />
 
     </div>
   )

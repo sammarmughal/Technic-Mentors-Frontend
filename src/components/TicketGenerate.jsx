@@ -111,14 +111,15 @@ export default function TicketGenerate() {
                         </form>
                     </div>
                     <div className="col-md-6">
-                        <div className="card" style={{boxShadow:"none"}}>
+                        <div className="card" style={{ boxShadow: "none" }}>
                             <div className="card-body">
-                                <h2 style={{color:"#684df4"}}>Problem Solution</h2>
+                                <h2 style={{ color: "#684df4" }}>Problem Solution</h2>
                                 <p>Please provide a brief description of the issue you are experiencing. Be as detailed as possible to help us better understand and address your concern. Include any error messages, symptoms, or specific scenarios where the problem occurs.</p>
                             </div>
                         </div>
                     </div>
                 </div>
+
             </div>
 
         </div>

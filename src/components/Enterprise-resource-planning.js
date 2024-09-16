@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import Calltoaction from "./Calltoaction";
 import AOS from "aos";
 
 export default function Enterpriseresourceplanning() {
@@ -14,9 +13,7 @@ export default function Enterpriseresourceplanning() {
         <div className="allHeader-overlay d-flex align-items-center justify-content-center">
           <div>
             <h1
-              className="head text-center text-white animate__animated animate__zoomIn allHeaderP"
-            // style={{ fontSize: 60 }}
-            >
+              className="head text-center text-white animate__animated animate__zoomIn allHeaderP">
               Enterprise Resource Planning
             </h1>
           </div>
@@ -26,20 +23,21 @@ export default function Enterpriseresourceplanning() {
       <div className="container mt-5">
         <div className="section-title text-center">
           <h2>Manage Every Aspect Of Your Business</h2>
-          <h1>
+          <h3>
             Enterprise <span>Resouce Planning System</span>
-          </h1>
+          </h3>
         </div>
         <p style={{ textAlign: "justify" }}>
-          We offer a full range of value-added ERP accounting software and
+          We offer a full range of value-added and intelligent ERP accounting software and
           Customer Relationship Management services for customers with new and
           existing solution deployments. We provide smart strategy and planning,
           design and architecture, implementation and optimization, and
           maintenance and support capabilities under one roof, giving our
           customers high flexibility, excellent value, and complete peace of
           mind.
-          <br /> <br />
-          Our experts recommend the best ERP accounting software, manufacturing
+        </p>
+        <p>
+          Our experts recommend the best ERP accounting software in Pakistan, manufacturing
           ERP software and CRM solutions for your unique business needs and
           enhance these solutions using industry-specialized extensions that
           drive efficiency, generate valuable insights, and save time. Having
@@ -105,7 +103,7 @@ export default function Enterpriseresourceplanning() {
               <div className="card-body d-flex">
                 <i className="fa-solid fa-coins me-3 edu-icnos"></i>
                 <p className="card-title">
-                  <strong>Finance Management</strong>
+                  Finance Management
                 </p>
               </div>
             </div>
@@ -117,7 +115,7 @@ export default function Enterpriseresourceplanning() {
                 <i className="fa-solid fa-headset edu-icons me-3"></i>
                 <p className="card-title">
                   {" "}
-                  <strong>CRM </strong>
+                  CRM
                 </p>
               </div>
             </div>
@@ -128,7 +126,7 @@ export default function Enterpriseresourceplanning() {
               <div className="card-body d-flex">
                 <i className="fa-solid fa-bullhorn me-3 edu-icnos"></i>
                 <p className="card-title">
-                  <strong>Sales & Marketing</strong>
+                  Sales & Marketing
                 </p>
               </div>
             </div>
@@ -141,7 +139,7 @@ export default function Enterpriseresourceplanning() {
               <div className="card-body d-flex">
                 <i className="fa-solid fa-people-carry-box me-3 edu-icnos"></i>
                 <p className="card-title">
-                  <strong>HR Management</strong>
+                  HR Management
                 </p>
               </div>
             </div>
@@ -152,7 +150,7 @@ export default function Enterpriseresourceplanning() {
               <div className="card-body d-flex">
                 <i className="fa-solid fa-industry me-3 edu-icnos"></i>
                 <p className="card-title">
-                  <strong>Manufacturing</strong>
+                  Manufacturing
                 </p>
               </div>
             </div>
@@ -163,7 +161,7 @@ export default function Enterpriseresourceplanning() {
               <div className="card-body d-flex">
                 <i className="fa-solid fa-link me-3 edu-icnos"></i>
                 <p className="card-title">
-                  <strong>Supply Chain</strong>
+                  Supply Chain
                 </p>
               </div>
             </div>
@@ -176,7 +174,7 @@ export default function Enterpriseresourceplanning() {
               <div className="card-body d-flex">
                 <i className="fa-solid fa-user-tie me-3 edu-icnos"></i>
                 <p className="card-title">
-                  <strong>Business Intelligence</strong>
+                  Business Intelligence
                 </p>
               </div>
             </div>
@@ -187,7 +185,7 @@ export default function Enterpriseresourceplanning() {
               <div className="card-body d-flex">
                 <i className="fa-solid fa-warehouse me-3 edu-icnos"></i>
                 <p className="card-title">
-                  <strong>Inventory Management</strong>
+                  Inventory Management
                 </p>
               </div>
             </div>
@@ -198,7 +196,7 @@ export default function Enterpriseresourceplanning() {
               <div className="card-body d-flex">
                 <i className="fa-solid fa-cart-shopping me-3 edu-icnos"></i>
                 <p className="card-title">
-                  <strong>Purchasing</strong>
+                  Purchasing
                 </p>
               </div>
             </div>
@@ -211,16 +209,18 @@ export default function Enterpriseresourceplanning() {
               <div className="card-body d-flex">
                 <i className="fa-solid fa-circle-nodes me-3  edu-icnos"></i>
                 <p className="card-title">
-                  <strong>Process Control</strong>
+                  Process Control
                 </p>
               </div>
             </div>
           </div>
         </div>
         <p className="mt-4" style={{ textAlign: "justify" }}>Our ERP Solutions redefine what's possible, offering a tailored approach that aligns with your unique business needs. Experience a harmonized ecosystem where data flows effortlessly, empowering you to make informed decisions in real-time. Elevate your enterprise with a solution designed for scalability, adaptability, and future-proof success. Your journey to operational excellence begins here – where innovation meets practicality, and your business aspirations become reality. Embrace the future of enterprise management with Technic Mentors' ERP Solutions.</p>
+        <p style={{ textAlign: "justify" }}>
+          Unlock the full potential of your business with Technic Mentors' ERP Solutions, designed to streamline operations and drive efficiency across every department. From finance and HR to supply chain and sales, our integrated platform centralizes your processes, enhancing collaboration and ensuring data accuracy. With customizable modules, our ERP adapts as your business evolves, scaling with your growth and supporting your long-term goals. Gain a competitive edge with real-time analytics and insights that empower proactive decision-making. Technic Mentors' ERP Solutions are not just tools—they're catalysts for sustainable success and transformative business outcomes.
+        </p>
       </div>
 
-      <Calltoaction />
-    </div>
+    </div >
   );
 }

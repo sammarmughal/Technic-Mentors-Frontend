@@ -1,5 +1,5 @@
 import React from 'react'
-import CallAction from './CallAction'
+import Calltoaction from './Calltoaction'
 
 export default function DetailFAQ() {
   return (
@@ -12,7 +12,7 @@ export default function DetailFAQ() {
             <h1
               className="head text-center text-white animate__animated animate__zoomIn allHeaderP"
             >
-              FAQ's
+              Frequently Asked Questions
             </h1>
           </div>
         </div>
@@ -591,7 +591,7 @@ export default function DetailFAQ() {
           </div>
         </div>
       </section>
-      <CallAction />
+      <Calltoaction />
     </div>
   )
 }

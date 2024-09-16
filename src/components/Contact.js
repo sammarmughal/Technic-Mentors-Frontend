@@ -99,9 +99,9 @@ export default function Contact() {
       >
         <div className="container" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
           <div className="section-title text-center">
-            <h1>
+            <h2>
               Reach Out<span> To Us</span>
-            </h1>
+            </h2>
             <p>
               Have any query? Our support team is always there to respond you.
               Just drop a message here and we will get back to you.
@@ -115,7 +115,7 @@ export default function Contact() {
                 style={{ backgroundColor: "white" }}
               >
                 <i className="bx bx-map"></i>
-                <h3>Our Address</h3>
+                <p className="contact-head">Our Address</p>
                 <p>United Kingdom | Norway | Pakistan</p>
               </div>
             </div>
@@ -126,7 +126,7 @@ export default function Contact() {
                 style={{ backgroundColor: "white" }}
               >
                 <i className="bx bx-envelope"></i>
-                <h3>Email Us</h3>
+                <p className="contact-head">Email Us</p>
                 <a href="mailto:info@technicmentors.com" style={{ textDecoration: "none", color: "#777777" }}> <p>info@technicmentors.com</p></a>
               </div>
             </div>
@@ -137,7 +137,7 @@ export default function Contact() {
                 style={{ backgroundColor: "white" }}
               >
                 <i className="bx bx-phone-call"></i>
-                <h3>Call Us</h3>
+                <p className="contact-head">Call Us</p>
                 <p>+923 111 122 144</p>
               </div>
             </div>

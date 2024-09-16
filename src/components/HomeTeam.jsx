@@ -7,9 +7,9 @@ export default function HomeTeam() {
             <div className='container team'>
                 <div className="section-title text-center">
                     <h2>Our Team Of Mentors</h2>
-                    <h1>
+                    <h3>
                         Team Of <span> Experts</span>
-                    </h1>
+                    </h3>
                 </div>
                 <div className="row">
                     <div
@@ -23,7 +23,7 @@ export default function HomeTeam() {
                                     className="img-fluid executive"
                                     width="350"
                                     height="300"
-                                    alt="ceo-img"
+                                    alt="nadeem-munir"
                                 />
                                 <div className="social">
                                     <a href="#/">
@@ -41,7 +41,7 @@ export default function HomeTeam() {
                                 </div>
                             </div>
                             <div className="member-info">
-                                <h4>Nadeem Munir</h4>
+                                <p>Nadeem Munir</p>
                                 <span>Chief Executive Officer</span>
                             </div>
                         </div>
@@ -57,7 +57,7 @@ export default function HomeTeam() {
                                     className="img-fluid team-member"
                                     width="350"
                                     height="300"
-                                    alt=""
+                                    alt="moazzama-bukhari"
                                 />
                                 <div className="social">
                                     <a href="#/">
@@ -75,7 +75,7 @@ export default function HomeTeam() {
                                 </div>
                             </div>
                             <div className="member-info">
-                                <h4>Moazzama Bukhari</h4>
+                                <p>Moazzama Bukhari</p>
                                 <span>Business Success Manager</span>
                             </div>
                         </div>
@@ -91,7 +91,7 @@ export default function HomeTeam() {
                                     className="img-fluid executive"
                                     width="350"
                                     height="300"
-                                    alt="waseem-img"
+                                    alt="waseem-munir"
                                 />
                                 <div className="social">
                                     <a href="#/">
@@ -109,7 +109,7 @@ export default function HomeTeam() {
                                 </div>
                             </div>
                             <div className="member-info">
-                                <h4>Waseem Munir</h4>
+                                <p>Waseem Munir</p>
                                 <span>Head Of Graphics Designing</span>
                             </div>
                         </div>
@@ -125,7 +125,7 @@ export default function HomeTeam() {
                                     className="img-fluid team-member"
                                     width="350"
                                     height="300"
-                                    alt=""
+                                    alt="danish-mirza"
                                 />
                                 <div className="social">
                                     <a href="#/">
@@ -143,7 +143,7 @@ export default function HomeTeam() {
                                 </div>
                             </div>
                             <div className="member-info">
-                                <h4>Danish Mirza</h4>
+                                <p>Danish Mirza</p>
                                 <span>Head Of Development Department</span>
                             </div>
                         </div>

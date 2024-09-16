@@ -56,9 +56,9 @@ export default function Blog() {
                   <Link style={{ textDecoration: "none" }} to={`/blog/${post.slug}`}>
                     <div className="card h-100">
                       <div className="card-body">
-                        <h5 className="card-title">
+                        <p className="card-title blog-title">
                           {post.title.length > 40 ? post.title.slice(0, 40) + "..." : post.title}
-                        </h5>
+                        </p>
                       </div>
                     </div>
                   </Link>

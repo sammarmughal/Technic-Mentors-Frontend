@@ -23,7 +23,7 @@ export default function Industries() {
                         <h1
                             className="head text-center text-white animate__animated animate__zoomIn allHeaderP"
                         >
-                            Industries
+                            Industries We Support
                         </h1>
                     </div>
                 </div>
@@ -37,9 +37,9 @@ export default function Industries() {
                 <div className="container-fluid pt-3 pb-2">
                     <div className=" text-center section-title">
                         <h2 className="subtitle">Our Industry Expertise</h2>
-                        <h1 className="main-heading">
+                        <h3 className="main-heading">
                             Comprehensive Solutions Across <span> Diverse Sectors</span>
-                        </h1>
+                        </h3>
                     </div>
                     <div className="row justify-content-center">
                         <div className="col-md-10 mb-4">

@@ -3,7 +3,7 @@ import Calltoaction from "./Calltoaction";
 import { Link } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
-
+import servicesImg from "../images/software-development.avif"
 export default function Services() {
   useEffect(() => {
     AOS.init();
@@ -16,9 +16,7 @@ export default function Services() {
         <div className="allHeader-overlay d-flex align-items-center justify-content-center">
           <div>
             <h1
-              className="head text-center text-white animate__animated animate__zoomIn allHeaderP"
-            // style={{ fontSize: 60 }}
-            >
+              className="head text-center text-white animate__animated animate__zoomIn allHeaderP">
               Top Notch IT Services
             </h1>
           </div>
@@ -58,7 +56,7 @@ export default function Services() {
             </div>
             <div className="col-lg-6 col-sm-12">
               <img
-                src="assets\img\services gif.gif"
+                src={servicesImg}
                 className="img-fluid"
                 max-width="100%"
                 height="auto"

@@ -14,7 +14,7 @@ export default function Team() {
         <div className="allHeader-overlay d-flex align-items-center justify-content-center">
           <div>
             <h1 className="head text-center text-white animate__animated animate__zoomIn allHeaderP">
-              Our Team
+              Our Software Development Team
             </h1>
           </div>
         </div>
@@ -23,10 +23,11 @@ export default function Team() {
       <section id="team" className="team section-bg dev-team">
         <div className="container" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
           <div className="section-title text-center">
-            <h2>Our Team Of Mentors</h2>
+            <h2>Meet Our Expert Team</h2>
             <h3>
               Our Skilled <span>Mentors</span>
             </h3>
+            <p>At Technic Mentors, our team is the heart of our success. Comprised of passionate developers, innovative designers, and forward-thinking strategists, we are dedicated to delivering world-class software solutions. Together, we turn visionary ideas into impactful realities, driving excellence at every stage of the development process.</p>
           </div>
           <div className="row">
             <div
@@ -58,7 +59,7 @@ export default function Team() {
                   </div>
                 </div>
                 <div className="member-info">
-                  <h4>Nadeem Munir</h4>
+                  <p>Nadeem Munir</p>
                   <span>Chief Executive Officer</span>
                 </div>
               </div>
@@ -73,7 +74,7 @@ export default function Team() {
                   <img
                     src="assets\img\team\Moazzama Technic Mentors.webp"
                     className="img-fluid team-member"
-                    alt=""
+                    alt="moazzama-bukhari-mentors"
                   />
                   <div className="social">
                     <a href="#/">
@@ -91,7 +92,7 @@ export default function Team() {
                   </div>
                 </div>
                 <div className="member-info">
-                  <h4>Moazzama Bukhari</h4>
+                  <p>Moazzama Bukhari</p>
                   <span>Business Success Manager</span>
                 </div>
               </div>
@@ -125,7 +126,7 @@ export default function Team() {
                   </div>
                 </div>
                 <div className="member-info">
-                  <h4>Waseem Munir</h4>
+                  <p>Waseem Munir</p>
                   <span>Head Of Graphics Designing</span>
                 </div>
               </div>
@@ -140,7 +141,7 @@ export default function Team() {
                   <img
                     src="assets\img\team\Danish Technic Mentors.webp"
                     className="img-fluid team-member"
-                    alt=""
+                    alt="danish-mirza-mentors"
                   />
                   <div className="social">
                     <a href="#/">
@@ -158,7 +159,7 @@ export default function Team() {
                   </div>
                 </div>
                 <div className="member-info">
-                  <h4>Danish Mirza</h4>
+                  <p>Danish Mirza</p>
                   <span>Head Of Development Department</span>
                 </div>
               </div>
@@ -176,7 +177,7 @@ export default function Team() {
                   <img
                     src="assets\img\team\Hadeed Technic Mentors.webp"
                     className="img-fluid team-member"
-                    alt=""
+                    alt="hadeed-ul-hassan-mentors"
                   />
                   <div className="social">
                     <a href="#/">
@@ -194,7 +195,7 @@ export default function Team() {
                   </div>
                 </div>
                 <div className="member-info">
-                  <h4>Hadeed Ul Hassan</h4>
+                  <p>Hadeed Ul Hassan</p>
                   <span>React.js Developer</span>
                 </div>
               </div>
@@ -209,7 +210,7 @@ export default function Team() {
                   <img
                     src="assets\img\team\Haram ashraf Technic Mentors.webp"
                     className="img-fluid team-member"
-                    alt=""
+                    alt="haram-ashraf-mentors"
                   />
                   <div className="social">
                     <a href="#/">
@@ -227,7 +228,7 @@ export default function Team() {
                   </div>
                 </div>
                 <div className="member-info">
-                  <h4>Haram Ashraf</h4>
+                  <p>Haram Ashraf</p>
                   <span>Software Quality Assurance Analyst</span>
                 </div>
               </div>
@@ -243,7 +244,7 @@ export default function Team() {
                   <img
                     src="assets\img\team\Maham naeem Technic Mentors.webp"
                     className="img-fluid team-member"
-                    alt=""
+                    alt="darakhshan-naeem-mentors"
                   />
                   <div className="social">
                     <a href="#/">
@@ -261,7 +262,7 @@ export default function Team() {
                   </div>
                 </div>
                 <div className="member-info">
-                  <h4>Darakhshan Naeem</h4>
+                  <p>Darakhshan Naeem</p>
                   <span>Laravel Developer</span>
                 </div>
               </div>
@@ -276,7 +277,7 @@ export default function Team() {
                   <img
                     src="assets\img\team\Usama Munir Technic Mentors.webp"
                     className="img-fluid team-member"
-                    alt=""
+                    alt="usama-munir-mentors"
                   />
                   <div className="social">
                     <a href="#/">
@@ -294,7 +295,7 @@ export default function Team() {
                   </div>
                 </div>
                 <div className="member-info">
-                  <h4>Usama Munir</h4>
+                  <p>Usama Munir</p>
                   <span>Laravel Developer</span>
                 </div>
               </div>
@@ -313,7 +314,7 @@ export default function Team() {
                   <img
                     src="assets\img\team\Bilal Technic Mentors.webp"
                     className="img-fluid team-member"
-                    alt=""
+                    alt="bilal-yousuf-mentors"
                   />
                   <div className="social">
                     <a href="#/">
@@ -331,7 +332,7 @@ export default function Team() {
                   </div>
                 </div>
                 <div className="member-info">
-                  <h4>Bilal Yousuf</h4>
+                  <p>Bilal Yousuf</p>
                   <span>React.Js | Node.Js Developer</span>
                 </div>
               </div>
@@ -346,7 +347,7 @@ export default function Team() {
                   <img
                     src="assets\img\team\iqra Technic Mentors.webp"
                     className="img-fluid team-member"
-                    alt=""
+                    alt="iqra-maqsood-mentors"
                   />
                   <div className="social">
                     <a href="#/">
@@ -364,7 +365,7 @@ export default function Team() {
                   </div>
                 </div>
                 <div className="member-info">
-                  <h4>Iqra Maqsood</h4>
+                  <p>Iqra Maqsood</p>
                   <span>React.Js Devevloper</span>
                 </div>
               </div>
@@ -380,7 +381,7 @@ export default function Team() {
                   <img
                     src="assets\img\team\Makhshaf Technic Mentors.webp"
                     className="img-fluid team-member"
-                    alt=""
+                    alt="makhshaf-sharif-mentors"
                   />
                   <div className="social">
                     <a href="#/">
@@ -398,44 +399,11 @@ export default function Team() {
                   </div>
                 </div>
                 <div className="member-info">
-                  <h4>Makhshaf Sharif</h4>
+                  <p>Makhshaf Sharif</p>
                   <span>Software Quality Assurance Analyst</span>
                 </div>
               </div>
             </div>
-            {/* <div
-              className="col-lg-3 col-md-6 d-flex align-items-stretch"
-              data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out"
-              data-aos-delay="200"
-            >
-              <div className="member">
-                <div className="member-img">
-                  <img
-                    src="assets\img\team\Wajiha Technic Mentors.webp"
-                    className="img-fluid team-member"
-                    alt=""
-                  />
-                  <div className="social">
-                    <a href="#/">
-                      <i className="bi bi-twitter"></i>
-                    </a>
-                    <a href="#/">
-                      <i className="bi bi-facebook"></i>
-                    </a>
-                    <a href="#/">
-                      <i className="bi bi-instagram"></i>
-                    </a>
-                    <a href="#/">
-                      <i className="bi bi-linkedin"></i>
-                    </a>
-                  </div>
-                </div>
-                <div className="member-info">
-                  <h4>Wajiha Zainab</h4>
-                  <span>Software Quality Assurance Analylst</span>
-                </div>
-              </div>
-            </div> */}
             <div
               className="col-lg-3 col-md-6 d-flex align-items-stretch"
               data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out"
@@ -446,7 +414,7 @@ export default function Team() {
                   <img
                     src="assets\img\team\Maria Faisal Technic Mentors.webp"
                     className="img-fluid team-member"
-                    alt=""
+                    alt="maria-faisal-mentors"
                   />
                   <div className="social">
                     <a href="#/">
@@ -464,7 +432,7 @@ export default function Team() {
                   </div>
                 </div>
                 <div className="member-info">
-                  <h4>Maria Faisal</h4>
+                  <p>Maria Faisal</p>
                   <span>QA Engineer</span>
                 </div>
               </div>
@@ -480,7 +448,7 @@ export default function Team() {
                   <img
                     src="assets\img\team\ANAS Technic Mentors.webp"
                     className="img-fluid team-member"
-                    alt=""
+                    alt="muhammad-anas-faizan-mentors"
                   />
                   <div className="social">
                     <a href="#/">
@@ -498,7 +466,7 @@ export default function Team() {
                   </div>
                 </div>
                 <div className="member-info">
-                  <h4>Muhammad Anas Faizan</h4>
+                  <p>Muhammad Anas Faizan</p>
                   <span>Flutter Developer</span>
                 </div>
               </div>
@@ -514,7 +482,7 @@ export default function Team() {
                   <img
                     src="assets\img\team\faizan Technic Mentors.webp"
                     className="img-fluid team-member"
-                    alt=""
+                    alt="zeshan-murtaza-mentors"
                   />
                   <div className="social">
                     <a href="#/">
@@ -532,7 +500,7 @@ export default function Team() {
                   </div>
                 </div>
                 <div className="member-info">
-                  <h4>Zeshan Murtaza</h4>
+                  <p>Zeshan Murtaza</p>
                   <span>Jr. Laravel Developer</span>
                 </div>
               </div>
@@ -548,7 +516,7 @@ export default function Team() {
                   <img
                     src="assets\img\team\ata Technic Mentors.webp"
                     className="img-fluid team-member"
-                    alt=""
+                    alt="ata-ur-rehman-mentors"
                   />
                   <div className="social">
                     <a href="#/">
@@ -566,7 +534,7 @@ export default function Team() {
                   </div>
                 </div>
                 <div className="member-info">
-                  <h4>Ata Ur Rehman</h4>
+                  <p>Ata Ur Rehman</p>
                   <span> React.Js | Node.Js Developer</span>
                 </div>
               </div>
@@ -582,7 +550,7 @@ export default function Team() {
                   <img
                     src="assets\img\team\Adan Technic Mentors.webp"
                     className="img-fluid team-member"
-                    alt=""
+                    alt="muhammad-adan-mentors"
                   />
                   <div className="social">
                     <a href="#/">
@@ -600,7 +568,7 @@ export default function Team() {
                   </div>
                 </div>
                 <div className="member-info">
-                  <h4>Muhammad Adan</h4>
+                  <p>Muhammad Adan</p>
                   <span>Graphic Designer</span>
                 </div>
               </div>

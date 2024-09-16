@@ -73,19 +73,15 @@ export default function ContactForm() {
                 id="contact"
                 className="contact"
             >
-                <div className="container"
-                //  data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out"
-                >
+                <div className="container">
 
-                    <div className="row"
-                    // data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="100"
-                    >
+                    <div className="row">
                         <div className="col-md-6">
                             <div className="section-title">
                                 <h2>Free Consultation</h2>
-                                <h1>
+                                <h3>
                                     Let's <span> Connect And Ignite</span> Possibilities!
-                                </h1>
+                                </h3>
                             </div>
                             <p>We're excited to hear from you. Drop us a message, and let's start building something incredible together. Reach out to us today, and let our experties fuel your next Project to success. Ready to take the next step? Get in touch with our team, and let's make your vision a reality.</p>
                             <hr className='mt-4' />
@@ -127,7 +123,7 @@ export default function ContactForm() {
                                             className="form-control py-3"
                                             id="name"
                                             placeholder="Your Name"
-                                            // required
+                                        // required
                                         />
                                         <div id="nameI" style={{ color: "red" }}></div>
                                     </div>
@@ -138,7 +134,7 @@ export default function ContactForm() {
                                             name="email"
                                             id="email"
                                             placeholder="Your Email"
-                                            // required
+                                        // required
                                         />
                                         <div id="emailI" style={{ color: "red" }}></div>
                                     </div>
@@ -150,7 +146,7 @@ export default function ContactForm() {
                                         name="subject"
                                         id="subject"
                                         placeholder="Subject"
-                                        // required
+                                    // required
                                     />
                                     <div id="subjectI" style={{ color: "red" }}></div>
                                 </div>
@@ -161,7 +157,7 @@ export default function ContactForm() {
                                         id="message"
                                         rows="7"
                                         placeholder="Message"
-                                        // required
+                                    // required
                                     ></textarea>
                                     <div id="messageI" style={{ color: "red" }}></div>
                                 </div>

@@ -52,7 +52,7 @@ export default function Home() {
   }, []);
   return (
     <div style={{ overflowX: "hidden" }}>
-  
+
       <MainHeader />
 
       <About />
@@ -67,7 +67,7 @@ export default function Home() {
               <div className="d-flex justify-content-center">
                 <h2 className="text-center">Services</h2>
               </div>
-              <h1 className="text-center"> We Provide <span> Exclusive Services</span> <br /> For Your Business</h1>
+              <h3 className="text-center"> We Provide <span> Exclusive Services</span> <br /> For Your Business</h3>
             </div>
 
             <div className="row">
@@ -80,8 +80,8 @@ export default function Home() {
                       <span className="circle"></span>
                     </div>
                     <div className="service-card_number">01</div>
-                    <h4 className="mt-4">
-                      <span> Web Design & Development</span></h4>
+                    <p className="mt-4 pFont">
+                      Web Design & Development</p>
                     <p className="mt-4">
                       Elevate your online presence with captivating web designs and
                       seamless development expertise.
@@ -90,7 +90,7 @@ export default function Home() {
                       <Link to="/web-development-services">
                         {" "}
                         <button type="button" className="btn px-3 py-2">
-                          Read More <i className="fas fa-arrow-right rightServiceArrow"></i>
+                          <span className="d-none"> Know about Web Design & Development</span> <i className="fas fa-arrow-right rightServiceArrow" style={{ color: "initial" }}></i>
                         </button>
                       </Link>
                     </div>
@@ -99,7 +99,7 @@ export default function Home() {
               </div>
 
               <div
-                className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+                className="col-lg-4 col-md-6 d-flex align-items-stretch mt-5 mt-md-0">
                 <div className="icon-box card py-3">
                   <div className="card-body p-4">
                     <div className="shape-icon">
@@ -107,9 +107,9 @@ export default function Home() {
                       <span className="circle"></span>
                     </div>
                     <div className="service-card_number">02</div>
-                    <h4 className="mt-4">
-                      <span>Software Development</span>
-                    </h4>
+                    <p className="mt-4 pFont">
+                      Software Development
+                    </p>
                     <p className="mt-4">
                       From concept to code, we craft tailored software solutions
                       that drive efficiency and innovation.
@@ -118,7 +118,7 @@ export default function Home() {
                       <Link to="/software-development-services">
                         {" "}
                         <button type="button" className="btn px-3 py-2">
-                          Read More <i className="fas fa-arrow-right rightServiceArrow"></i>
+                          <span className="d-none"> Learn about Software Development</span> <i className="fas fa-arrow-right rightServiceArrow" style={{ color: "initial" }}></i>
                         </button>
                       </Link>
                     </div>
@@ -127,7 +127,7 @@ export default function Home() {
               </div>
 
               <div
-                className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+                className="col-lg-4 col-md-6 d-flex align-items-stretch mt-5 mt-lg-0">
                 <div className="icon-box card py-3">
                   <div className="card-body p-4">
                     <div className="shape-icon">
@@ -135,8 +135,8 @@ export default function Home() {
                       <span className="circle"></span>
                     </div>
                     <div className="service-card_number">03</div>
-                    <h4 className="mt-4">
-                      <span> Mobile Apps Development</span></h4>
+                    <p className="mt-4 pFont">
+                      Mobile Apps Development</p>
                     <p className="mt-4">
                       Innovative mobile development for seamless experiences,
                       enhancing engagement and digital footprint.
@@ -145,7 +145,7 @@ export default function Home() {
                       <Link to="/mobile-app-development-services">
                         {" "}
                         <button type="button" className="btn px-3 py-2">
-                          Read More <i className="fas fa-arrow-right rightServiceArrow"></i>
+                          <span className="d-none"> Our Mobile Apps Development Service</span> <i className="fas fa-arrow-right rightServiceArrow" style={{ color: "initial" }}></i>
                         </button>
                       </Link>
                     </div>
@@ -154,7 +154,7 @@ export default function Home() {
               </div>
 
               <div
-                className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+                className="col-lg-4 col-md-6 d-flex align-items-stretch mt-5">
                 <div className="icon-box card py-3">
                   <div className="card-body p-4">
                     <div className="shape-icon">
@@ -162,9 +162,9 @@ export default function Home() {
                       <span className="circle"></span>
                     </div>
                     <div className="service-card_number">04</div>
-                    <h4 className="mt-4">
+                    <p className="mt-4 pFont">
                       <span>Digital Marketing</span>
-                    </h4>
+                    </p>
                     <p className="mt-4">
                       Strategic digital marketing amplifying your brand, driving
                       growth, and captivating your target audience.
@@ -172,7 +172,7 @@ export default function Home() {
                     <div className=" mt-4">
                       <Link to="/digital-marketing-services">
                         <button type="button" className="btn px-3 py-2">
-                          Read More <i className="fas fa-arrow-right rightServiceArrow"></i>
+                          <span className="d-none">Explore Our Digital Marketing Services</span> <i className="fas fa-arrow-right rightServiceArrow" style={{ color: "initial" }}></i>
                         </button>
                       </Link>
                     </div>
@@ -181,7 +181,7 @@ export default function Home() {
               </div>
 
               <div
-                className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+                className="col-lg-4 col-md-6 d-flex align-items-stretch mt-5">
                 <div className="icon-box card py-3">
                   <div className="card-body p-4">
                     <div className="shape-icon">
@@ -189,8 +189,8 @@ export default function Home() {
                       <span className="circle"></span>
                     </div>
                     <div className="service-card_number">05</div>
-                    <h4 className="mt-4">
-                      <span> SEO Services</span></h4>
+                    <p className="mt-4 pFont">
+                      SEO Services</p>
                     <p className="mt-4">
                       Optimize visibility and drive traffic with our result-oriented
                       SEO strategies and expert implementation.
@@ -199,7 +199,7 @@ export default function Home() {
                       <Link to="/seo-services">
                         {" "}
                         <button type="button" className="btn px-3 py-2">
-                          Read More <i className="fas fa-arrow-right rightServiceArrow"></i>
+                          <span className="d-none">Discover Our SEO Services</span> <i className="fas fa-arrow-right rightServiceArrow" style={{ color: "initial" }}></i>
                         </button>
                       </Link>
                     </div>
@@ -208,7 +208,7 @@ export default function Home() {
               </div>
 
               <div
-                className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+                className="col-lg-4 col-md-6 d-flex align-items-stretch mt-5">
                 <div className="icon-box card py-3">
                   <div className="icon-box card-body p-4">
                     <div className="shape-icon">
@@ -216,9 +216,9 @@ export default function Home() {
                       <span className="circle"></span>
                     </div>
                     <div className="service-card_number">06</div>
-                    <h4 className="mt-4">
-                      <span>Graphics Designing</span>
-                    </h4>
+                    <p className="mt-4 pFont">
+                      Graphics Designing
+                    </p>
                     <p className="mt-4">
                       Impactful graphics translating ideas into stunning designs,
                       leaving lasting impressions for your visual needs.
@@ -226,7 +226,7 @@ export default function Home() {
                     <div className=" mt-4">
                       <Link to="/graphics-designing-services">
                         <button type="button" className="btn px-3 py-2">
-                          Read More <i className="fas fa-arrow-right rightServiceArrow"></i>
+                          <span className="d-none"> Do You Need Designs</span> <i className="fas fa-arrow-right rightServiceArrow" style={{ color: "initial" }}></i>
                         </button>
                       </Link>
                     </div>
@@ -254,26 +254,16 @@ export default function Home() {
       {/* choose section start */}
       <section id="about" className="about aboutSection">
         <div
-          className="container"
-        // data-aos="fade-up"
-        // data-aos-duration="2000"
-        // data-aos-easing="ease-in-out"
-        >
+          className="container">
 
           <div className="row justify-content-between align-items-center">
-            {/* <div className={`row justify-content-between align-items-center ${isVisible ? 'fadeIn' : ''}`}> */}
-
             <div
-              className="col-md-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center"
-            // data-aos="fade-up"
-            // data-aos-duration="2000"
-            // data-aos-easing="ease-in-out"
-            >
+              className="col-md-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center">
               <div className="section-title">
                 <h2>Why Choose Us</h2>
-                <h1>
+                <h3>
                   Innovating Ahead, Your <span> Business' Competitive</span> Edge
-                </h1>
+                </h3>
               </div>
               <p className="fst-italic" style={{ textAlign: "justify" }}>
                 Technic mentors is the best <a href="https://urdustem.com/it-consulting-services-unveiled-navigating-success-with-expert-guidance/" target="blank" rel="noopener" style={{ textDecoration: "none" }}> IT consulting company</a> to look at
@@ -284,42 +274,38 @@ export default function Home() {
               <div className="row chooseH4 g-4 mt-1">
                 <div className="col-md-6">
 
-                  <h4> <i className="fas fa-check"></i> Innovative Approach</h4>
+                  <p> <i className="fas fa-check"></i> Innovative Approach</p>
                 </div>
                 <div className="col-md-6">
 
-                  <h4> <i className="fas fa-check"></i> High Data Security</h4>
+                  <p> <i className="fas fa-check"></i> High Data Security</p>
                 </div>
                 <div className="col-md-6">
 
-                  <h4> <i className="fas fa-check"></i> 24/7 Online Support</h4>
+                  <p> <i className="fas fa-check"></i> 24/7 Online Support</p>
                 </div>
                 <div className="col-md-6">
 
-                  <h4> <i className="fas fa-check"></i> Expert Team</h4>
+                  <p> <i className="fas fa-check"></i> Expert Team</p>
                 </div>
                 <div className="col-md-6">
 
-                  <h4> <i className="fas fa-check"></i> Business Improvement</h4>
+                  <p> <i className="fas fa-check"></i> Business Improvement</p>
                 </div>
                 <div className="col-md-6">
 
-                  <h4> <i className="fas fa-check"></i> Easy Solutions</h4>
+                  <p> <i className="fas fa-check"></i> Easy Solutions</p>
                 </div>
               </div>
 
             </div>
             <div
-              className="col-md-6 mt-3"
-            // data-aos="fade-up"
-            // data-aos-duration="2000"
-            // data-aos-easing="ease-in-out"
-            >
+              className="col-md-6 mt-3">
               <div className="d-flex justify-content-end">
                 <img
                   src={aboutImg}
                   className="img-fluid teamImg"
-                  alt="technic"
+                  alt="software-company-team"
                   width="400"
                   height="400"
                 />
@@ -336,29 +322,29 @@ export default function Home() {
           <div className="col-md-3 d-flex">
             <div className="icon"><i className="bi bi-emoji-smile"></i></div>
             <div>
-              <h1 className="mt-2">2016</h1>
-              <h6 className="m-top-8">Established In</h6>
+              <h2 className="mt-2 text-white">2016</h2>
+              <p className="text-white m-top-8">Established In</p>
             </div>
           </div>
           <div className="col-md-3 d-flex">
             <div className="icon"><i className="bi bi-people"></i></div>
             <div>
-              <h1 className="mt-2">550+</h1>
-              <h6 className="m-top-8">Happy Clients</h6>
+              <h2 className="mt-2 text-white">550+</h2>
+              <p className="text-white m-top-8">Happy Clients</p>
             </div>
           </div>
           <div className="col-md-3 d-flex">
             <div className="icon"><i className="bi bi-headset"></i></div>
             <div>
-              <h1 className="mt-2">20+</h1>
-              <h6 className="m-top-8">Active Clients</h6>
+              <h2 className="mt-2 text-white">20+</h2>
+              <p className="text-white m-top-8">Active Clients</p>
             </div>
           </div>
           <div className="col-md-3 d-flex">
             <div className="icon"><i className="bi bi-journal-richtext"></i></div>
             <div>
-              <h1 className="mt-2">500+</h1>
-              <h6 className="m-top-8">Projects</h6>
+              <h2 className="mt-2 text-white">500+</h2>
+              <p className="text-white m-top-8">Projects</p>
             </div>
           </div>
         </div>
@@ -375,92 +361,92 @@ export default function Home() {
         <div className="container">
           <Slider {...settings}>
             <img
-              src="assets/img/clients/client-homepainting-logo.avif?v=2"
-              alt="client-logo-alahad-marketing"
+              src="assets/img/clients/client-homepainting-logo.avif?v=3"
+              alt="alahad-marketing"
               width="200"
               height="110"
             />
             <img
-              src="assets/img/clients/client-farooqgraphics-logo.avif?v=2"
-              alt="client-getwell-logo"
+              src="assets/img/clients/client-farooqgraphics-logo.avif?v=3"
+              alt="getwell"
               width="200"
               height="110"
             />
             <img
-              src="assets/img/clients/client-almahdia-logo.avif?v=2"
-              alt="client-lettechnologies-logo"
+              src="assets/img/clients/client-almahdia-logo.avif?v=3"
+              alt="let-technologies"
               width="200"
               height="110"
             />
             <img
-              src="assets/img/clients/K2Land-LOGO.avif?v=2"
-              alt="client-lettechnologies-logo"
+              src="assets/img/clients/K2Land-LOGO.avif?v=3"
+              alt="k2-land"
               width="200"
               height="110"
             />
             <img
-              src="assets/img/clients/client-almakah-logo.avif?v=2"
-              alt="client-sheikhlawcompany-logo"
+              src="assets/img/clients/client-almakah-logo.avif?v=3"
+              alt="al-makkah"
               width="200"
               height="110"
             />
             <img
-              src="assets/img/clients/client-mobilefiksers-logo.avif?v=2"
-              alt="client-danishgrouco-logo"
+              src="assets/img/clients/client-mobilefiksers-logo.avif?v=3"
+              alt="mobilfiksern"
               width="200"
               height="110"
             />
             <img
-              src="assets/img/clients/client-punjabestate-logo.avif?v=2"
-              alt="client-logo-alahad-marketing"
+              src="assets/img/clients/client-punjabestate-logo.avif?v=3"
+              alt="punjab-estate"
               width="200"
               height="110"
             />
             <img
-              src="assets/img/clients/client-lettechnologies-logo.avif?v=2"
-              alt="client-lettechnologies-logo"
+              src="assets/img/clients/client-lettechnologies-logo.avif?v=3"
+              alt="let-technologies"
               width="200"
               height="110"
             />
             <img
-              src="assets/img/clients/client-sheikhlaw-logo.avif?v=2"
-              alt="client-sheikhlawcompany-logo"
+              src="assets/img/clients/client-sheikhlaw-logo.avif?v=3"
+              alt="sheikh-law-company"
               width="200"
               height="110"
             />
             <img
-              src="assets/img/clients/client-capobrain-logo.avif?v=2"
-              alt="client-danishgrouco-logo"
+              src="assets/img/clients/client-capobrain-logo.avif?v=3"
+              alt="capobrain"
               width="200"
               height="110"
             />
             <img
-              src="assets/img/clients/client-getwellpk-logo.avif?v=2"
-              alt="client-danishgrouco-logo"
+              src="assets/img/clients/client-getwellpk-logo.avif?v=3"
+              alt="getwell"
               width="200"
               height="110"
             />
             <img
-              src="assets/img/clients/client-photonics-logo.avif?v=2"
-              alt="client-danishgrouco-logo"
+              src="assets/img/clients/client-photonics-logo.avif?v=3"
+              alt="photonics"
               width="200"
               height="110"
             />
             <img
-              src="assets/img/clients/client-paradise-logo.avif?v=2"
-              alt="client-danishgrouco-logo"
+              src="assets/img/clients/client-paradise-logo.avif?v=3"
+              alt="paradise"
               width="200"
               height="110"
             />
             <img
-              src="assets/img/clients/client-capobiz-logo.avif?v=2"
-              alt="client-danishgrouco-logo"
+              src="assets/img/clients/client-capobiz-logo.avif?v=3"
+              alt="capobiz"
               width="200"
               height="110"
             />
             <img
-              src="assets/img/clients/client-intermarket-logo.avif?v=2"
-              alt="client-danishgrouco-logo"
+              src="assets/img/clients/client-intermarket-logo.avif?v=3"
+              alt="intermarket"
               width="200"
               height="110"
             />
@@ -479,7 +465,7 @@ export default function Home() {
           <div
             className="section-title text-center mb-3">
             <h2> Our Products</h2>
-            <h1>  Explore Our Best <span> Software Products</span></h1>
+            <h3>  Explore Our Best <span> Software Products</span></h3>
           </div>
           <div className="row g-4">
             <div
@@ -487,8 +473,8 @@ export default function Home() {
               <div className="card icon-box productCard">
                 <div className="card-body">
                   <i className="bi bi-mortarboard"></i>
-                  <h5>
-                    <strong>Education Management System</strong></h5>
+                  <p>
+                    <strong>Education Management System</strong></p>
                   <p>
                     An all-in-one solution for your educational management system activities
                   </p>
@@ -498,6 +484,7 @@ export default function Home() {
                       <button type="button" className="btn px-3 py-2">
                         <i className="fas fa-arrow-right rightServiceArrow"></i>
                       </button>
+                      <span className="d-none"><span className="d-none"> Education Management System-Capobrain</span></span>
                     </Link>
                   </div>
                 </div>
@@ -508,8 +495,8 @@ export default function Home() {
               <div className="card icon-box productCard">
                 <div className="card-body">
                   <i className="bi bi-bag-check"></i>
-                  <h5>
-                    <strong>Enterprise Resource Planning</strong></h5>
+                  <p>
+                    <strong>Enterprise Resource Planning</strong></p>
                   <p>
                     Seamlessly manage all resources for your large enterprise
                   </p>
@@ -519,6 +506,7 @@ export default function Home() {
                       <button type="button" className="btn px-3 py-2">
                         <i className="fas fa-arrow-right rightServiceArrow"></i>
                       </button>
+                      <span className="d-none"><span className="d-none">erp-solutions</span></span>
                     </Link>
                   </div>
                 </div>
@@ -530,8 +518,8 @@ export default function Home() {
               <div className="card icon-box productCard">
                 <div className="card-body">
                   <i className="bi bi-bag-check"></i>
-                  <h5>
-                    <strong>Ecommerce Solutions</strong></h5>
+                  <p>
+                    <strong>Ecommerce Solutions</strong></p>
                   <p>
                     Leverage the Ecommerce solutions for the businesses of all sizes, to seamlessly sealing your product online
                   </p>
@@ -541,6 +529,7 @@ export default function Home() {
                       <button type="button" className="btn px-3 py-2">
                         <i className="fas fa-arrow-right rightServiceArrow"></i>
                       </button>
+                      <span className="d-none"><span className="d-none"> Explore ecommerce solutions</span></span>
                     </Link>
                   </div>
                 </div>
@@ -552,9 +541,9 @@ export default function Home() {
               <div className="card icon-box productCard">
                 <div className="card-body">
                   <i className="bi bi-pc-display-horizontal"></i>
-                  <h5>
+                  <p>
                     <strong>Point Of Sale</strong>
-                  </h5>
+                  </p>
                   <p>
                     Manage your daily sales, transactions, inventory and monitor your cash flow with our POS system
                   </p>
@@ -564,6 +553,7 @@ export default function Home() {
                       <button type="button" className="btn px-3 py-2">
                         <i className="fas fa-arrow-right rightServiceArrow"></i>
                       </button>
+                      <span className="d-none"><span className="d-none"> capobiz-point of sale software</span></span>
                     </Link>
                   </div>
                 </div>

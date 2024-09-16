@@ -27,17 +27,18 @@ const TestimonialCarousel = () => {
 
   return (
     <section id="testimonials" className="testimonials">
+      <div className='testimonials-overlay'></div>
       <div className="container">
         <div className="testimonials-slider swiper" >
-          <div className="swiper-wrapper">
+          <div className="swiper-wrapper py-5">
             <div className="swiper-slide">
               <div className="testimonial-item">
                 <img src="assets\img\client-img3.jpg" className="testimonial-img"
                   width="100"
                   height="100"
-                  alt="technic" />
-                <h3>Uju Fidel</h3>
-                <h4>Manager Crox Media, London</h4>
+                  alt="uju-fidel" />
+                <p className='pFont'>Uju Fidel</p>
+                <p >Manager Crox Media, London</p>
                 <p>
                   <i className="bx bxs-quote-alt-left quote-icon-left"></i>
                   “Their expertise in software development is truly exceptional.
@@ -52,9 +53,9 @@ const TestimonialCarousel = () => {
                 <img src="assets\img\client-img2.jpeg" className="testimonial-img"
                   width="100"
                   height="100"
-                  alt="technic" />
-                <h3>Arish Virk</h3>
-                <h4>CEO Baroha Farms, Islamabad</h4>
+                  alt="arish-virk" />
+                <p className='pFont'>Arish Virk</p>
+                <p>CEO Baroha Farms, Islamabad</p>
                 <p>
                   <i className="bx bxs-quote-alt-left quote-icon-left"></i>
                   Technic Mentors is offering really very good services for web development.
@@ -70,9 +71,9 @@ const TestimonialCarousel = () => {
                 <img src="assets\img\client-img1.jpeg" className="testimonial-img"
                   width="100"
                   height="100"
-                  alt="technic" />
-                <h3>Muhammad Khan</h3>
-                <h4>CEO Mobilfiksern, Oslo</h4>
+                  alt="muhammad-khan" />
+                <p className='pFont'>Muhammad Khan</p>
+                <p>CEO Mobilfiksern, Oslo</p>
                 <p>
                   <i className="bx bxs-quote-alt-left quote-icon-left"></i>
                   The team at Technic Mentors offers excellent and on-schedule services.
@@ -89,6 +90,7 @@ const TestimonialCarousel = () => {
           <div className="swiper-pagination"></div>
         </div>
       </div>
+
     </section>
   );
 };
