@@ -279,11 +279,11 @@ export default function Industries() {
                                 >
                                     <div className="container">
                                         <div className="row d-flex align-items-center">
-                                            <div className="col-md-6">
+                                            <div className="col-lg-6">
                                                 <p>In the rapidly evolving HealthTech sector, our software solutions streamline patient care, improve data management, and enhance healthcare delivery. We specialize in developing innovative tools that help medical professionals provide better, faster, and more efficient services. By integrating advanced technologies like AI and machine learning, we enable healthcare providers to make informed decisions and improve patient outcomes.</p>
                                                 <p>Our HealthTech services include telemedicine platforms, electronic health records (EHR) systems, and patient management software. We also develop mobile health apps and remote monitoring solutions to support patient engagement and chronic disease management. By offering comprehensive and customized solutions, we empower healthcare organizations to focus on what matters most: patient well-being and care quality.</p>
                                             </div>
-                                            <div className="col-md-6">
+                                            <div className="col-lg-6">
                                                 <img src={healthTech} alt="healthTech" className='img-fluid' style={{ borderRadius: "10px" }} />
                                             </div>
                                         </div>
@@ -299,11 +299,11 @@ export default function Industries() {
                                 >
                                     <div className="container">
                                         <div className="row d-flex justify-content-between align-items-center">
-                                            <div className="col-md-6">
+                                            <div className="col-lg-6">
                                                 <p>Education technology is transforming the way we learn and teach, making education more accessible and engaging. Our EdTech solutions are designed to support educators and students by providing intuitive, interactive, and effective digital learning tools. From virtual classrooms to AI-driven personalized learning experiences, our software helps bridge the gap between traditional and modern education methods.</p>
                                                 <p>We offer a range of services from developing e-learning platforms to creating customized educational apps and content management systems. Our goal is to enhance the educational experience by making learning more interactive, personalized, and impactful. By leveraging cutting-edge technologies, we ensure that educational institutions can provide high-quality education regardless of geographical or logistical challenges.</p>
                                             </div>
-                                            <div className="col-md-6">
+                                            <div className="col-lg-6">
                                                 <img src={edTech} alt="edTech" className='img-fluid' style={{ borderRadius: "10px" }} />
                                             </div>
                                         </div>
@@ -319,13 +319,13 @@ export default function Industries() {
                                 >
                                     <div className="container">
                                         <div className="row d-flex justify-content-between align-items-center">
-                                            <div className="col-md-6">
+                                            <div className="col-lg-6">
                                                 <p>FinTech
 
                                                     The FinTech industry is at the forefront of financial innovation, offering unparalleled convenience, efficiency, and security. Our software solutions help financial institutions and startups streamline their operations, improve customer experiences, and deliver superior financial services. We specialize in developing robust, scalable, and secure financial applications that cater to the evolving needs of the digital economy.</p>
                                                 <p>From mobile banking apps and digital wallets to blockchain-based solutions and automated trading platforms, we cover all aspects of FinTech. Our expertise ensures that your financial products are not only secure and compliant with regulatory standards but also user-friendly and innovative. By leveraging the latest technologies, we help you stay ahead in a competitive market and meet the growing demands of tech-savvy consumers.</p>
                                             </div>
-                                            <div className="col-md-6">
+                                            <div className="col-lg-6">
                                                 <img src={finTech} alt="edTech" className='img-fluid' style={{ borderRadius: "10px" }} />
                                             </div>
                                         </div>
@@ -341,11 +341,11 @@ export default function Industries() {
                                 >
                                     <div className="container">
                                         <div className="row d-flex justify-content-between align-items-center">
-                                            <div className="col-md-6">
+                                            <div className="col-lg-6">
                                                 <p>Sustainability is crucial in today’s world, and our GreenTech solutions are designed to support environmentally-friendly practices. We develop software that helps businesses reduce their carbon footprint, optimize resource use, and operate more sustainably. Our solutions enable organizations to track and manage their environmental impact, contributing to global efforts to combat climate change.</p>
                                                 <p>Our services include energy management systems, environmental monitoring tools, and sustainability reporting software. We also offer solutions for smart grids, renewable energy management, and waste reduction. By leveraging technology, we enable companies to achieve their sustainability goals while maintaining operational efficiency and profitability.</p>
                                             </div>
-                                            <div className="col-md-6">
+                                            <div className="col-lg-6">
                                                 <img src={greenTech} alt="greenTech" className='img-fluid' style={{ borderRadius: "10px" }} />
                                             </div>
                                         </div>
@@ -361,11 +361,11 @@ export default function Industries() {
                                 >
                                     <div className="container">
                                         <div className="row d-flex justify-content-between align-items-center">
-                                            <div className="col-md-6">
+                                            <div className="col-lg-6">
                                                 <p>The retail industry is constantly evolving, and our software solutions help businesses adapt to these changes effectively. We provide tools that enhance the customer experience, improve inventory management, and streamline operations. Our retail solutions are designed to help businesses meet the demands of modern consumers, who expect seamless, personalized shopping experiences both online and in-store.</p>
                                                 <p>Whether it's through advanced point-of-sale systems, customer relationship management (CRM) software, or e-commerce integration, our solutions drive growth and efficiency in the retail sector. We also offer data analytics tools that provide valuable insights into consumer behavior, helping retailers make informed decisions and optimize their strategies. Our goal is to help you stay competitive and thrive in a dynamic market.</p>
                                             </div>
-                                            <div className="col-md-6">
+                                            <div className="col-lg-6">
                                                 <img src={retail} alt="retail" className='img-fluid' style={{ borderRadius: "10px" }} />
                                             </div>
                                         </div>
@@ -381,13 +381,13 @@ export default function Industries() {
                                 >
                                     <div className="container">
                                         <div className="row d-flex justify-content-between align-items-center">
-                                            <div className="col-md-6">
+                                            <div className="col-lg-6">
                                                 <p>Ecommerce
 
                                                     In the dynamic world of ecommerce, having robust and scalable software solutions is key to success. Our services are tailored to meet the unique needs of online retailers, ensuring seamless shopping experiences for customers. We specialize in developing comprehensive ecommerce platforms that integrate smoothly with various payment gateways, logistics providers, and third-party services.</p>
                                                 <p>We offer a wide range of ecommerce solutions including platform development, payment gateway integration, mobile commerce apps, and customized plugins. Our goal is to help your business thrive in the competitive digital marketplace by providing a seamless, secure, and engaging shopping experience. By leveraging the latest technologies, we ensure your ecommerce operations are efficient, scalable, and adaptable to changing market trends.</p>
                                             </div>
-                                            <div className="col-md-6">
+                                            <div className="col-lg-6">
                                                 <img src={eCommerce} alt="e-commerce" className='img-fluid' style={{ borderRadius: "10px" }} />
                                             </div>
                                         </div>

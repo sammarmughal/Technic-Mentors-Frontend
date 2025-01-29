@@ -27,7 +27,13 @@ h6 {
   font-weight: bold;
   margin: 0;
 }
+.read-more-link p {
+  text-decoration: none;
+}
 
+.read-more-link p:hover {
+  text-decoration: underline;
+}
 p,
 span {
   font-family: "Roboto", sans-serif;
@@ -190,7 +196,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 71vh;
 }
 
 @media (max-width : 768px) {
@@ -1492,14 +1497,25 @@ section {
 a {
   text-decoration: none !important;
 }
-
+.industries{
+  justify-content: center;
+}
 .icon-box:hover {
   background-color: #684df4;
+  color: white;
   background-image: url(./images/services-bg.png);
   background-position: center;
   transition: background-color 0.5s ease, background-image 0.5s ease, background-position 0.5s ease;
 }
-
+.dropdown-item.active, .dropdown-item:active {
+  color: var(--bs-dropdown-link-active-color) !important;
+}
+.card-body .card-title{
+  margin-bottom: 0px;
+}
+.card-body{
+  align-items: center;
+}
 .icon-box:hover h4,
 .icon-box:hover p,
 .icon-box:hover i {

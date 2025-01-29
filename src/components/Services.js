@@ -3,20 +3,17 @@ import Calltoaction from "./Calltoaction";
 import { Link } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import servicesImg from "../images/software-development.avif"
+import servicesImg from "../images/software-development.avif";
 export default function Services() {
   useEffect(() => {
     AOS.init();
   }, []);
   return (
     <div>
-      <div
-        className="allHeaderBg"
-      >
+      <div className="allHeaderBg">
         <div className="allHeader-overlay d-flex align-items-center justify-content-center">
           <div>
-            <h1
-              className="head text-center text-white animate__animated animate__zoomIn allHeaderP">
+            <h1 className="head text-center text-white animate__animated animate__zoomIn allHeaderP">
               Top Notch IT Services
             </h1>
           </div>
@@ -25,9 +22,19 @@ export default function Services() {
 
       <section id="services-section">
         <div className="container">
-          <div className="row" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
+          <div
+            className="row"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+          >
             <div className="col-lg-6 col-sm-12">
-              <div className="section-title text-start" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
+              <div
+                className="section-title text-start"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+              >
                 <h2> Our Services</h2>
                 <h3>
                   Grow Your Business With Our <span>Top IT Services</span>
@@ -68,20 +75,21 @@ export default function Services() {
       </section>
       {/* Start Services Section */}
 
-      <div id="services" className="services services-bg" >
+      <div id="services" className="services services-bg">
         <div className="services-overlay">
-          <div
-            className="container">
+          <div className="container">
             <div className="section-title">
               <div className="d-flex justify-content-center">
                 <h2 className="text-center">Services</h2>
               </div>
-              <h1 className="text-center"> We Provide Exclusive Service <br /> For Your Business</h1>
+              <h1 className="text-center">
+                {" "}
+                We Provide Exclusive Service <br /> For Your Business
+              </h1>
             </div>
 
             <div className="row">
-              <div
-                className="col-lg-4 col-md-6 d-flex align-items-stretch">
+              <div className="col-lg-4 col-md-6 d-flex align-items-stretch">
                 <div className="card icon-box py-3">
                   <div className="card-body p-4">
                     <div className="shape-icon">
@@ -90,16 +98,22 @@ export default function Services() {
                     </div>
                     <div className="service-card_number">01</div>
                     <h4 className="mt-4">
-                      <span> Web Design & Development</span></h4>
+                      <span> Web Design & Development</span>
+                    </h4>
                     <p className="mt-4">
-                      Elevate your online presence with captivating web designs and
-                      seamless development expertise.
+                      Elevate your online presence with captivating web designs
+                      and seamless development expertise.
                     </p>
+                    <Link to="/web-development-services" className="read-more-link d-flex align-items-end">
+                      <p>Read More <i className="fas fa-arrow-right rightServiceArrow"></i></p>
+                    </Link>
                     <div className=" mt-4">
                       <Link to="/web-development-services">
                         {" "}
                         <button type="button" className="btn px-3 py-2">
-                          Read More <i className="fas fa-arrow-right rightServiceArrow"></i>
+                          <i className="fas fa-arrow-right rightServiceArrow">
+                            {" "}
+                          </i>
                         </button>
                       </Link>
                     </div>
@@ -107,8 +121,7 @@ export default function Services() {
                 </div>
               </div>
 
-              <div
-                className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+              <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
                 <div className="icon-box card py-3">
                   <div className="card-body p-4">
                     <div className="shape-icon">
@@ -123,11 +136,14 @@ export default function Services() {
                       From concept to code, we craft tailored software solutions
                       that drive efficiency and innovation.
                     </p>
+                    <Link to="/software-development-services" className="read-more-link d-flex align-items-end">
+                      <p>Read More <i className="fas fa-arrow-right rightServiceArrow"></i></p>
+                    </Link>
                     <div className=" mt-4">
                       <Link to="/software-development-services">
                         {" "}
                         <button type="button" className="btn px-3 py-2">
-                          Read More <i className="fas fa-arrow-right rightServiceArrow"></i>
+                          <i className="fas fa-arrow-right rightServiceArrow"></i>
                         </button>
                       </Link>
                     </div>
@@ -135,8 +151,7 @@ export default function Services() {
                 </div>
               </div>
 
-              <div
-                className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+              <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
                 <div className="icon-box card py-3">
                   <div className="card-body p-4">
                     <div className="shape-icon">
@@ -145,16 +160,20 @@ export default function Services() {
                     </div>
                     <div className="service-card_number">03</div>
                     <h4 className="mt-4">
-                      <span> Mobile Apps Development</span></h4>
+                      <span> Mobile Apps Development</span>
+                    </h4>
                     <p className="mt-4">
                       Innovative mobile development for seamless experiences,
                       enhancing engagement and digital footprint.
                     </p>
+                    <Link to="/mobile-app-development-services" className="read-more-link d-flex align-items-end">
+                      <p>Read More <i className="fas fa-arrow-right rightServiceArrow"></i></p>
+                    </Link>
                     <div className=" mt-4">
                       <Link to="/mobile-app-development-services">
                         {" "}
                         <button type="button" className="btn px-3 py-2">
-                          Read More <i className="fas fa-arrow-right rightServiceArrow"></i>
+                          <i className="fas fa-arrow-right rightServiceArrow"></i>
                         </button>
                       </Link>
                     </div>
@@ -162,8 +181,7 @@ export default function Services() {
                 </div>
               </div>
 
-              <div
-                className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+              <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-5">
                 <div className="icon-box card py-3">
                   <div className="card-body p-4">
                     <div className="shape-icon">
@@ -178,10 +196,13 @@ export default function Services() {
                       Strategic digital marketing amplifying your brand, driving
                       growth, and captivating your target audience.
                     </p>
+                    <Link to="/digital-marketing-services" className="read-more-link d-flex align-items-end">
+                      <p>Read More <i className="fas fa-arrow-right rightServiceArrow"></i></p>
+                    </Link>
                     <div className=" mt-4">
                       <Link to="/digital-marketing-services">
                         <button type="button" className="btn px-3 py-2">
-                          Read More <i className="fas fa-arrow-right rightServiceArrow"></i>
+                          <i className="fas fa-arrow-right rightServiceArrow"></i>
                         </button>
                       </Link>
                     </div>
@@ -189,8 +210,7 @@ export default function Services() {
                 </div>
               </div>
 
-              <div
-                className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+              <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-5">
                 <div className="icon-box card py-3">
                   <div className="card-body p-4">
                     <div className="shape-icon">
@@ -199,16 +219,19 @@ export default function Services() {
                     </div>
                     <div className="service-card_number">05</div>
                     <h4 className="mt-4">
-                      <span> SEO Services</span></h4>
+                      <span> SEO Services</span>
+                    </h4>
                     <p className="mt-4">
-                      Optimize visibility and drive traffic with our result-oriented
-                      SEO strategies and expert implementation.
+                      Optimize visibility and drive traffic with our
+                      result-oriented SEO strategies and expert implementation.
                     </p>
+                    <Link to="/seo-services" className="read-more-link d-flex align-items-end">
+                      <p>Read More <i className="fas fa-arrow-right rightServiceArrow"></i></p>
+                    </Link>
                     <div className=" mt-4">
                       <Link to="/seo-services">
-                        {" "}
                         <button type="button" className="btn px-3 py-2">
-                          Read More <i className="fas fa-arrow-right rightServiceArrow"></i>
+                          <i className="fas fa-arrow-right rightServiceArrow"></i>
                         </button>
                       </Link>
                     </div>
@@ -216,8 +239,7 @@ export default function Services() {
                 </div>
               </div>
 
-              <div
-                className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+              <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-5">
                 <div className="icon-box card py-3">
                   <div className="icon-box card-body p-4">
                     <div className="shape-icon">
@@ -229,13 +251,17 @@ export default function Services() {
                       <span>Graphics Designing</span>
                     </h4>
                     <p className="mt-4">
-                      Impactful graphics translating ideas into stunning designs,
-                      leaving lasting impressions for your visual needs.
+                      Impactful graphics translating ideas into stunning
+                      designs, leaving lasting impressions for your visual
+                      needs.
                     </p>
-                    <div className=" mt-4">
+                    <Link to="/graphics-designing-services" className="read-more-link d-flex align-items-end">
+                      <p>Read More <i className="fas fa-arrow-right rightServiceArrow"></i></p>
+                    </Link>
+                    <div className="mt-4">
                       <Link to="/graphics-designing-services">
                         <button type="button" className="btn px-3 py-2">
-                          Read More <i className="fas fa-arrow-right rightServiceArrow"></i>
+                          <i className="fas fa-arrow-right rightServiceArrow"></i>
                         </button>
                       </Link>
                     </div>

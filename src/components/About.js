@@ -40,14 +40,14 @@ export default function About() {
 
           <div className="row d-flex justify-content-between">
             <div
-              className="col-md-6 mt-3"
+              className="col-lg-6 mt-3"
               data-aos="fade-up"
               data-aos-duration="2000"
             >
-              <div className="about-bg-img">
+              <div className="about-bg-img d-flex justify-content-center">
                 <img
                   src="assets/img/technologies.webp"
-                  className="img-fluid"
+                  className="img-fluid w-75 object-cover"
                   alt="technic"
                 />
               </div>

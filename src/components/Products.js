@@ -59,7 +59,7 @@ function MyTabs() {
               <div className="card icon-box productCard">
                 <div className="card-body">
                   <i className="bi bi-mortarboard"></i>
-                  <h5>
+                  <h5 className="text-center">
                     <strong>Education Management System</strong></h5>
                   <p>
                     An all-in-one solution for your educational management system activities
@@ -80,7 +80,7 @@ function MyTabs() {
               <div className="card icon-box productCard">
                 <div className="card-body">
                   <i className="bi bi-bag-check"></i>
-                  <h5>
+                  <h5 className="text-center">
                     <strong>Enterprise Resource Planning</strong></h5>
                   <p>
                     Seamlessly manage all resources for your large enterprise
@@ -102,7 +102,7 @@ function MyTabs() {
               <div className="card icon-box productCard">
                 <div className="card-body">
                   <i className="bi bi-bag-check"></i>
-                  <h5>
+                  <h5 className="text-center">
                     <strong>Ecommerce Solutions</strong></h5>
                   <p>
                     Leverage the Ecommerce solutions for the businesses of all sizes, to seamlessly sealing your product online
@@ -124,7 +124,7 @@ function MyTabs() {
               <div className="card icon-box productCard">
                 <div className="card-body">
                   <i className="bi bi-pc-display-horizontal"></i>
-                  <h5>
+                  <h5 className="text-center">
                     <strong>Point Of Sale</strong>
                   </h5>
                   <p>

@@ -140,7 +140,7 @@ export default function Navbar() {
               <li className="nav-item">
                 <div className="dropdown">
                   <Link
-                    to="/#"
+                    to="/services"
                     className="nav-link dropdown-toggle text-dark"
                     style={{ fontSize: "17px" }}
                     data-bs-toggle="dropdown"
@@ -197,7 +197,7 @@ export default function Navbar() {
               <li className="nav-item">
                 <div className="dropdown">
                   <Link
-                    to="/#"
+                    to="/products"
                     className="nav-link dropdown-toggle text-dark"
                     style={{ fontSize: "17px" }}
                     data-bs-toggle="dropdown"

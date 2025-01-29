@@ -86,7 +86,7 @@ export default function ContactForm() {
                             <p>We're excited to hear from you. Drop us a message, and let's start building something incredible together. Reach out to us today, and let our experties fuel your next Project to success. Ready to take the next step? Get in touch with our team, and let's make your vision a reality.</p>
                             <hr className='mt-4' />
                             <div className='row formContact mt-4'>
-                                <div className='col-md-6 mt-3'>
+                                <div className='col-lg-6 mt-3'>
                                     <div className='card'>
                                         <div className='card-body d-flex align-items-center'>
                                             <i className='fas fa-phone'></i>
@@ -94,7 +94,7 @@ export default function ContactForm() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className='col-md-6 mt-3'>
+                                <div className='col-lg-6 mt-3'>
                                     <div className='card'>
                                         <div className='card-body d-flex align-items-center'>
                                             <i className='fas fa-envelope'></i>

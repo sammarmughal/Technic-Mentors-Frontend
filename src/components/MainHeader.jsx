@@ -98,7 +98,7 @@ export default function MainHeader() {
                 style={{ backgroundImage: `url(${homeHeader})` }}
                 className="d-flex align-items-center homeHeader d-lg-none"
             >
-                <div className="homeHader-overlay">
+                <div className="homeHader-overlay w-100">
                     <div className="ripple-shape">
                         <span className="riple1"></span>
                         <span className="riple2"></span>
@@ -114,7 +114,7 @@ export default function MainHeader() {
                         data-aos-duration="1000"
                     >
                         <div className="row align-items-center py-6">
-                            <div className="col-md-6 mainHeaderText">
+                            <div className="col-lg-6 mainHeaderText">
                                 <span className="text-uppercase text-white" style={{ fontSize: "20px", fontWeight: "600" }}>Your Trusted IT Partner</span>
                                 <h2
                                     style={{ color: "white", fontWeight: "bolder", fontSize: "50px" }}

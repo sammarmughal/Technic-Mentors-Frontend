@@ -47,7 +47,7 @@ export default function Educationmanagementsystem() {
         </p>
       </div>
 
-      <div className="container" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
+      <div className="container mb-5" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
         <div className="row d-flex justify-content-between">
           <div className="col-md-4 mt-3 edu-card">
             <div className="card border-0 product-card">

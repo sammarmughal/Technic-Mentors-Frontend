@@ -52,7 +52,7 @@ export default function Blog() {
             <p className="text-center p-2" style={{ backgroundColor: "#e3eaf7", display: "inline-block" }}> <strong> Note </strong>: Get insights about the tech world in English and Urdu languages at <a href="https://urdustem.com/" target="blank" rel="noopener"> Urdu Stem</a>.</p>
             <div className="row">
               {filterPosts.map((post) => (
-                <div className="col-md-4 col-12 mt-3 mb-3" key={post._id}>
+                <div className="col-lg-4 col-md-6 col-12 mt-3 mb-3" key={post._id}>
                   <Link style={{ textDecoration: "none" }} to={`/blog/${post.slug}`}>
                     <div className="card h-100">
                       <div className="card-body">

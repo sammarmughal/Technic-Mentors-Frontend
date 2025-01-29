@@ -52,11 +52,8 @@ export default function Home() {
   }, []);
   return (
     <div style={{ overflowX: "hidden" }}>
-
       <MainHeader />
-
       <About />
-
       {/* Start Services Section */}
 
       <div id="services" className="services services-bg" >
@@ -258,7 +255,7 @@ export default function Home() {
 
           <div className="row justify-content-between align-items-center">
             <div
-              className="col-md-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center">
+              className="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center">
               <div className="section-title">
                 <h2>Why Choose Us</h2>
                 <h3>
@@ -300,8 +297,9 @@ export default function Home() {
 
             </div>
             <div
-              className="col-md-6 mt-3">
-              <div className="d-flex justify-content-end">
+              className="col-lg-6 mt-3">
+              <div className="d-flex justify-content-center
+              ">
                 <img
                   src={aboutImg}
                   className="img-fluid teamImg"
@@ -319,28 +317,28 @@ export default function Home() {
       {/* stats section start */}
       <div className="container statsBg mt-4 py-4">
         <div className="row p-4">
-          <div className="col-md-3 d-flex">
+          <div className="col-md-6 col-lg-3 justify-content-center d-flex">
             <div className="icon"><i className="bi bi-emoji-smile"></i></div>
             <div>
               <h2 className="mt-2 text-white">2016</h2>
               <p className="text-white m-top-8">Established In</p>
             </div>
           </div>
-          <div className="col-md-3 d-flex">
+          <div className="col-md-6 col-lg-3 justify-content-center d-flex">
             <div className="icon"><i className="bi bi-people"></i></div>
             <div>
               <h2 className="mt-2 text-white">550+</h2>
               <p className="text-white m-top-8">Happy Clients</p>
             </div>
           </div>
-          <div className="col-md-3 d-flex">
+          <div className="col-md-6 col-lg-3 justify-content-center d-flex">
             <div className="icon"><i className="bi bi-headset"></i></div>
             <div>
               <h2 className="mt-2 text-white">20+</h2>
               <p className="text-white m-top-8">Active Clients</p>
             </div>
           </div>
-          <div className="col-md-3 d-flex">
+          <div className="col-md-6 col-lg-3 justify-content-center d-flex">
             <div className="icon"><i className="bi bi-journal-richtext"></i></div>
             <div>
               <h2 className="mt-2 text-white">500+</h2>
@@ -469,7 +467,7 @@ export default function Home() {
           </div>
           <div className="row g-4">
             <div
-              className="col-md-3 d-flex align-items-stretch">
+              className="col-md-6 col-lg-3 d-flex align-items-stretch">
               <div className="card icon-box productCard">
                 <div className="card-body">
                   <i className="bi bi-mortarboard"></i>
@@ -491,7 +489,7 @@ export default function Home() {
               </div>
             </div>
             <div
-              className="col-md-3 d-flex align-items-stretch">
+              className="col-md-6 col-lg-3 d-flex align-items-stretch">
               <div className="card icon-box productCard">
                 <div className="card-body">
                   <i className="bi bi-bag-check"></i>
@@ -514,7 +512,7 @@ export default function Home() {
             </div>
 
             <div
-              className="col-md-3 d-flex align-items-stretch">
+              className="col-md-6 col-lg-3 d-flex align-items-stretch">
               <div className="card icon-box productCard">
                 <div className="card-body">
                   <i className="bi bi-bag-check"></i>
@@ -537,7 +535,7 @@ export default function Home() {
             </div>
 
             <div
-              className="col-md-3 d-flex align-items-stretch">
+              className="col-md-6 col-lg-3 d-flex align-items-stretch">
               <div className="card icon-box productCard">
                 <div className="card-body">
                   <i className="bi bi-pc-display-horizontal"></i>

@@ -16,8 +16,8 @@ export default function About() {
 
           <div className="row d-flex justify-content-between">
             <div
-              className="col-md-5 mt-3">
-              <div className="">
+              className="col-lg-5 mt-3">
+              <div className="d-flex justify-content-center w-100">
                 <img
                   src={aboutImg}
                   className="img-fluid"
@@ -28,7 +28,7 @@ export default function About() {
               </div>
             </div>
             <div
-              className="col-md-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center">
+              className="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center">
               <div className="section-title">
                 <h2>About Us</h2>
                 <h3>
@@ -66,7 +66,7 @@ export default function About() {
 
               <hr className="mt-4" />
 
-              <div className="row justify-content-between aboutContact">
+              <div className="row justify-content-between aboutContact gap-3">
                 <div className="col-md-5 mt-3">
                   <Link to="/about"> <button className="btn btnFill px-4 py-3">Discover More <i className="fas fa-arrow-right" style={{ fontSize: "initial", color: "white", marginLeft: "4px" }}></i></button></Link>
                 </div>
